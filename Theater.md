@@ -48,3 +48,71 @@ the director and the playwrighter is the same person
 
 the purpose of that is to honor the god
 ___
+
+
+sophocles:
+
+built on aeschyclus
+
+chours to 15
+
+add the 3 actor each played up to 8 different characters
+
+character came up with clamix
+
+---
+
+Euripides
+
+more of a rebel
+
+most modern of the 3
+
+the symoathetic portayal of female characters, in crease realism...
+
+
+----
+
+pattern and plots in greek tragedy
+
+the opening scene, the chours enters
+
+an episode between characters...
+
+----
+chorus:
+
+The chorus was a key or unique element of greek drama, never again being used in the same way
+
+All men
+
+prepresented oridinary citizens
+
+react the way the audiences might react
+
+...
+
+---
+
+Greek comedy:
+ later in 5th centruy, ate fastival in winter
+
+...
+
+---
+
+old comedy:
+
+makes fun of socil, political, or cultural conditions
+
+the characters are recognizatble
+
+socartes
+
+...
+
+---
+
+New comedy:
+
+romantic and ? ...
