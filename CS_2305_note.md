@@ -345,3 +345,13 @@ idempotent laws: p V p = p, p ^ p = p
 double negation laws: -(-p) = p
 
 negation laws: p V -p = T, p ^ -p = F
+
+----
+
+commutative laws: p V q = q v p, p ^ q = q ^ p
+
+associative laws: (p ^ q) ^ r = p ^ (q ^ r), (p V q) V r = p V (q V r)
+
+distributive laws: (P V (q ^ r)) = (p V q) ^ (p V r), (p ^ (q V r)) = (p ^ q) V (p V r)
+
+Absorption laws: p V (p ^ q) = p, p ^ (p V q) = p
