@@ -1,5 +1,4 @@
 # CS 2305
-> ## 08 22 2022
 > ### what is discrete math?
 > logic mathmatic, the opposite of the continus math.
 
@@ -101,7 +100,6 @@ p(T) ∧ q(F) -> F
 p(F) ∧ q(F) -> F
 
 ----
-> ## 08 24 2022
 
 Disjunction means or, it output true if any of the input is true
 
@@ -371,4 +369,4 @@ simplify logical expression using well known results
 
 it can handle large number of inputs
 
-
+----
