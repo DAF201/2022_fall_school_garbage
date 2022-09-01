@@ -43,7 +43,7 @@ logic is useful in any field in which it is important to analyze precise stateme
 ## what is propositional logic (propositional calculus)
 a propersition is a declearative sentance(statement) that can only be true or false.
 
-Example: 1+1=0(false), 1+1=2(true)
+Example: 1+1≡0(false), 1+1≡2(true)
 
 It have to be decleartive and has to be either true or false, and it has to have an objective standard of measuring.
 
@@ -288,9 +288,9 @@ p <-> q is the same as not XOR
 
 >1. \-
 >
->2. ^
+>2. ∧
 >
->3. v
+>3. ∨
 >
 >4. ->
 >
@@ -302,56 +302,73 @@ the higher precedence, the smaller the scope
 
 A tauology is a proposition that is always true
 
-p V -p
+p ∨ -p
 
 A contraction is a proposition that is always false
 
-p ^ -p
+p ∧ -p
 
 A contingency is a proposition that can be true of false
 
 ----
 
-Two compounded propositons p and q are logically equivalent if p<->q a tautology
+Two compounded propositons p and q are logically equivalent if p <-> q a tautology
 
-we write this as p<->q or p=q 
+we write this as p<->q or p≡q 
 
 ----
 
 # De Morgan's law
 
--(p ^ q) = -p V -q
+-(p ∧ q) ≡ -p ∨ -q
 
--(p V q) = -p ^ -q
+-(p ∨ q) ≡ -p ∧ -q
 
 The most important law in logic
 
 it can also be extended
 
--(p1 ^ p2 ^ p3 ...) = -p1 V p2 V p3 ...
+-(p1 ∧ p2 ∧ p3 ...) ≡ -p1 ∨ p2 ∨ p3 ...
 
--(p1 V p2 V p3 ...) = -p1 ^ p2 ^ p3 ...
+-(p1 ∨ p2 ∨ p3 ...) ≡ -p1 ∧ p2 ∧ p3 ...
 
 ----
 
 # Key logical equivalent
 
-identity laws: p ^ T = p, p V F = p
+identity laws: p ∧ T ≡ p, p ∨ F ≡ p
 
-domination laws: p V T = T, p ^ F = F
+domination laws: p ∨ T ≡ T, p ∧ F ≡ F
 
-idempotent laws: p V p = p, p ^ p = p
+idempotent laws: p ∨ p ≡ p, p ∧ p ≡ p
 
-double negation laws: -(-p) = p
+double negation laws: -(-p) ≡ p
 
-negation laws: p V -p = T, p ^ -p = F
+negation laws: p ∨ -p ≡ T, p ∧ -p ≡ F
 
 ----
 
-commutative laws: p V q = q v p, p ^ q = q ^ p
+commutative laws: p ∨ q ≡ q ∨ p, p ∧ q ≡ q ∧ p
 
-associative laws: (p ^ q) ^ r = p ^ (q ^ r), (p V q) V r = p V (q V r)
+associative laws: (p ∧ q) ∧ r ≡ p ∧ (q ∧ r), (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
 
-distributive laws: (P V (q ^ r)) = (p V q) ^ (p V r), (p ^ (q V r)) = (p ^ q) V (p V r)
+distributive laws: (P ∨ (q ∧ r)) ≡ (p ∨ q) ∧ (p ∨ r), (p ∧ (q ∨ r)) ≡ (p ∧ q) ∨ (p ∨ r)
 
-Absorption laws: p V (p ^ q) = p, p ^ (p V q) = p
+Absorption laws: p ∨ (p ∧ q) ≡ p, p ∧ (p ∨ q) ≡ p
+
+---
+# Shortcoming of truth table
+
+The number of elements in a truth table increase vary fast when the number of varibles increase
+
+elements = 2^n, where n is the number of elements
+
+---
+
+# Alternate approach to establish logical equivalences
+
+simplify logical expression using well known results
+
+it can handle large number of inputs
+
+
