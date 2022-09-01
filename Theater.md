@@ -201,3 +201,11 @@ up to 6 actors
 detailed pantomine and broa ohysical gestures
 
 facial expressions were not important since full lien head masks were worn
+
+---
+
+# decline of Roman threatre
+
+Constantinople
+
+Christianity
