@@ -405,3 +405,37 @@ does ((p -> q) ∧ -p) -> -q ?
 
 > ### only focus when the premises is true, if the conclusion is true. When the premises is false, no conclusion can be make
 
+# Arguement forms
+---
+p1:(p) if you work hard, (q) you will get a good raise
+
+p2:(-q) you did not get a good raise
+
+conclusion: (-q) you did not work hard
+
+---
+
+p1:(p) john eats peanuts, (q) he falls sick (p -> q)
+
+p2:(-p) john did not eat peanuts (-p)
+
+conclusion: john did not fall sick (-q)
+
+---
+
+both are ((p -> q) ∧ -p) -> -q even they have different arguements, we says they have the same arguement form
+
+---
+
+# establishing validity of arguement forms
+
+Bruth force approach: 
+
+1. truth table
+
+Rule of inference based apporach: 
+
+1. first establish the validity of some relatively simple arguement form("rule of inference")
+
+2. use rules of inference as building blocks to vaildate more complicated vaild forms
+
