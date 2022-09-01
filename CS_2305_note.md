@@ -403,3 +403,5 @@ does ((p -> q) ∧ -p) -> -q ?
 
 > ### everytime the premises is true, the conclusion should also be true, otherwise it is a fallacy
 
+> ### only focus when the premises is true, if the conclusion is true. When the premises is false, no conclusion can be make
+
