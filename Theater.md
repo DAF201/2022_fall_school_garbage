@@ -116,3 +116,77 @@ socartes
 New comedy:
 
 romantic and ? ...
+
+___
+
+# Romans
+
+Founded 750 BCE
+
+500 BCE the Roman republic
+
+3rd centruy BEC punic wars = first contact with greece
+
+1st BCE Julius ceasar made himself a director
+
+Brutus defeated by makr anthony and octavius
+
+27 BCE the romance empire
+
+worshiped gods that were counterparts of the greek deitites, as well as a large number of other countrites
+
+___
+
+# Roman threater
+
+strong influenced by the greek theater
+
+but they come with their own later
+
+---
+
+# pantomime
+
+a single dancer, a chorus, and a music accompanies
+
+ballet
+
+emperors and members of nobility
+
+---
+
+# Plautus
+comedy
+
+based on Greek new comedy
+
+demestic situations/romance
+
+the parasite who lives off others and is motiavited by sensuatlity
+
+most of the dialogue is sung
+
+---
+
+
+# Terence
+ most luterary and less exaggerated
+
+ less singing more speaking
+
+# Seneca
+
+Tragedy
+
+like violence
+
+onstage stabbing, murder, and suicide
+
+supernatural being 
+
+inclpuenced shakespeare
+
+Hamlet influenced by revenge tragedy
+
+---
+
