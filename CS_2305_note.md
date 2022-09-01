@@ -377,3 +377,29 @@ A compound proposition is satisfiable if there an assignment of truth values to 
 
 -- a compound proposition has at lease one true in out put, otherwise it is unsatisfiable.
 
+---
+
+# Arguement
+
+An arguement is a sequence of statements that end with a conclusion
+
+A vaild arguement is a conclusion that follows from the fruth of the premises of the arguement
+
+An arguement is vaild if and only if it is impossible for all premises to be true and the conclusions to be false(but not claim that if the conclusion is true then the premises are true as well)
+
+An arguement which is not vaild is called a fallacy
+
+(from this premises, can I make a conclusion bese on premises?)
+
+---
+
+p1:(p) john eats peanuts, (q) he falls sick (p -> q)
+
+p2:(-p) john did not eat peanuts (-p)
+
+conclusion: john did not fall sick (-q)
+
+does ((p -> q) ∧ -p) -> -q ?
+
+> ### everytime the premises is true, the conclusion should also be true, otherwise it is a fallacy
+
