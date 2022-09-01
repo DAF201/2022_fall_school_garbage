@@ -370,3 +370,10 @@ simplify logical expression using well known results
 it can handle large number of inputs
 
 ----
+
+# Propositional satisfiability
+
+A compound proposition is satisfiable if there an assignment of truth values to its variables that make it true, otherwise, it is unsatisfiable
+
+-- a compound proposition has at lease one true in out put, otherwise it is unsatisfiable.
+
