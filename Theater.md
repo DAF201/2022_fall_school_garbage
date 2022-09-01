@@ -190,3 +190,14 @@ Hamlet influenced by revenge tragedy
 
 ---
 
+# Theatre production in rome
+
+local governament hired an acting troupe
+
+the mominus ,leading actor, made all the arrancement
+
+up to 6 actors
+
+detailed pantomine and broa ohysical gestures
+
+facial expressions were not important since full lien head masks were worn
