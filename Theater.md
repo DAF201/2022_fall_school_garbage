@@ -209,3 +209,42 @@ facial expressions were not important since full lien head masks were worn
 Constantinople
 
 Christianity
+
+---
+
+the play is the blueprint for a production, provide a plan for the producation
+
+playwright = dramatic
+
+choose how to tell the story
+
+selects the dramatic epsiodes and how unfold
+
+write the dialogue
+
+---
+
+# aspects of the script
+
+select the subject
+
+determing the focus
+
+establishing purpose
+
+developing dramtic strucutre
+
+createing dramatic characters
+
+estatblishing the point of the view
+
+# subject
+
+the matter of drama is always human beings. People are invariabley in the ver-nter
+
+what aspects of human beings to write about
+
+imaginary story based on a fantasy or a nightmare
+
+---
+
