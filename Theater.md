@@ -248,3 +248,44 @@ imaginary story based on a fantasy or a nightmare
 
 ---
 
+# Focus
+
+who to focus on
+
+the playwrighter need to decide how events to happen
+
+the playwright gender might also inlcuence the structure
+
+play can be tight or loose
+
+plays unfold through time, developing like a living organism. we experience the play happening
+
+# essentail of dramatic structure
+
+> plot: the arrangement of the events of the selection and order of scenes in a play
+>
+> the plot is based on the story
+> 
+> plot is what happend not what was talking about
+
+>---
+>
+>action: to do or to act
+>
+>the heart of the play
+>---
+>
+>conflict: the collision or opposition of persons or forces that gives rise to dramatic actions
+
+>
+> the playwrite must devise means by which characters will face challenges and be tested in a very short time
+
+>
+>---
+>
+> strongly opposed forces: people in a play killing eachother balabala
+>
+>---
+>
+>   balance of forces:
+> the poeple are equal strong or similar 
