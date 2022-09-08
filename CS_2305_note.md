@@ -463,3 +463,24 @@ it is snowing
 
 therfore I will study discrete math
 
+----
+
+# modus tollens
+
+p -> q
+
+-q
+
+\----
+
+-p
+
+(-q ^ (p -> q)) -> -q
+
+if it is snowing, I will study discrete math
+
+I will not study discrete math
+
+therefore, it is not snowing
+
+----
