@@ -646,3 +646,15 @@ the set of all values that may be substituted in place of the variable in a pred
 often the domain is denoted by U
 
 <b>the truth value of a propositional function is depenced on the truth value of the predicate variable</b>
+
+Propositional funcrions become propositions when their variables are each replaced by a value from the domain
+
+the statement P(x) is said to be the value of the propositonal function P at x
+
+For example, let P(x) denote "x>0", and the domain be the integers. Then
+
+P(-3) is false
+
+P(0) is false
+
+P(3) is true
