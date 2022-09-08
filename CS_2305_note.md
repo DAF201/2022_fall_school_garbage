@@ -441,6 +441,9 @@ Rule of inference based apporach:
 
 ----
 
+# ALL OF THOSE BELOW BASED ON EVERYTHING HAS A TRUTH VALUE OF TRUE
+
+----
 # modus ponens
 
 p->q
@@ -551,4 +554,22 @@ p
 
 ----
 
-# 
+# conjunction
+
+p
+
+q
+
+\----
+
+p ^ q
+
+# resolution
+
+-p v r
+
+p v q
+
+\----
+
+q ^ r
