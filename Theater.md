@@ -289,3 +289,6 @@ plays unfold through time, developing like a living organism. we experience the 
 >
 >   balance of forces:
 > the poeple are equal strong or similar 
+
+----
+
