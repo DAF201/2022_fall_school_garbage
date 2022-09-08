@@ -609,16 +609,40 @@ in such instances, instead of looking at propositions as a while, we need to und
 
 TODO: FILL THIS PART
 
+----
+
 # WHAT IS predicate logic
 
 An advanced form of symbolic logic that incorporates not only propositions, and relations between propositions[and, but ...], but also quantifiers[all, some, few...]
 
 TODO: SAME AS ABOVE
 
+----
+
 # predicate
 a predicate is a part of a declarative sentense that describe the properties of an object or the relationship between objects
 
 TODO:
 
+----
+# propositional function
+
 The generalized form of a proposition, containing one or more prodicates, but not tartgeting any specific subject,is known as propositional function
 
+proposotions: jame is a student at bedford college
+
+predicate: is a student at
+
+predicate variable: x,y
+
+propositional function: x is a student at y
+
+prodicate in a propositional function contains a finited number of varibles and becomes a statement when specific values are subsituted for the variables
+
+The propositional function does not have a truth value of it own
+
+the set of all values that may be substituted in place of the variable in a predicate is known as the domain of the predicate variable
+
+often the domain is denoted by U
+
+<b>the truth value of a propositional function is depenced on the truth value of the predicate variable</b>
