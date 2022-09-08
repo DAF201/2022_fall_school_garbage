@@ -596,3 +596,29 @@ p -> q
 \----
 
 -q
+
+----
+
+# predicate logic
+
+propositional calculus is inadequate to deal with arugements that with all cases, or with some case out of many cases
+
+in such instances, instead of looking at propositions as a while, we need to understand their inner structure by 
+
+?
+
+TODO: FILL THIS PART
+
+# WHAT IS predicate logic
+
+An advanced form of symbolic logic that incorporates not only propositions, and relations between propositions[and, but ...], but also quantifiers[all, some, few...]
+
+TODO: SAME AS ABOVE
+
+# predicate
+a predicate is a part of a declarative sentense that describe the properties of an object or the relationship between objects
+
+TODO:
+
+The generalized form of a proposition, containing one or more prodicates, but not tartgeting any specific subject,is known as propositional function
+
