@@ -658,3 +658,33 @@ P(-3) is false
 P(0) is false
 
 P(3) is true
+
+----
+
+# compound expression
+
+connectives from propositional logic carry over to prodicate logic
+
+if P(x) denote "x>0"
+
+P(3) v P(-1): TRUE
+
+P(3) ^ P(-1): FALSE
+
+P(-1) -> P(-1): TRUE
+
+# quantifier
+
+A quantifier specifies the extent to which a predicate is true over a range of elements from the pertinent domain
+    
+-- indicate for how many elements from the domain a given predicate is true
+
+There are two main types of quantifiers in predicate logic
+
+1. Universla quantifer: For all:∀
+
+For all value from the domain, the P(x) is true
+
+2. Existential quantifier: There exist:∃ 
+
+There exist at lease one value from the domain such that the P(x) is true
