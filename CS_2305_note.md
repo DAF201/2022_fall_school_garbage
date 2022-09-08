@@ -441,3 +441,25 @@ Rule of inference based apporach:
 
 ----
 
+# modus ponens
+
+p->q
+
+p
+
+\----
+
+q
+
+(p ^ (p -> q)) -> q
+
+let p be it is snowing
+
+let q be I will study discrete math
+
+if it is snowing, then I will study discrete math
+
+it is snowing
+
+therfore I will study discrete math
+
