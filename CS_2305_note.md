@@ -484,3 +484,71 @@ I will not study discrete math
 therefore, it is not snowing
 
 ----
+
+# hypothetical syllgoism
+
+# TODO: add corresponding tautology starting here
+
+p -> q
+
+q -> r
+
+\----
+
+p -> r
+
+it snows
+
+i will study discrete math
+
+i will get A
+
+if it is snowing, I will get A
+
+-----
+
+# disjunctive syllgoism
+
+p v q
+
+-P
+
+\----
+
+q
+
+I will study discrete math
+
+I will study english
+
+I will study discrete math or english
+
+I will not sutdy discrete math therefore I will study english
+
+----
+
+# addition
+
+p
+
+\----
+
+p v q
+
+(-p ^ (p v q)) -> q
+
+---- 
+
+# simplification
+
+p ^ q
+
+\----
+
+p
+
+(p ^ q) -> p
+
+----
+
+# 
