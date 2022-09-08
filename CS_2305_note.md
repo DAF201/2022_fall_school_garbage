@@ -573,3 +573,26 @@ p v q
 \----
 
 q ^ r
+
+----
+# Fallacies
+
+<b>Those are wrong!</b>
+
+p -> q
+
+q
+
+\----
+
+p
+
+----
+
+p -> q
+
+-p
+
+\----
+
+-q
