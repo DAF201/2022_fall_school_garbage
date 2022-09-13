@@ -745,3 +745,16 @@ basically, there are three ways to make a propositional function a proposition
 
 ---
 
+# properties of quantiifers
+
+The truth value of ∃xP(x) and ∀xP(x) depend on both the propositional function P(x) and the domin U
+
+EX:
+
+- U is positive int, P(x) is "x<2", then ∃xP(x) is true, but ∀xP(x) is false
+
+- U is negative int, P(x) is "x<2", then ∃xP(x) is true, and ∀xP(x) is true
+
+- if U consistants of 3,4,and 5, and P(x) is "x>2" then ∃xP(x) is true, and ∀xP(x) is true
+
+- buf if P(x) is "x<2", then ∃xP(x) is false, and ∀xP(x) is false 
