@@ -681,10 +681,13 @@ A quantifier specifies the extent to which a predicate is true over a range of e
 
 There are two main types of quantifiers in predicate logic
 
-1. Universla quantifer: For all:∀
+1. Universla quantifer: For all: <b>∀<b>
 
 For all value from the domain, the P(x) is true
 
-2. Existential quantifier: There exist:∃ 
+2. Existential quantifier: There exist: <b>∃<b> 
 
 There exist at lease one value from the domain such that the P(x) is true
+
+---
+
