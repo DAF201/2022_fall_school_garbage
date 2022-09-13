@@ -758,3 +758,19 @@ EX:
 - if U consistants of 3,4,and 5, and P(x) is "x>2" then ∃xP(x) is true, and ∀xP(x) is true
 
 - buf if P(x) is "x<2", then ∃xP(x) is false, and ∀xP(x) is false 
+
+---
+
+Generally, an implicit assumption is made that all domains of discourse for quantifier are non empty
+
+if the domain is empty, for all propositional function:
+
+∃x=False, ∀x=True
+
+---
+
+# Truth set
+
+If P(X) is a predicate and x has domain of D, the truth set of the P(x) is the set of all elements of D that make P(x) true when they are subsituted for x
+
+EX: Suppose the domain Z+, the set of positive int, the truth of ∃x, x is factor of 8 is {1,2,4,8}
