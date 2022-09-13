@@ -703,3 +703,26 @@ write as ∃x ∈ A P(x)
 
 (for at least one/some x in domain A, there has/exist at least one P(x) such that...)
 
+# Uniqueness
+
+∃!x ∈ A P(x): there exist one and only one P(x) in domin A such that...
+
+# trailing quantifiers
+
+you put quantifier at the end
+
+∀x ∈ R, x^3-3x+2=0
+
+(for some x in real number, there is x^3-3x+2=0)
+
+# bound and free variables
+
+when a quantifier is used on the variable x, we say that this occurence of the variable is bound
+
+an occurence of a variable that is not bound by a quantifier or set equal to a particular value is said to be free
+
+∃x(x+y=1), the variable x is bound, and y is free
+
+(the existing quantifier ∃x bounded vaiable x)
+
+---
