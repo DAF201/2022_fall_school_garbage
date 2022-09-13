@@ -691,3 +691,15 @@ There exist at lease one value from the domain such that the P(x) is true
 
 ---
 
+# Universal
+
+write as ∀x ∈ A P(x)
+
+(for every x in domain A, there is P(x) such that P(x)...)
+
+# Existental
+
+write as ∃x ∈ A P(x)
+
+(for at least one/some x in domain A, there has/exist at least one P(x) such that...)
+
