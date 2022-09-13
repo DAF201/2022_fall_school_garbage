@@ -726,3 +726,22 @@ an occurence of a variable that is not bound by a quantifier or set equal to a p
 (the existing quantifier ∃x bounded vaiable x)
 
 ---
+
+# from propositional functions to propositions
+
+after we assign a value to the propositional function, it becomes a proposition
+
+we denote <b>x+1=1<b> as <b>P(x)<b>, then <b>P(1)<b> is a proposition, <b>P(0)<b> is a proposition...
+
+Also, we can add a quantifier to it to make it a propositon
+
+let <b>P(x)<b> be propositional function x+1>x, then <b>b∀xP(x)<b> is a proposition
+
+basically, there are three ways to make a propositional function a proposition
+
+- assigning value
+- introduce universal quantifier
+- intrroduce existential quantifier
+
+---
+
