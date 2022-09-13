@@ -774,3 +774,32 @@ if the domain is empty, for all propositional function:
 If P(X) is a predicate and x has domain of D, the truth set of the P(x) is the set of all elements of D that make P(x) true when they are subsituted for x
 
 EX: Suppose the domain Z+, the set of positive int, the truth of ∃x, x is factor of 8 is {1,2,4,8}
+
+# quantifiers over finite domain
+
+all its elements can be listed
+
+∀xP(x) = P(x1) ^ P(x2) ... ^ P(xn)
+
+conjunction of propositions
+
+∃xP(x) = P(x1) V P(x2) ... V P(xn)
+
+disjunction of propositions
+
+---
+
+Quantifiers with restricted domain
+
+sometimes it is not feasible to enumerate the domain of a quantifier. In such instances, an abbreviated notation is often used
+
+- a condition a variable must satisfiy is included after the quantifier
+- such quantifiers are call restricted quanfitiers
+
+EX:
+
+(∀x)x<0(x^2>0)
+
+this means for all element x, which satisfies that x < 0, the square of the x is greater than 0
+
+(HUMAN WORDS: I take part of domain which satisfy that...)
