@@ -803,3 +803,6 @@ EX:
 this means for all element x, which satisfies that x < 0, the square of the x is greater than 0
 
 (HUMAN WORDS: I take part of domain which satisfy that...)
+
+---
+
