@@ -845,3 +845,31 @@ Hence some of the P(a) and Q(a) is true
 so ∃x(P(x)VQ(x)) is ture
 
 ----
+
+"A universal quantifier cannot be distributed over a disjunction"
+
+Domain: unsigned int
+
+P(x):x is even
+
+Q(x):x is odd
+
+..TODO:
+
+---
+
+# Negation of quantifer
+ 
+∀xJ(x), where J(x) is x has taken the java
+
+the negation of this is "it is not the case all students has taken java". This implies "there is at least one student not taken java"
+
+-∀xJ(x)=∃x-J(x)
+
+NOW ∃x:
+
+it means there are at least one student has taken java
+
+The nagation of it is: All students in the class has not taken java
+
+-∃xJ(x)=∀x-J(x)
