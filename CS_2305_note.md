@@ -873,3 +873,33 @@ it means there are at least one student has taken java
 The nagation of it is: All students in the class has not taken java
 
 -∃xJ(x)=∀x-J(x)
+
+---
+
+show -∀x(P(x) -> Q(x)) = -∃x(P(x) ^ -Q(x))
+
+-∀x(P(x) -> Q(x)) = ∃x(-(P(x) -> Q(x)))
+
+= ∃x(-(-P(x) V Q(x)))
+
+= ∃x(--P(x) ^ -Q(x)))
+
+= ∃x(P(x) ^ -Q(x))
+
+---
+
+# unrestricted quantifiers
+
+Unrestricted quantifiers apply to entire domain of discource
+
+A restricted quantifer has the same semantics as an unrestriced quantifer expect that the variables in the domain must satisfy a certain condition in order for the quantifer ?..TODO
+
+some time we need to express a restricted quantifier as an unresitred quantifer
+
+express (∃x)p(x)(Q(x)) using the unrestricted existential quantifer
+
+the logical expression states that there exist some value in the domain for which P(x) is true such that Q(x) is ture
+
+it can be expressed with an unrestricted existential quantifier as follows
+
+∃x(P(x) ^ Q(x))
