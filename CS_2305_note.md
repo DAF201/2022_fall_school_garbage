@@ -903,3 +903,15 @@ the logical expression states that there exist some value in the domain for whic
 it can be expressed with an unrestricted existential quantifier as follows
 
 ∃x(P(x) ^ Q(x))
+
+---
+
+Express (∀x)p(x)(Q(x)) using unrestircted universal quantifer
+
+1. ∀x(P(x) V Q(x)) = ture, so P(x) and Q(x) are true for every x. It makes P(x) a unreasonable assumption.
+
+2. Account all values in the domain:those for which our claim applies and those for which it does not
+
+3. we need to exclude those values form the domain for which our claim does not apply by observing that ∀x(-P(x) V (P(x) ^ Q(x)))
+
+4. simpify...∀x(P(x) -> Q(x))
