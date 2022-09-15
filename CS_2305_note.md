@@ -806,3 +806,22 @@ this means for all element x, which satisfies that x < 0, the square of the x is
 
 ---
 
+# precedence of quantifier
+
+the quantifiers ∀ and ∃ have higher precedence than all the logical operators
+
+for example, ∀xP(x)VQ(x) means (∀xP(x)VQ(x))
+
+∀x(P(x)VQ(x))means something different
+
+# equivalences in predicate logic
+
+the notion of logical equivalences can extended to expressions involveding predicates and quantifers
+
+statements involving predicates and quantifiers are logically equivalent if and only if they have the same true value
+
+...TODO:
+
+---
+
+∀x(P(x)^Q(x)) = ∀xP(x)^∀xQ(x)
