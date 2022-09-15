@@ -830,3 +830,18 @@ a universal quantifer can be distributed over a conjunction
 
 assume ∀x(P(x)^Q(x)) is true, then for any elements a in the domain, P(a)^Q(a) is true. then all P(a) and Q(a) are true, so all P(a)VQ(a) is true, so ∀x(P(x)VQ(x)) is true
 
+assume ∀xP(x)^∀xQ(x) is true
+
+select any element a in the domain
+
+P(a) is true
+
+AND 
+
+Q(a) is true
+
+Hence some of the P(a) and Q(a) is true
+
+so ∃x(P(x)VQ(x)) is ture
+
+----
