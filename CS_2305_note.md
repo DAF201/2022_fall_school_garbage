@@ -825,3 +825,8 @@ statements involving predicates and quantifiers are logically equivalent if and 
 ---
 
 ∀x(P(x)^Q(x)) = ∀xP(x)^∀xQ(x)
+
+a universal quantifer can be distributed over a conjunction
+
+assume ∀x(P(x)^Q(x)) is true, then for any elements a in the domain, P(a)^Q(a) is true. then all P(a) and Q(a) are true, so all P(a)VQ(a) is true, so ∀x(P(x)VQ(x)) is true
+
