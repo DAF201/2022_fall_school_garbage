@@ -326,4 +326,16 @@ line: the out line of the silhouette of elements on stages
 
 # physical layout
 
+# meterials and devices
 
+# the process
+
+Read the script, develop ideas/rough sketches
+
+director and designer meet for preliminary ideas
+
+perliminary sketches/thubnail sketches
+
+the idea/rendering
+
+small scale 3 dimention/CAD
