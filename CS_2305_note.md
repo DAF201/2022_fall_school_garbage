@@ -915,3 +915,22 @@ Express (∀x)p(x)(Q(x)) using unrestircted universal quantifer
 3. we need to exclude those values form the domain for which our claim does not apply by observing that ∀x(-P(x) V (P(x) ^ Q(x)))
 
 4. simpify...∀x(P(x) -> Q(x))
+
+---
+
+# To Summarize
+
+(∃x)P(x)(Q(x)) = ∃x (P(x) ^ Q(x))
+
+(∀x)P(x)(Q(x)) = ∀x (P(x) -> Q(x))
+
+---
+
+# Nested Quantifer
+
+There is a quantifer with in the scope of another qiantifer
+
+Example: Every real number has a inverse: ∀x∃y(x+y=0)
+
+for all x, there exist a y such that x+y=0
+
