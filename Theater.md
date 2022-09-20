@@ -292,3 +292,38 @@ plays unfold through time, developing like a living organism. we experience the 
 
 ----
 
+# Scenery
+
+## set designer:
+
+Help set the tone&style of the production
+
+establish the period
+
+develop a concept consistent whith the director's vision
+
+provide a central image or metaphor, where approiate
+
+ensure the scenery is coordinated with other production elements
+
+solve pratical design problems
+
+# establishing period
+
+in addition to time and place, the setting can tell us which kind of character we are going to see
+
+# Design Concept:
+
+everyone come up with their idea see if that is going to work
+
+# centra Image or metaphor
+
+# coordinating scenery with the whole
+
+# solving pratical design problems
+
+line: the out line of the silhouette of elements on stages
+
+# physical layout
+
+
