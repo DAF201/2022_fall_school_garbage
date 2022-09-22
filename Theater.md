@@ -354,3 +354,18 @@ provide part of the background
 
 Highlighting
 
+# lighting
+
+For the first 2000 years, outdoor and during the day
+
+Illumination
+
+playwright's language and imagination
+
+1600CE moved to inndoor
+
+TODO
+
+# function and objects
+
+Provide visibility
