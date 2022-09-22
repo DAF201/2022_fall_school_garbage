@@ -339,3 +339,16 @@ perliminary sketches/thubnail sketches
 the idea/rendering
 
 small scale 3 dimention/CAD
+
+# light
+
+##  what is light on the stage?
+
+it direct the eyes on the focus
+
+it tells the mood
+
+transition
+
+provide part of the background
+
