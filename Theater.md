@@ -369,3 +369,8 @@ TODO
 # function and objects
 
 Provide visibility
+
+TODO: TODO
+
+# Stay Focus on the story
+
