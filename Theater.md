@@ -362,7 +362,7 @@ Illumination
 
 playwright's language and imagination
 
-1600CE moved to inndoor
+1600CE moved to indoor
 
 TODO
 
@@ -374,3 +374,67 @@ TODO: TODO
 
 # Stay Focus on the story
 
+# Costumes
+
+personal
+
+actor and their costume
+
+postion and status
+
+sex
+
+occupation
+
+relative flamoyance or modesty
+
+defree of independence or regimentation
+
+what is one dress for
+
+# Objectives of costume design
+
+help establish the style of the production
+
+locale and historic period
+
+nature of each characters
+
+theme
+
+meet the needs of individuals
+
+consistency with the while production
+
+# thw work
+pulling: rented = stitchers
+
+built shop supervisor and costume designer
+
+line do they fit
+
+color
+
+fabric
+
+# collaborators
+
+shopper
+
+cutter-drapper
+
+the costume designer's firsthand or a lead stitcher
+
+design assistants: distressing
+
+wardrobe supervisor
+
+wardrobe crew
+
+# make up
+
+modern theatre
+
+hairstyle and wigs: hair and wig specialist
+
+Masks: an externsion of the preformer
