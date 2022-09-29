@@ -153,3 +153,5 @@ Means the propositions have the exactly same results, denote by ≡
 ## More Logical Equivalences
 
 p → q ≡ ¬p ∨ q
+
+p ⇔ q ≡ (p → q) ∧ (q → p)
