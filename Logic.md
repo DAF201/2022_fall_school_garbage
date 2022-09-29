@@ -30,7 +30,7 @@ XOR ⊕
 
 Implication →
 
-Biconditional ↔
+Biconditional ⇔
 
 ## Truth table
 
@@ -71,7 +71,7 @@ p = T, q = F, p ∨ q = T
 
 ## XOR
 
-Return the result of "p and q have different truth value". Negation of Biconditional(↔)
+Return the result of "p and q have different truth value". Negation of Biconditional(⇔)
 
 p = T, q = F, p ⊕ q = T
 
@@ -81,9 +81,9 @@ p = T, q = T, p ⊕ q = F
 
 Return the result of "p and q have same truth value". Negation of XOR(⊕). Also known as iff (if and only if)
 
-p = F, q = F, p ↔ q = T
+p = F, q = F, p ⇔ q = T
 
-p = T, q = F, p ↔ q = F
+p = T, q = F, p ⇔ q = F
 
 ## Implication
 
@@ -118,7 +118,7 @@ q → p is the converse of p → q
 | ∧        | 2          |
 | ∨        | 3          |
 | →        | 4          |
-| ↔        | 5          |
+| ⇔        | 5          |
 
 ## translate to english
 
@@ -133,7 +133,7 @@ Tautologies: something always true, example p ∨ ¬p
 
 Contradictions: something always false, example p ∧ ¬p
 
-Contingency: something neither Tautologies or Contradictions, example p ↔ q
+Contingency: something neither Tautologies or Contradictions, example p ⇔ q
 
 ## Logical Equivalences
 
