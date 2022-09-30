@@ -90,12 +90,14 @@ prepresented oridinary citizens
 
 react the way the audiences might react
 
+also made conclusion for the audiences at the end
+
 ...
 
 ---
 
 Greek comedy:
- later in 5th centruy, ate fastival in winter
+later in 5th centruy, ate fastival in winter
 
 ...
 
@@ -103,7 +105,7 @@ Greek comedy:
 
 old comedy:
 
-makes fun of socil, political, or cultural conditions
+makes fun of social, political, or cultural conditions
 
 the characters are recognizatble
 
