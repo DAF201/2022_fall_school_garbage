@@ -149,9 +149,10 @@ Means the propositions have the exactly same results, denote by ≡
 | Associative         | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r), (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)              |
 | Distributive Laws   | (p ∧ q) ∨ r ≡ (p ∨ r) ∧ (q ∨ r) , (p ∨ q) ∧ r ≡ (p ∧ r) ∨ (q ∧ r) |
 | Absorption Laws     | p ∨ (p ∧ q) ≡ p, p ∧ (p ∨ q) ≡ p                                  |
+| De Morgan's Laws    | ¬(p ∨ q) ≡ ¬p ∧ ¬q , ¬(p ∧ q) ≡ ¬p ∨ ¬q                           |
+| Nameless            | p → q ≡ ¬p ∨ q                                                    |
+| Nameless            | p ⇔ q ≡ (p → q) ∧ (q → p)                                         |
 
-## More Logical Equivalences
+## Propositional Satisfiability
 
-p → q ≡ ¬p ∨ q
 
-p ⇔ q ≡ (p → q) ∧ (q → p)
