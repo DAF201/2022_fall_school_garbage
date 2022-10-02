@@ -293,3 +293,11 @@ The set of all possible values is called the Domain, which denoted by U
 
 The statement P(x) is said to be the value of the propositional function P at x <br>(P(x) is only one case out of all possible results)
 
+## Compound Expressions
+
+Connectives from propositional logic carry over to predicate logic
+
+Expressions with variables are not propositions and therefore do not have truth values. For example: <br>P(x) → P(y)
+
+When used with quantifiers (at least one, all), these expressions (propositional functions) become propositions
+
