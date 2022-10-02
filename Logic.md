@@ -167,3 +167,62 @@ An argument is a sequence of statements (premises) that end with a conclusion
 
 (balabala...then balabala, so balabala)
 
+an argument is valid if and only if it is impossible for all the premises to be true and the conclusion to be false
+
+(it is vaild, so it cannot have something like all premises are True but the conclusion is False, conclusion must be True)
+
+However, we cannot say all premises are True if the conclusion is True
+
+An argument which is not valid is called a fallacy
+
+## Test for Argument Validity
+
+>P1: If John eats peanuts, he falls sick
+>
+>P2: John did not eat peanuts
+>
+>---
+>
+>∴ John did not fall sick
+
+Does ((p → q) ∧ ¬p) → ¬q?
+
+| p   | q   | ((p → q) ∧ ¬p) | ¬q  |
+| --- | --- | -------------- | --- |
+| F   | T   | T              | F   |
+
+premises is True ((p → q) ∧ ¬p), but conclusion is False (¬q), so this is a fallacy
+
+## Argument Forms
+
+>P1: If John eats peanuts, he falls sick
+>
+>P2: John did not fall sick
+>
+>---
+>
+>∴ John did not eats peanuts
+
+>P1: If you work hard, you will get a good raise
+>
+>P2: You did not get a good raise
+>
+>---
+>
+>∴ You did not work hard
+
+Even those two arguements are different, the have the same form which is ((p → q) ∧ ¬q) → ¬p
+
+When two arguements have the same arguement form, they:
+
+1. Have the same symbolic representation
+2. Belong to the same “family” of arguments
+
+## Important Rules of Inference
+
+| Rules of Inference               | Tautology                     | Name                   |
+| -------------------------------- | ----------------------------- | ---------------------- |
+| p<br>p → q<br>-------<br>∴ q     | (p ∧ (p → q)) → q             | Modus ponens           |
+| ¬q<br>p → q<br>-------<br>∴ ¬p   | (¬q ∧ (p → q)) → ¬p           | Modus tollens          |
+| p → q<br>q → r<br>-------<br>∴ r | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
+| p ∨ q<br>¬p<br>-------<br>∴ q    | (¬p ∧ (p ∨ q)) → q            | Disjunctive Syllogism  |
