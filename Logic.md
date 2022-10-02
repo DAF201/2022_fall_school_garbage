@@ -257,3 +257,14 @@ In such instances, instead of looking at propositions as a whole, we need to und
 >- breaking propositions up into parts {predicates and variables}
 >
 >- analyzing quantifiers like "all" or "some"
+
+## What is Predicate Logic
+
+1. Include both relationship (and, not, or...) and quantity (one, at least one, all...)
+
+2. Studies the logical form INSIDE atomic propositions
+
+3. Also known as predicate calculus and first-order logic
+
+## Predicate
+
