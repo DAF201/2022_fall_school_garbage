@@ -268,3 +268,6 @@ In such instances, instead of looking at propositions as a whole, we need to und
 
 ## Predicate
 
+Describe the properties of an object or the relationship between objects
+
+EX: In the proposition “17 is a prime number”, “is a prime number” is the predicate
