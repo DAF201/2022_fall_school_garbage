@@ -155,4 +155,15 @@ Means the propositions have the exactly same results, denote by ≡
 
 ## Propositional Satisfiability
 
+A compound proposition is satisfiable if there exist at least one set of variables that can make its truth value of this proposition True.
+
+It is unsatisfiable if there does not exist any set of variables that can make its truth value True.
+
+A compound proposition is unsatisfiable if and only if its negation is a tautology
+
+## Arguments
+
+An argument is a sequence of statements (premises) that end with a conclusion
+
+(balabala...then balabala, so balabala)
 
