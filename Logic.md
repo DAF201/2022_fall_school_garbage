@@ -220,12 +220,40 @@ When two arguements have the same arguement form, they:
 
 ## Important Rules of Inference
 
-| Rules of Inference               | Tautology                     | Name                   |
-| -------------------------------- | ----------------------------- | ---------------------- |
-| p<br>p → q<br>-------<br>∴ q     | (p ∧ (p → q)) → q             | Modus ponens           |
-| ¬q<br>p → q<br>-------<br>∴ ¬p   | (¬q ∧ (p → q)) → ¬p           | Modus tollens          |
-| p → q<br>q → r<br>-------<br>∴ r | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
-| p ∨ q<br>¬p<br>-------<br>∴ q    | (¬p ∧ (p ∨ q)) → q            | Disjunctive Syllogism  |
-| p<br>-------<br>∴ p ∨ q          | p → (p ∨ q)                   | Addition               |
-| p ∧ q<br>-------<br>∴ p          | (p ∨ q) → p                   | Simplification         |
-|                                  |                               |                        |
+| Rules of Inference                     | Tautology                     | Name                   |
+| -------------------------------------- | ----------------------------- | ---------------------- |
+| p<br>p → q<br>-------<br>∴ q           | (p ∧ (p → q)) → q             | Modus ponens           |
+| ¬q<br>p → q<br>-------<br>∴ ¬p         | (¬q ∧ (p → q)) → ¬p           | Modus tollens          |
+| p → q<br>q → r<br>-------<br>∴ r       | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
+| p ∨ q<br>¬p<br>-------<br>∴ q          | (¬p ∧ (p ∨ q)) → q            | Disjunctive Syllogism  |
+| p<br>-------<br>∴ p ∨ q                | p → (p ∨ q)                   | Addition               |
+| p ∧ q<br>-------<br>∴ p                | (p ∨ q) → p                   | Simplification         |
+| p<br>q<br>-------<br>∴ p ∧ q           | ((p) ∧ (q)) → p ∧ q           | Conjunction            |
+| p ∨ q <br>¬p ∨ r<br>-------<br>∴ q ∨ r | ((¬p ∨ r) ∧ (p ∨ q)) → q ∨ r  | Resolution             |
+
+## Comparing the Tautologies for Logical Equivalences and Rules of Inference
+
+> ### Logical Equivalences
+> 
+> Logical_Expression1 ⇔ Logical_Expresion2 is a tautology
+
+> ### Rules of Inference
+> 
+> Conjunction_of_premises → Conclusion is a tautology
+
+## Fallacies
+
+1. Fallacy of affirming the conclusion
+<br>p → q<br>q<br>-------<br>∴p<br>cannot get premises from conclusion
+
+2. Fallacy of denying the hypothesis
+<br>p → q<br>¬p<br>-------<br>∴¬q<br>Vacuous truth
+
+## Predicate Logic
+
+Propositional calculus is inadequate to deal with arguments that deal with all cases, or with some case out of many cases
+
+In such instances, instead of looking at propositions as a whole, we need to understand their inner structure by
+>- breaking propositions up into parts {predicates and variables}
+>
+>- analyzing quantifiers like "all" or "some"
