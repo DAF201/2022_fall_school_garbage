@@ -307,3 +307,11 @@ Propositional functions can have multiple variables
 
 The "degree" of "Being True" of a propositional function over a range of elements (from the pertinent domain)
 
+There are two types of them: 
+
+1. Universal Quantifier, “For all,”, ∀
+2. Existential Quantifier, “There exists,”, ∃
+
+## Uniqueness Quantifier
+
+∃!x P(x) means that P(x) is true for one and only one x in the universe of discourse
