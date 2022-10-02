@@ -271,3 +271,25 @@ In such instances, instead of looking at propositions as a whole, we need to und
 Describe the properties of an object or the relationship between objects
 
 EX: In the proposition “17 is a prime number”, “is a prime number” is the predicate
+
+## Propositional Function
+
+A proposition contains one or more predicates but does not focus on specific object
+
+EX: 
+> Proposition: James is a student at Bedford College
+> 
+> Predicate: is a student at
+>
+> Predicate variables: x, y
+>
+> Propositional Function: x is a student at y {represented as P(x, y)}
+
+Propositional Function does not have truth value by it own
+
+propositional function becomes a proposition when it is filled with variables
+
+The set of all possible values is called the Domain, which denoted by U
+
+The statement P(x) is said to be the value of the propositional function P at x <br>(P(x) is only one case out of all possible results)
+
