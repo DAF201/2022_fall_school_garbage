@@ -301,3 +301,9 @@ Expressions with variables are not propositions and therefore do not have truth 
 
 When used with quantifiers (at least one, all), these expressions (propositional functions) become propositions
 
+Propositional functions can have multiple variables
+
+## Quantifiers
+
+The "degree" of "Being True" of a propositional function over a range of elements (from the pertinent domain)
+
