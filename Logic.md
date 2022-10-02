@@ -226,3 +226,6 @@ When two arguements have the same arguement form, they:
 | ¬q<br>p → q<br>-------<br>∴ ¬p   | (¬q ∧ (p → q)) → ¬p           | Modus tollens          |
 | p → q<br>q → r<br>-------<br>∴ r | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
 | p ∨ q<br>¬p<br>-------<br>∴ q    | (¬p ∧ (p ∨ q)) → q            | Disjunctive Syllogism  |
+| p<br>-------<br>∴ p ∨ q          | p → (p ∨ q)                   | Addition               |
+| p ∧ q<br>-------<br>∴ p          | (p ∨ q) → p                   | Simplification         |
+|                                  |                               |                        |
