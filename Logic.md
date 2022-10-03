@@ -315,3 +315,19 @@ There are two types of them:
 ## Uniqueness Quantifier
 
 ∃!x P(x) means that P(x) is true for one and only one x in the universe of discourse
+
+"There is a unique x such that..."
+
+## Trailing Quantifiers
+
+Additional information at the end of the sentense
+
+Example: ∀x ∈ R , x<sup>2</sup> ≥ 0(x is a real number and x<sup>2</sup> is not 0)
+
+this will include all real number but 0
+
+## Bound and Free Variables
+
+when an variable has something to do with the quantifier, we say it is bound, otherwise, we say it is free.
+
+Example: ∃x(x + y = 1), in this case, x in bound and y is free
