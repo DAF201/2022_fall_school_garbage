@@ -331,3 +331,29 @@ this will include all real number but 0
 when an variable has something to do with the quantifier, we say it is bound, otherwise, we say it is free.
 
 Example: ∃x(x + y = 1), in this case, x in bound and y is free
+
+## quantifer, propositional function, and proposition
+
+Quantifiers provide an alternate way to convert propositional functions to propositions
+
+Example: Let P(x) be the propositional function “x + 1 > x”. Then ∀x P(x) is a proposition
+
+## ways to make propositional function a proposition
+
+In general, all the variables that occur in a propositional function must be bound or set equal to a particular value to turn it into a proposition
+
+- universal quantifiers
+
+- existential quantifiers
+
+- value assignments
+
+## Properties of Quantifiers
+
+The truth value of x P(x) and  x P(x) depend on both the propositional function P(x) and on the domain U
+
+If the domain is empty, for any propositional function:
+
+- ∀xP(x) is true
+
+- ∃xP(x) is false
