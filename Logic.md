@@ -357,3 +357,37 @@ If the domain is empty, for any propositional function:
 - ∀xP(x) is true
 
 - ∃xP(x) is false
+
+## Truth Set
+
+A truth set is a set contains all values of x that make the proposition true.
+
+Example, P(x):"x is a factor of 8", Domain:all positive integers
+
+Then the truth set of P(x) is {1,2,4,8}
+
+## Quantifiers Over Finite Domains
+
+∀xP(x) ≡ P(x1) ∧ P(x2) ∧ P(x3) ∧ … ∧ P(xn)
+
+Conjunction of propositions
+
+∃xP(x) ≡ P(x1) ∨ P(x2) ∨ P(x3) ∨ … ∨ P(xn)
+
+Disjunction of propositions
+
+## Quantifiers with Restricted Domains
+
+Sometimes it is not feasible to enumerate the domain of a quantifier. Then we use the excluding method to exclude those we don't want out.
+
+In such instances, an abbreviated notation is often used
+
+- a condition a variable must satisfy is included after the quantifier
+
+- Such quantifiers are called restricted quantifiers
+
+Example:
+
+(∀x)<sub>x < 0</sub> (x<sup>2</sup> > 0)
+
+means for all x such that x smaller than 0, we have x to the power of 2 is greater than 0
