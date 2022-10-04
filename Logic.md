@@ -609,7 +609,7 @@ Assume that no more than 3 of the 22 days fall on the same day of the week. Beca
 
 ## Theorems that are Biconditional Statements
 
-To prove a theorem that is a biconditional statement, that is, a statement of the form p ↔ q, we show that p → q and q →p are both true.
+To prove a theorem that is a biconditional statement, that is, a statement of the form p ⇔ q, we show that p → q and q → p are both true.
 
 Example:
 
@@ -617,7 +617,7 @@ Prove the theorem: “If n is an integer, then n is odd if and only if n2 is odd
 
 Solution: 
 
-We have already shown (previous slides) that both p →q and q →p. Therefore we can conclude p ↔ q.
+We have already shown (previous slides) that both p → q and q → p. Therefore we can conclude p ⇔ q.
 
 ## Proof By Counterexample
 
