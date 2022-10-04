@@ -459,3 +459,24 @@ for every x in real numbers, if x is smaller than 0, then we have x to the power
 
 Sometimes we need to express a restricted quantifier as an unrestricted quantifier
 
+∃x <sub>P(x)</sub> Q(x) ≡ ∃x (P(x) ∧ Q(x))
+
+∀x <sub>P(x)</sub> Q(x) ≡ ∀x (P(x) → Q(x))
+
+## Nested Quantifiers
+
+In nested quantifiers one quantifier is within the scope of another quantifier
+
+Example: Every real number has an inverse
+
+∀x∃y(x + y = 0)
+
+## Order of Quantifiers
+
+The order of the nested quantifiers is important, unless all the quantifiers are universal quantifiers or all are existential quantifiers
+
+## Quantifications of Two Variables
+
+| Statement  | When True?                                    | When False?                             |
+| ---------- | --------------------------------------------- | --------------------------------------- |
+| ∀x∀yP(x,y) | when P(x,y) is true for every pair of x and y | when any pair of x, y make P(x,y) false |
