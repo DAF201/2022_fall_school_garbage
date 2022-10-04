@@ -477,6 +477,22 @@ The order of the nested quantifiers is important, unless all the quantifiers are
 
 ## Quantifications of Two Variables
 
-| Statement  | When True?                                    | When False?                             |
-| ---------- | --------------------------------------------- | --------------------------------------- |
-| ∀x∀yP(x,y) | when P(x,y) is true for every pair of x and y | when any pair of x, y make P(x,y) false |
+| Statement                | When True?                                                    | When False?                                         |
+| ------------------------ | ------------------------------------------------------------- | --------------------------------------------------- |
+| ∀x∀yP(x,y)<br>∀y∀xP(x,y) | P(x,y) is true for every pair of x and y                      | when any pair of x, y make P(x,y) false             |
+| ∀x∃yP(x,y)               | For every x, there is an y such that P(x,y) is true           | when there is a x for every y P(x,y) is false       |
+| ∃x∀yP(x,y)               | There is at least one x such that for every y, P(x,y) is true | for every x, there is a y such that P(x,y) is false |
+| ∃x∃yP(x,y)<br>∃y∃xP(x,y) | There is a pair of x and y such that                          | for every pair of x and y, P(x,y) is false          |
+
+## Two Surprising Results
+
+if ∃y∀xP(x,y) is true, then ∀x∃yP(x,y) must be also true
+
+if ∀x∃yP(x,y) is true, it is not necessay for ∃y∀xP(x,y) to be true
+
+## Additional Rules of Inference for Quantified Statements
+
+| Rule of Inference                                                  | Name                    |
+| ------------------------------------------------------------------ | ----------------------- |
+| ∀xP(x)<br>------<br>∴P(c)                                          | Universal instantiation |
+| P(c) for an arbitary of c <br>-------------------------<br>∴∀xP(x) |                         | Universal generalization |
