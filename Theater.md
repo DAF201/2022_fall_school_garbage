@@ -116,3 +116,122 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 >
 > They were all men.
 
+## Greek Comedy
+
+> Later in the 5th century, the festival in the winter ​
+>
+> Greek Comedy is known as Old Comedy​
+>
+> End of 4th century New Comedy​
+>
+> Aristophanes (c. 448-c. 380 B.C.E.).​
+
+## Old Comedy
+
+> Makes fun of social, political, or cultural conditions​
+>
+> The characters are recognizable​
+>
+> Socrates​
+>
+> SNL​
+>
+> Do not have a climactic structure (they don't take place within a short span of time or in one locale)​
+>
+> They have a large cast of characters
+
+## New Comedy
+
+> Romantic and Domestic problems​
+
+## Romans
+
+> Founded  750 B.C.E. ​
+>
+> 500 B.C.E. The Roman Republic​
+>
+> 3rd century B.C.E Punic wars= first contact with Greece​
+>
+> 1st century B.C.E Julius Ceasar made himself dictator​
+>
+> Brutus defeated by Mark Anthony and Octavius ​
+>
+> 27 B.C.E. The Roman Empire ​
+>
+> Worshiped gods that were counterparts of the Greek deities, as well as a large number of other divinities ​
+
+## Roman Theatre
+
+> Strongly influenced by the Greek ​
+>
+> Mostly Greek New Comedy which they then developed popular Comedy ​
+>
+> Also influenced by Etruria, Northwest of Rome​
+>
+> 240 B.C.E. Ludi Romani dedicated to Jupiter, Roman counterpart of Zeus​
+
+## Pantomime
+
+> A single dancer, a chorus, and a musical accompanies​
+>
+> Ballet​
+>
+> Emperors and members of nobility
+
+## Plautus ( c. 254-184 B.C.E)
+
+> Comedy​
+>
+> Based on Greek New Comedy​
+>
+> Domestic situations/Romance​
+>
+> The parasite who lives off others and is motivated by sensuality ​
+>
+> Most of the dialogue is sung​
+
+## Terence (c. 185-159 B.C.E.) 
+
+> More literary and less exaggerated ​
+>
+> Less singing more spoken​
+
+## Seneca (c. 4 B.C.E. - 65 C.E.)
+
+> Tragedy​
+>
+> Onstage stabbing, murders, and suicides​
+>
+> Supernatural beings ​
+>
+> Influenced Shakespeare ​
+>
+> Hamlet influenced by revenge Tragedy ​
+
+## Theatre Production in Rome
+
+> Local government hired an acting troupe​
+>
+> The dominus, leading actor, made all the arrangements​
+>
+> Up to 6 actors​
+>
+> Detailed pantomime and broad physical gestures​
+>
+> Facial expressions were not important since full linen head masks were worn​
+
+## Roman Theatre
+
+> A semicircular, sloped seating area​
+>
+> An orchestra​
+>
+> Stage House (Scaena) ​
+>
+> Average capacity 25000​
+
+## Decline of Roman Theatre
+
+> Constantinople​
+>
+> Christianity 
