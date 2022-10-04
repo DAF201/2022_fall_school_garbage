@@ -416,3 +416,46 @@ Assume ∀x P(x) ∧ ∀x Q(x) is True, then P(x) and Q(x) are True for every va
 
 So they are equivalent
 
+## Some equivalences and not equivalences
+
+1. ∀x ¬¬S(x) ≡ ∀x S(x)
+
+2. ¬∀x P(x) ≡ ∃x ¬P(x)
+
+3. ¬∃x P(x) ≡ ∀x ¬P(x)
+
+4. ∀x(P(x) ∧ Q(x)) ≡ ∀x P(x) ∧ ∀x Q(x)
+
+5. ∃x(P(x) ∨ Q(x)) ≡ ∃xP(x) ∨ ∃xQ(x)
+
+6. ∀x(P(x) ∨ Q(x)) ¬≡ ∀xP(x) ∨ ∀xQ(x)
+
+7. ∃x(P(x) ∧ Q(x)) ¬≡ ∃xP(x) ∧ ∃xQ(x)
+
+The Universal quantifier cannot be distributed over disjunction, and the existential quantifier cannot be distributed over conjunction
+
+## De Morgan’s Laws for Quantifiers
+
+| Negation | Equivalent Statement | When Is Negation True?         | When Is False                 |
+| -------- | -------------------- | ------------------------------ | ----------------------------- |
+| ¬∃x P(x) | ∀x ¬P(x)             | For every x, P(x) is false     | There is x which P(x) is true |
+| ¬∀x P(x) | ∃x ¬P(x)             | There is x which P(x) is false | P(x) is true for every x      |
+
+## Restricted Quantifiers
+
+Unrestricted quantifiers apply to the entire domain of discourse
+
+A restricted quantifier has the same semantics as an unrestricted quantifier except that the variables in the domain must satisfy a certain condition in order for the quantification to apply
+
+(Which means we only focus on the values in the domain which satisfies the restriction)
+
+Example: 
+
+(∀x)<sub>x < 0</sub> (x<sup>2</sup> > 0)
+
+for every x in real numbers, if x is smaller than 0, then we have x to the power of 2 is larger than 0.
+
+## Restricted quantifer -> Unrestricted quantifer
+
+Sometimes we need to express a restricted quantifier as an unrestricted quantifier
+
