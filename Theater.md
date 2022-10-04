@@ -339,3 +339,30 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 ## Balance of Forces
 
 > The people on opposite sides must be more or less evenly matched
+
+# Scenery​(set)
+
+## Set Designer
+
+> Help set the tone & style of the production​
+>
+> Establish the period​
+>
+> Develop a concept consistent with the director's vision​
+>
+> Provide a central image or metaphor, where appropriate​
+>
+> Ensure that scenery is coordinated with other production elements​
+>
+> Solve practical design problems​
+
+## Tone & Style
+
+> Style = the manner in which the work is done: how does the scenery look? How is the language used?
+
+## Establishing Period
+
+> In addition to time and place, the setting can also tell us what kinds of characters a play is about
+
+## Design Concept
+
