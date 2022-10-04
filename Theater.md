@@ -366,3 +366,71 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 
 ## Design Concept
 
+> A unifying idea carried out visually​
+>
+> When the time and place of a play have been shifted​
+
+## Central Image or Metaphor
+
+> Consistent with the play and have its own integrity ​
+>
+> Should add up to a complete visual universe for the play
+
+## Coordinating Scenery with the Whole
+
+> In line with the playwright's intent and the director's concept​
+
+## Solving Practical Design Problems
+
+> Line: the outline of the silhouette of elements on stage​
+>
+> Mass: the overall bulk of the weight of scenic elements​
+>
+> Composition: the balance and arrangement of elements​
+>
+> Texture: the feel projected by surfaces and fabrics​
+>
+> Color: the shading and contrasts of color combinations​
+
+## Physical layout
+
+> Fit into a certain stage and accommodate the performers​
+>
+> Room off stage for changing​
+>
+> Ground plan​
+>
+> Right stage/left stage/down stage/upstage​
+>
+> Eighteenth century= slope toward the audience ​
+
+## Materials and Devices
+
+> Stage floor/ trapdoors​
+>
+> Wagon/ electronically or stagehands/musical theatre​
+>
+> Treadmill​
+>
+> Turntable​
+>
+> Fly loft​
+>
+> Flat ​
+>
+> Props 
+
+## The Process
+
+> Read the script and develop ideas/ rough sketches ​
+>
+> Director and designer meet for preliminary ideas​
+>
+> Preliminary sketches/thumbnail sketches​
+>
+> The idea/rendering​
+>
+> Small scale 3 dimension /CAD​
+
+# Light
+
