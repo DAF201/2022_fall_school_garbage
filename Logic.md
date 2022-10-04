@@ -502,3 +502,26 @@ if ∀x∃yP(x,y) is true, it is not necessay for ∃y∀xP(x,y) to be true
 x: Unspecified member of the domain
 
 c: Specific member of the domain
+
+## Using Rules of Inference
+
+"All men has two legs", "John is a man", shows John has two legs
+
+let M(x) represents "x is a man", and L(x) represents "x has two legs"
+
+premises: ∀x(M(x) → L(x)), M(John)
+
+∀x(M(x) → L(x))<br>----------------<br>∴M(John) → L(John)
+
+M(John) → L(John)<br>M(John)<br>--------------------<br>∴L(John)
+
+## Universal Modus Ponens
+
+Combines UI and Modus Ponens
+
+∀x(P(x) → Q(x))<br>P(c)<br>-----------------<br>∴Q(c)
+
+## Universal Modus Tollens
+
+∀x(P(x) → Q(x))<br>¬Q(c)<br>-----------------<br>∴¬P(c)
+
