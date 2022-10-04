@@ -238,9 +238,9 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 >
 > Christianity 
 
-----
-
 # The Play​ And The Playwright
+
+----
 
 > The script/ The play/ The text = Blueprint for a production = Provides a plan for the production​
 >
@@ -340,7 +340,9 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 
 > The people on opposite sides must be more or less evenly matched
 
-# Scenery​(set)
+# Scenery​
+
+----
 
 ## Set Designer
 
