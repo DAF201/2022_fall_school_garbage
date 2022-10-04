@@ -436,3 +436,101 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 
 # Light
 
+## Stage Lighting
+
+> The last element of visual design​
+>
+> Most developed
+>
+> Most of the advances last 100 years
+
+## LIGHTING
+
+> For the first 2000 years, outdoors and during day​
+>
+> Illumination ​
+>
+> Playwright's language and imagination​
+>
+> 1600  CE moved indoors, used candles and oil lamps​
+>
+> DeLoutherbourg: above the stage,  gauze curtains and silk screens, colors​
+>
+> 1785: Argand lamp: glass chimney and cylindrical wick= brighter light​
+>
+> 1803, London, gaslights = light intensity ​
+>
+> 1879: incandescent lamp = safe, intensity, and control​
+
+## FUNCTIONS AND OBJECTIVES
+
+> Provide visibility​
+>
+> Reveal shapes and forms​
+>
+> Provide a focus onstage and create visual compositions ​
+>
+> Assist in creating mood and reinforcing style​
+>
+> Help establish time and place​
+>
+> Establish a rhythm of visual movement ​
+>
+> Reinforce a central visual image, establish visual information, or both
+
+## Visibility
+
+> Illumination ​
+>
+> Performers​
+>
+> Mood is important but we need to see what is happening​
+
+## Shape and form
+
+> Usually, flat​
+>
+> Side, top, and behind​
+
+## Focus and composition
+
+> Beams of light beamed at a particular area​
+>
+> Keeps the audience focused​
+>
+> Actors moving without being in the beam​
+>
+> Take the audience on an interesting visual journey​
+
+## Mood and style
+
+> Without the audience noticing​
+>
+> Realistic or nonrealistic​
+
+## Time and place
+
+> Color, shade, and intensity​
+
+## Rhythm
+
+> Time continuum ​
+>
+> In line with the director's vision 
+
+## Reinforcement of the central image
+
+> Consistent with the other elements​
+>
+> Most flexible and most atmospheric​
+
+## Properties of stage lighting
+
+> Intensity: dimmers ​
+>
+> Color: colored material : gel, plastic = support the other designs ​
+>
+> Distribution: position and type ​
+>
+> Movement: changing focus 
+> 
