@@ -1,5 +1,7 @@
 # The origins of Theatre
 
+----
+
 > The impulse to create theatre is universal
 >
 > ​Storytelling and Imitation
@@ -235,3 +237,105 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 > Constantinople​
 >
 > Christianity 
+
+----
+
+# The Play​ And The Playwright
+
+> The script/ The play/ The text = Blueprint for a production = Provides a plan for the production​
+>
+> Playwright=Dramatist :​
+>
+> Chooses how to tell the story​
+>
+> Selects the dramatic episodes and how they unfold​
+>
+> Write the dialogue​
+
+## Aspects of a script
+
+> Selecting the specific subject of the play​
+>
+> Determining focus​
+>
+> Establishing purpose ​
+>
+> Developing dramatic structure​
+>
+> Creating dramatic characters​
+>
+> Establishing a point of view​
+
+## Subject
+
+> The matter of drama is always human beings. People are invariably in the center
+> 
+> What aspect of human beings to write about
+> 
+> Imaginary story based on a fantasy or a nightmare
+
+## Focus
+
+> Who or what to focus on​
+> 
+> In determining focus, a playwright may need to decide how to interpret the characters and events of an existing story
+> 
+> In doing so the playwright might change the order of the events
+> 
+> The playwright's gender might also influence the structure and that feminist dramas are less linear and less traditional in building dramatic tension
+> 
+> Plays can be tightly or loosely structured
+> 
+> Plays unfold through time, developing like a living organism. We experience the development and become aware of the structure
+
+## Essentials of Dramatic Structure
+
+> - Plot​
+>
+> - Action​
+>
+> - Conflict​
+>
+> - Strongly opposed forces​
+>
+> - A reasonable balance between the opposed forces​
+
+## Plot
+
+> The arrangement of events of the selection and order of scenes in a play.​
+>
+> Secret scheme or plan​
+>
+> Describe the sequence of scenes or events in a novel​
+>
+> Dramatic plot = based on a story ​
+>
+> Story: a full account of an event or series of events ​
+>
+> Plot: a selection and arrangement of scenes from a story for presentation on stage. ​
+>
+> What happens not what is talked about.
+
+## Action
+
+> The word drama = Greek root = dran = to do or to act ​
+>
+> At its heart theatre involves action
+
+## Conflict
+
+> The collision or opposition of persons or forces that gives rise to the dramatic action​
+>
+> The playwright must devise means by which characters will face challenges and be tested in a very short time
+>
+> Test and the character's reaction to it, is one way that the meaning of a play is brought out
+
+## Strongly Opposed Forces
+
+> People in a conflict in a play are fiercely determined to achieve their goals; moreover, they are powerful adversaries to one another. ​
+>
+> They have clear strong goals or objectives ​
+
+## Balance of Forces
+
+> The people on opposite sides must be more or less evenly matched
