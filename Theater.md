@@ -1,442 +1,118 @@
-# theader
+# The origins of Theatre
 
-What is performance ?
-
-1. expressing you feeling 
-2. chereography
-3. something that you can see involves your emotion
-4. sharing a passion
-5. connecting with audiences
-6. deliver a message
-7. ...?
-
-Everything you do to keep youself in the society
-
----
-
-Theater started in roman and greek
-
-known for tragedies by aeschylus, sophocles, and euripides
-
-they love tragedy
-
-They want to honer the god
-
-___
-
-the first personal start with dramatic is Aeschylus
-
-He brouhgt out the second character instead of one
-
-He reduce the chorus from 15 to 12
-
-Master of trilogy
-
-His best one is Orestia
-
-___
-
-Thespis:
-
-in 6th BCE, he stepped out of the chorus and become an actor
-
-3 days devoted to tragedies
-
-only 5 comities
-
-the director and the playwrighter is the same person
-
-the purpose of that is to honor the god
-___
-
-
-sophocles:
-
-built on aeschyclus
-
-chours to 15
-
-add the 3 actor each played up to 8 different characters
-
-character came up with clamix
-
----
-
-Euripides
-
-more of a rebel
-
-most modern of the 3
-
-the symoathetic portayal of female characters, in crease realism...
-
-
-----
-
-pattern and plots in greek tragedy
-
-the opening scene, the chours enters
-
-an episode between characters...
-
-----
-chorus:
-
-The chorus was a key or unique element of greek drama, never again being used in the same way
-
-All men
-
-prepresented oridinary citizens
-
-react the way the audiences might react
-
-also made conclusion for the audiences at the end
-
-...
-
----
-
-Greek comedy:
-later in 5th centruy, ate fastival in winter
-
-...
-
----
-
-old comedy:
-
-makes fun of social, political, or cultural conditions
-
-the characters are recognizatble
-
-socartes
-
-...
-
----
-
-New comedy:
-
-romantic and ? ...
-
-___
-
-# Romans
-
-Founded 750 BCE
-
-500 BCE the Roman republic
-
-3rd centruy BEC punic wars = first contact with greece
-
-1st BCE Julius ceasar made himself a director
-
-Brutus defeated by makr anthony and octavius
-
-27 BCE the romance empire
-
-worshiped gods that were counterparts of the greek deitites, as well as a large number of other countrites
-
-___
-
-# Roman threater
-
-strong influenced by the greek theater
-
-but they come with their own later
-
----
-
-# pantomime
-
-a single dancer, a chorus, and a music accompanies
-
-ballet
-
-emperors and members of nobility
-
----
-
-# Plautus
-comedy
-
-based on Greek new comedy
-
-demestic situations/romance
-
-the parasite who lives off others and is motiavited by sensuatlity
-
-most of the dialogue is sung
-
----
-
-
-# Terence
- most luterary and less exaggerated
-
- less singing more speaking
-
-# Seneca
-
-Tragedy
-
-like violence
-
-onstage stabbing, murder, and suicide
-
-supernatural being 
-
-inclpuenced shakespeare
-
-Hamlet influenced by revenge tragedy
-
----
-
-# Theatre production in rome
-
-local governament hired an acting troupe
-
-the mominus ,leading actor, made all the arrancement
-
-up to 6 actors
-
-detailed pantomine and broa ohysical gestures
-
-facial expressions were not important since full lien head masks were worn
-
----
-
-# decline of Roman threatre
-
-Constantinople
-
-Christianity
-
----
-
-the play is the blueprint for a production, provide a plan for the producation
-
-playwright = dramatic
-
-choose how to tell the story
-
-selects the dramatic epsiodes and how unfold
-
-write the dialogue
-
----
-
-# aspects of the script
-
-select the subject
-
-determing the focus
-
-establishing purpose
-
-developing dramtic strucutre
-
-createing dramatic characters
-
-estatblishing the point of the view
-
-# subject
-
-the matter of drama is always human beings. People are invariabley in the ver-nter
-
-what aspects of human beings to write about
-
-imaginary story based on a fantasy or a nightmare
-
----
-
-# Focus
-
-who to focus on
-
-the playwrighter need to decide how events to happen
-
-the playwright gender might also inlcuence the structure
-
-play can be tight or loose
-
-plays unfold through time, developing like a living organism. we experience the play happening
-
-# essentail of dramatic structure
-
-> plot: the arrangement of the events of the selection and order of scenes in a play
+> The impulse to create theatre is universal
 >
-> the plot is based on the story
+> ​Storytelling and Imitation
+>
+> Religious observance and Rituals Formal, repeated ceremonies
+
+## Golden age:
+
+> People came together and they achieved great things in all fields including Theatre. ​
+>
+> 5th century B.C.E. in Athens, Greece
+
+## Western Theatre
+
+Began with Greek and Roman Theatre​
+
+Known for tragedies by Aeschylus, Sophocles, and Euripides​
+
+## Tragedy
+
+> The tragedy was the most admired form of drama at the Greek Festivals. 
+>
+> Approximately 900 tragedies were produced in Athens during the 5th century B.C.E., of which 31 have survived all by 3 dramatists.
+
+## Dionysus
+
+> The God of Wine, Fertility, and Revelry​
 > 
-> plot is what happend not what was talking about
+> Historians believe that Greek drama originated out of the dithyrambic chorus, a group of <b>50</b> men who sang and danced a hymn praising Dionysus. ​
 
->---
+## Thespis
+
+> In 6th B.C.E. he stepped out of the chorus and became an actor.​
+
+## Theatre and Religion:
+
+> - In Athens, spring Festival called City Dionysia, honoring the god Dionysus. ​
+> 
+> - 3 days devoted to tragedies​
+> 
+> - Time aside for 5 Comedies ​(5 comedies, not 5 days)
+> 
+> - Satyr Plays :Half-men and Half-goats​
+> 
+> - 11 months before the festival the government would appoint a choregus and choose the plays​
+> 
+> - The playwright was the director​
+
+## Aeschylus
+
+> First important Greek dramatist and therefore the first important Western dramatis
+> 
+> He brought on a second actor
+> 
+> And reduced the chorus to 12 from fifty
+> 
+> Dealt with noble families and their families
+> 
+> Were praised for their lyrical poetry, dramatic structure, and their intellectual content
+> 
+> Master of Trilogy
+> 
+> His best one is Oresteia
 >
->action: to do or to act
+>### Oresteia
 >
->the heart of the play
->---
+>> the murder of Agamemnon by Clytemnestra, the murder of Clytemnestra by Orestes, the trial of Orestes, the end of the curse on the House of Atreus and the pacification of the Erinyes
+
+## Sophocles
+
+> Built on Aeschyclus​
 >
->conflict: the collision or opposition of persons or forces that gives rise to dramatic actions
+> Chorus to 15​
+> 
+> Added a 3rd actor each played up to 8 different characters
+> 
+> Particularly adept at dramatic construction, introducing characters and information skillfully, and building swiftly to a climax
 
+## Euripides
+
+> More of a rebel​
 >
-> the playwrite must devise means by which characters will face challenges and be tested in a very short time
-
+> Most Modern of the 3​
 >
->---
+> The sympathetic portrayal of female characters, increased Realism, mixture of Tragedy with Melodrama and Comedy, and skeptical treatment of the gods
+
+## Pattern and Plot in Greek Tragedy
+
+> The opening scene, the chorus enters​
 >
-> strongly opposed forces: people in a play killing eachother balabala
+> An episode between characters​
 >
->---
+> The first choral song​
 >
->   balance of forces:
-> the poeple are equal strong or similar 
+> Alternations between character episodes and choral songs then comes the final episode
+
+## The Chorus
+
+> "The chorus was a key and unique element of Greek drama, never again being used in the same way".​
+>
+> Represented ordinary citizens ​
+>
+> Reacted the way the audience might react​
+>
+> The audience could identify with them​
+>
+> They gave background information necessary for understanding the plot​
+>
+> Represented a moderate balance between the extreme behaviors of the principal characters. ​
+>
+> Offered philosophical observations and conclusions about what happened. ​
+>
+> It is important to note that the choral passages were sung and danced. ​
+>
+> They were all men.
 
-----
-
-# Scenery
-
-## set designer:
-
-Help set the tone&style of the production
-
-establish the period
-
-develop a concept consistent whith the director's vision
-
-provide a central image or metaphor, where approiate
-
-ensure the scenery is coordinated with other production elements
-
-solve pratical design problems
-
-# establishing period
-
-in addition to time and place, the setting can tell us which kind of character we are going to see
-
-# Design Concept:
-
-everyone come up with their idea see if that is going to work
-
-# centra Image or metaphor
-
-# coordinating scenery with the whole
-
-# solving pratical design problems
-
-line: the out line of the silhouette of elements on stages
-
-# physical layout
-
-# meterials and devices
-
-# the process
-
-Read the script, develop ideas/rough sketches
-
-director and designer meet for preliminary ideas
-
-perliminary sketches/thubnail sketches
-
-the idea/rendering
-
-small scale 3 dimention/CAD
-
-# light
-
-##  what is light on the stage?
-
-it direct the eyes on the focus
-
-it tells the mood
-
-transition
-
-provide part of the background
-
-Highlighting
-
-# lighting
-
-For the first 2000 years, outdoor and during the day
-
-Illumination
-
-playwright's language and imagination
-
-1600CE moved to indoor
-
-TODO
-
-# function and objects
-
-Provide visibility
-
-TODO: TODO
-
-# Stay Focus on the story
-
-# Costumes
-
-personal
-
-actor and their costume
-
-postion and status
-
-sex
-
-occupation
-
-relative flamoyance or modesty
-
-defree of independence or regimentation
-
-what is one dress for
-
-# Objectives of costume design
-
-help establish the style of the production
-
-locale and historic period
-
-nature of each characters
-
-theme
-
-meet the needs of individuals
-
-consistency with the while production
-
-# thw work
-pulling: rented = stitchers
-
-built shop supervisor and costume designer
-
-line do they fit
-
-color
-
-fabric
-
-# collaborators
-
-shopper
-
-cutter-drapper
-
-the costume designer's firsthand or a lead stitcher
-
-design assistants: distressing
-
-wardrobe supervisor
-
-wardrobe crew
-
-# make up
-
-modern theatre
-
-hairstyle and wigs: hair and wig specialist
-
-Masks: an externsion of the preformer
