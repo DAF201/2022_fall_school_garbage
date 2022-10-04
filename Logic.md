@@ -391,3 +391,28 @@ Example:
 (∀x)<sub>x < 0</sub> (x<sup>2</sup> > 0)
 
 means for all x such that x smaller than 0, we have x to the power of 2 is greater than 0
+
+## Precedence of Quantifiers
+
+The ∀ and ∃ have higher precedence than any logical operator.
+
+which means ∀x P(x) ∨ Q(x) means (∀x P(x)) ∨ Q(x) instead of ∀x (P(x) ∨ Q(x))
+
+## Equivalences in Predicate Logic
+
+have the save value for every possible result.
+
+cover every domain
+
+Example: 
+
+∀x ¬¬S(x) ≡ ∀x S(x)
+
+∀x(P(x) ∧ Q(x)) ≡ ∀x P(x) ∧ ∀x Q(x)
+
+Assume ∀x(P(x) ∧ Q(x)) is True, then P(x) ∧ Q(x) is true for every value of x in domain, so P(x) and Q(x) are True for every value in domain
+
+Assume ∀x P(x) ∧ ∀x Q(x) is True, then P(x) and Q(x) are True for every value of x in domain
+
+So they are equivalent
+
