@@ -525,3 +525,111 @@ Combines UI and Modus Ponens
 
 ∀x(P(x) → Q(x))<br>¬Q(c)<br>-----------------<br>∴¬P(c)
 
+## Proofs of Mathematical Statements
+
+A proof is a valid argument that establishes the truth of a statement.
+
+A theorem is a statement that can be shown to be true using:
+
+- definitions
+
+- other theorems
+
+- axioms (statements which are given as true, also known as postulates)
+
+- rules of inference
+
+A lemma is a ‘helping theorem’ or a result which is needed to prove a theorem.
+
+A corollary is a result which follows directly from a theorem.
+Less important theorems are sometimes called propositions
+
+A conjecture is a statement that is being proposed to be true. Once a proof of a conjecture is found, it becomes a theorem. It may turn out to be false.
+
+## Direct Proof
+
+A direct proof shows that a conditional statement p → q is true by showing that if p is true, then q must also be true
+
+We assume that p is true and use axioms, definitions, and previously proven theorems, together with rules of inference, to show that q must also be true.
+
+Example:
+
+Proof the square of a odd number is also an odd number
+
+any odd number : 2n+1
+
+(2n + 1)<sup>2</sup> = 4n<sup>2</sup> + 4n + 1 = 2 * (n<sup>2</sup> + 2n) + 1
+
+let r = (n<sup>2</sup> + 2n), therefore (2n + 1)<sup>2</sup> = 2r + 1, and because of 2r is an even number, so 2r + 1 is an odd number.
+
+## Proof By Contraposition
+
+Sometimes it is easier to prove theorems using proof by contraposition
+
+- the conditional statement p → q is proved by showing that its contrapositive, ¬q → ¬p is true
+
+Example: Prove that if n is an integer and 3n + 2 is odd, then n is odd.
+
+let n = 2k for some integer k
+
+the 3n + 2 = 6k + 2 = 2(3k + 1)
+
+let j = 3k + 1 for some integer j
+
+so 3n + 2 = 6k + 2 = 2j
+
+so 3n + 2 is even
+
+Since we have shown ¬q → ¬p , p → q must hold as well. We have proved by contraposition that if 3n + 2 is odd, then n is odd
+
+## Vacuous & Trivial Proofs
+
+- p → q ≡ ¬p ∨ q
+
+- A proof that makes use of the fact that p → q must be true when p is false is called a vacuous proof
+
+- A proof that makes use of the fact that p → q must be true when q is true is called a trivial proof
+
+- These proofs are never treated as complete proofs but they are used in conjunction with other proof techniques (like proof by cases and mathematical induction) to establish that special cases of a theorem are not in violation of the generalized theorem
+
+## Proof by Contradiction
+
+We make a opposite proof of if p is true, then q is false for p → q. Clearly, therefore, the assumption that if p is true then q is false is wrong. In other words, if p is true then q must be true.
+
+Example: 
+
+Prove that if you pick 22 days from the calendar, at least 4 must fall on the same day of the week.
+
+Assume that no more than 3 of the 22 days fall on the same day of the week. Because there are 7 days of the week, we could only have picked 21 days. This contradicts the assumption that we have picked 22 days.
+
+## Background Information
+- Fundamental theorem of arithmetic (also called the unique factorization theorem)
+
+> Every number is a prime or a unique product of primes
+
+## Theorems that are Biconditional Statements
+
+To prove a theorem that is a biconditional statement, that is, a statement of the form p ↔ q, we show that p → q and q →p are both true.
+
+Example:
+
+Prove the theorem: “If n is an integer, then n is odd if and only if n2 is odd.”
+
+Solution: 
+
+We have already shown (previous slides) that both p →q and q →p. Therefore we can conclude p ↔ q.
+
+## Proof By Counterexample
+
+Statements of the form ∀xP(x) can be proved to be false by providing a counterexample ∃x(¬P(x))
+
+Example: Show that the statement “Every positive integer is the sum of the squares of two integers” is false.
+
+The number 3 can be represented as the sum of two numbers in one of two ways (order being immaterial)
+
+3 = 0 + 3 = 0<sup>2</sup> + 3
+
+3 = 1 + 2 = 1<sup>2</sup> + 2
+
+In neither case can be number 3 be represented as a sum of two squares.
+Therefore we have proved by counterexample that “Every positive integer is the sum of the squares of two integers” is false.
