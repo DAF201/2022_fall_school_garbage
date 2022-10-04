@@ -492,7 +492,13 @@ if ∀x∃yP(x,y) is true, it is not necessay for ∃y∀xP(x,y) to be true
 
 ## Additional Rules of Inference for Quantified Statements
 
-| Rule of Inference                                                  | Name                    |
-| ------------------------------------------------------------------ | ----------------------- |
-| ∀xP(x)<br>------<br>∴P(c)                                          | Universal instantiation |
-| P(c) for an arbitary of c <br>-------------------------<br>∴∀xP(x) |                         | Universal generalization |
+| Rule of Inference                                                  | Name                       |
+| ------------------------------------------------------------------ | -------------------------- |
+| ∀xP(x)<br>------<br>∴P(c)                                          | Universal instantiation    |
+| P(c) for an arbitary of c <br>-------------------------<br>∴∀xP(x) | Universal generalization   |
+| ∃xP<br>-------------------------<br>∴P(c) for some element c       | Existential instantaion    |
+| P(c) for some element c<br>-------------------------<br>∴∃xP       | Existential generalization |
+
+x: Unspecified member of the domain
+
+c: Specific member of the domain
