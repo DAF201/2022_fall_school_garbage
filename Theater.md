@@ -436,6 +436,8 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 
 # Light
 
+----
+
 ## Stage Lighting
 
 > The last element of visual design​
@@ -533,4 +535,75 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 > Distribution: position and type ​
 >
 > Movement: changing focus 
-> 
+
+# Costumes
+
+----
+
+## Clothes
+
+> Personal​
+>
+> Actor and their costume​
+>
+> Position and status ​
+>
+> Sex​
+>
+> Occupation​
+>
+> Relative flamboyance or modesty​
+>
+> Degree of independence or regimentation ​
+>
+> What is one dressed for​
+
+## Objectives of Costume Design
+
+> Help establish the style of the production​
+>
+> Locale and historic period​
+>
+> Nature of each character​
+>
+> Relationships between characters ​
+>
+> Theme​
+>
+> Meet the needs of individuals​
+>
+> Consistency with the whole production
+
+## The Work
+
+> Pulling: Rented = Stitchers​
+>
+> Built: Shop supervisor and Costume Designer​
+>
+> Line: Do they fit?​
+>
+> Color​
+>
+> Fabric​
+
+## Collaborators
+
+> Shopper​
+>
+> Cutter-Draper​
+>
+> The Costume Designer's firsthand or a lead stitcher​
+>
+> Design assistants: distressing ​
+>
+> Wardrobe Supervisor​
+>
+> Wardrobe crew​
+
+## Makeup
+
+> Modern Theatre​
+>
+> Hairstyles and Wigs: Hair and wig specialist ​
+>
+> Masks: An extension of the performer​
