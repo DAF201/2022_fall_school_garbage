@@ -244,7 +244,7 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 
 > The script/ The play/ The text = Blueprint for a production = Provides a plan for the production​
 >
-> Playwright=Dramatist :​
+> Playwright = Dramatist :​
 >
 > Chooses how to tell the story​
 >
