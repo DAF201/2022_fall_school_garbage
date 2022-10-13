@@ -664,3 +664,49 @@ Solution: step 5, divide both side by (a - b), (a - b) = 0, it is dividing both 
 
 - Or a proof by contradiction.
 
+## Proof by Exhaustion
+
+Used in situations where theorems can be proved by examining a relatively small number of examples
+
+(list all cases and proof they are true)
+
+Example: 
+
+> Prove that (n + 1)3 ≥ 3n if n is a positive integer with n ≤ 4.
+>
+>----
+>
+>solution:
+>
+>Case n = 1: (1 + 1)3 = 23 = 8, which is ≥ 31 i.e. 3
+>
+>Case n = 2: (2 + 1)3 = 33 = 27, which is ≥ 32 i.e. 9
+>
+>Case n = 3: (3 + 1)3 = 43 = 64, which is ≥ 33 i.e. 27
+>
+>Case n = 4: (4 + 1)3 = 53 = 125, which is ≥ 34 i.e. 81
+
+## Proof by Cases
+
+Used in situations where: 
+
+1. it is imposibile to list all the cases
+2. need to consider different cases in different ways separately
+
+To prove a conditional statement of the form
+
+>(p1 ∨ p2 ∨ p3 ... ∨ pn) → q
+>
+>(p1 ∨ p2 ∨ p3 ... ∨ pn) → q ≡ ¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q
+>
+>¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q ≡ (¬p1 ∧ ¬p2 ∧ ¬p2 ∧ ¬p3 ... ∧ ¬pn) ∨ q
+>
+>(¬p1 ∧ ¬p2 ∧ ¬p2 ∧ ¬p3 ... ∧ ¬pn) ∨ q ≡ (¬p1 ∨ q) ∧ (¬p2 ∨ q) ∧ (¬p3 ∨ q) ... ∧ (¬pn ∨ q)
+>
+>(¬p1 ∨ q) ∧ (¬p2 ∨ q) ∧ (¬p3 ∨ q) ... ∧ (¬pn ∨ q) ≡ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
+
+Use the tautology
+
+(p1 ∨ p2 ∨ p3 ... ∨ pn) → q ⇔ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
+
+Each of the implications p<sub>n</sub> → q is a case.
