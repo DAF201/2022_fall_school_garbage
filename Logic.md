@@ -633,3 +633,34 @@ The number 3 can be represented as the sum of two numbers in one of two ways (or
 
 In neither case can be number 3 be represented as a sum of two squares.
 Therefore we have proved by counterexample that “Every positive integer is the sum of the squares of two integers” is false.
+
+## Mistakes in proofs
+
+- performing a disallowed mathematical operation (divide by 0)
+
+- given p → q is true and q is true implying the conclusion that p is true(q can be True when p is False)
+
+- given p → q is true and p is false implying the conclusion that q is false(q is true)
+
+- basing one or more steps of the proof on the truth of the statement being proved, or a statement equivalent to it (begging the question or circular reasoning)
+
+## What is wrong with this
+
+“Proof” that 1 = 2
+
+1. a = b
+2. a<sup>2</sup> = a * b
+3. a<sup>2</sup> - b<sup>2</sup> = a * b - b<sup>2</sup>
+4. (a - b)(a + b) = b(a - b)
+5. a + b = b
+6. 2b = b
+7. 2 = 1
+
+Solution: step 5, divide both side by (a - b), (a - b) = 0, it is dividing both side by 0 which is undefined
+
+## If direct methods of proof do not work
+
+- We may need a clever use of a proof by contraposition.
+
+- Or a proof by contradiction.
+
