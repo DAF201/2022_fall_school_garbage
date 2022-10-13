@@ -695,6 +695,8 @@ Used in situations where:
 
 To prove a conditional statement of the form
 
+Example: 
+
 >(p1 ∨ p2 ∨ p3 ... ∨ pn) → q
 >
 >(p1 ∨ p2 ∨ p3 ... ∨ pn) → q ≡ ¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q
@@ -710,3 +712,24 @@ Use the tautology
 (p1 ∨ p2 ∨ p3 ... ∨ pn) → q ⇔ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
 
 Each of the implications p<sub>n</sub> → q is a case.
+
+----
+
+Example:
+
+>Prove that Prove that if n is an integer, then n<sup>2</sup> ≥ n.
+>
+>Case 1 : n = 0, then n<sup>2</sup> = 0, which n<sup>2</sup> >= n
+>
+>Case 2 : n <= 1, then n<sup>2</sup> >= n or n <sup>2</sup> = n = 1
+>
+>Case 3: n >= 1, then n<sup>2</sup> > n
+>
+>Since the inequality n<sup>2</sup> ≥ n holds in all three cases, we can conclude that if n is an integer, then n<sup>2</sup> ≥ n.
+
+## Without Loss of Generality
+
+The phrase “Without Loss of Generality” (WLOG) is used in proofs with cases to assert that by proving one case of a theorem, no additional argument is required to prove other specified cases
+
+( Standary english: this case can represent any other cases, so I dont need to prove other cases )
+
