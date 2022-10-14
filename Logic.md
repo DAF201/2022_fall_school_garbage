@@ -1056,9 +1056,9 @@ If A ⊂ B, then:
 
 ## Set Cardinality
 
-If there are exactly <b>n</b> distinct elements in S where <b>n</b> is a nonnegative integer, we say that S is finite. Otherwise it is infinite.
+the size of the set (ignore the duplicate elements)
 
-The cardinality of a finite set A, denoted by |A|, is the number of (distinct) elements of A.
+The cardinality of a finite set A, denoted by |A|
 
 1. |ø| = 0
 2. Let S be the letters of the English alphabet. Then |S| = 26
@@ -1170,8 +1170,63 @@ Set of all unique element that only in A
 
 ## Complement
 
-If A is a set, then the complement of the A (with respect to U), denoted by Ā is the set U - A
+If A is a set, then the complement of the A (with respect to U), denoted by $\overline{A}$ is the set U - A
 
-which means A + Ā = U, or Those elements in the universal set U but not in A
+which means A + $\overline{A}$ = U, or Those elements in the universal set U but not in A
 
-Ā = {x | x ∈ U | x ∉ A}
+$\overline{A}$ = {x | x ∈ U | x ∉ A}
+
+## Another Interpretation of Set Difference
+
+A - B = {x | x ∈ A ∧ x ∉ B} = A ∩ $\overline{B}$
+
+## The Cardinality of the Union of Two Sets
+
+|A ∪ B| = |A| + |B| − |A ∩ B|
+
+## Symmetric Difference
+
+The symmetric difference of A and B, denoted by A ⊕ B is the set (A - B) ∪ (B - A)
+
+The set of all unique elements from A or B (in A or in B, not both)
+
+Symmetric Difference is different from Complement of Intersection
+
+## Set Identities
+
+Identity laws
+
+- A ∪ ø = A
+- A ∩ U = A
+
+Domination laws
+
+- A ∪ U = U
+- A ∩ ø = ø
+
+Idempotent laws
+
+- A ∪ A = A
+- A ∩ A = A
+
+Complementation law
+
+- The completement of $\overline{A}$ is A (markdown cannot display double overline)
+
+Commutative laws
+
+A ∪ B = B ∪ A
+
+A ∩ B = B ∩ A
+
+Associative laws
+
+A ∪ (B ∪ C) = (A ∪ B) ∪ C
+
+A ∩ (B ∩ C) = (A ∩ B) ∩ C
+
+Distributive laws
+
+A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+
+A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
