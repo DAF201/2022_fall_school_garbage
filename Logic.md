@@ -6,7 +6,7 @@ proposition is a claim that can only be true or false
 
 ## propositional variables
 
-propositional variables is a symbol that denote a case. For example, p denotes ground is wet.
+propositional variables is a symbol that denote a case. For example, p denotes ground is wet
 
 Each propositional variable has a truth value T or F
 
@@ -55,7 +55,7 @@ p = T, then ¬p = F
 
 ## AND
 
-Only be true when both are true, otherwise false.
+Only be true when both are true, otherwise false
 
 p = T, q = T, p ∧ q = T
 
@@ -63,7 +63,7 @@ p = T, q = F, p ∧ q = F
 
 ## OR
 
-Only be false when both are false, otherwise true.
+Only be false when both are false, otherwise true
 
 p = F, q = F, p ∨ q = F
 
@@ -98,11 +98,11 @@ p = F, q = T, p → q = T
 p = F, q = F, p → q = T
 
 > ### Vacuous Truth
-> when the case 1 is false, no matter what is the truth value of case 2, the output is true, because we cannot make any conclusion when case 1 is false, so we assume the claim is true.
+> when the case 1 is false, no matter what is the truth value of case 2, the output is true, because we cannot make any conclusion when case 1 is false, so we assume the claim is true
 
 ## Converse, Contrapositive, and Inverse
 
-From p → q we can form new conditional statements .
+From p → q we can form new conditional statements
 
 q → p is the converse of p → q
 
@@ -328,7 +328,7 @@ this will include all real number but 0
 
 ## Bound and Free Variables
 
-when an variable has something to do with the quantifier, we say it is bound, otherwise, we say it is free.
+when an variable has something to do with the quantifier, we say it is bound, otherwise, we say it is free
 
 Example: ∃x(x + y = 1), in this case, x in bound and y is free
 
@@ -360,7 +360,7 @@ If the domain is empty, for any propositional function:
 
 ## Truth Set
 
-A truth set is a set contains all values of x that make the proposition true.
+A truth set is a set contains all values of x that make the proposition true
 
 Example, P(x):"x is a factor of 8", Domain:all positive integers
 
@@ -378,7 +378,7 @@ Disjunction of propositions
 
 ## Quantifiers with Restricted Domains
 
-Sometimes it is not feasible to enumerate the domain of a quantifier. Then we use the excluding method to exclude those we don't want out.
+Sometimes it is not feasible to enumerate the domain of a quantifier. Then we use the excluding method to exclude those we don't want out
 
 In such instances, an abbreviated notation is often used
 
@@ -394,13 +394,13 @@ means for all x such that x smaller than 0, we have x to the power of 2 is great
 
 ## Precedence of Quantifiers
 
-The ∀ and ∃ have higher precedence than any logical operator.
+The ∀ and ∃ have higher precedence than any logical operator
 
 which means ∀x P(x) ∨ Q(x) means (∀x P(x)) ∨ Q(x) instead of ∀x (P(x) ∨ Q(x))
 
 ## Equivalences in Predicate Logic
 
-have the save value for every possible result.
+have the save value for every possible result
 
 cover every domain
 
@@ -453,7 +453,7 @@ Example:
 
 (∀x)<sub>x < 0</sub> (x<sup>2</sup> > 0)
 
-for every x in real numbers, if x is smaller than 0, then we have x to the power of 2 is larger than 0.
+for every x in real numbers, if x is smaller than 0, then we have x to the power of 2 is larger than 0
 
 ## Restricted quantifer -> Unrestricted quantifer
 
@@ -527,7 +527,7 @@ Combines UI and Modus Ponens
 
 ## Proofs of Mathematical Statements
 
-A proof is a valid argument that establishes the truth of a statement.
+A proof is a valid argument that establishes the truth of a statement
 
 A theorem is a statement that can be shown to be true using:
 
@@ -539,18 +539,18 @@ A theorem is a statement that can be shown to be true using:
 
 - rules of inference
 
-A lemma is a ‘helping theorem’ or a result which is needed to prove a theorem.
+A lemma is a ‘helping theorem’ or a result which is needed to prove a theorem
 
 A corollary is a result which follows directly from a theorem.
 Less important theorems are sometimes called propositions
 
-A conjecture is a statement that is being proposed to be true. Once a proof of a conjecture is found, it becomes a theorem. It may turn out to be false.
+A conjecture is a statement that is being proposed to be true. Once a proof of a conjecture is found, it becomes a theorem. It may turn out to be false
 
 ## Direct Proof
 
 A direct proof shows that a conditional statement p → q is true by showing that if p is true, then q must also be true
 
-We assume that p is true and use axioms, definitions, and previously proven theorems, together with rules of inference, to show that q must also be true.
+We assume that p is true and use axioms, definitions, and previously proven theorems, together with rules of inference, to show that q must also be true
 
 Example:
 
@@ -560,7 +560,7 @@ any odd number : 2n+1
 
 (2n + 1)<sup>2</sup> = 4n<sup>2</sup> + 4n + 1 = 2 * (n<sup>2</sup> + 2n) + 1
 
-let r = (n<sup>2</sup> + 2n), therefore (2n + 1)<sup>2</sup> = 2r + 1, and because of 2r is an even number, so 2r + 1 is an odd number.
+let r = (n<sup>2</sup> + 2n), therefore (2n + 1)<sup>2</sup> = 2r + 1, and because of 2r is an even number, so 2r + 1 is an odd number
 
 ## Proof By Contraposition
 
@@ -568,7 +568,7 @@ Sometimes it is easier to prove theorems using proof by contraposition
 
 - the conditional statement p → q is proved by showing that its contrapositive, ¬q → ¬p is true
 
-Example: Prove that if n is an integer and 3n + 2 is odd, then n is odd.
+Example: Prove that if n is an integer and 3n + 2 is odd, then n is odd
 
 let n = 2k for some integer k
 
@@ -594,13 +594,13 @@ Since we have shown ¬q → ¬p , p → q must hold as well. We have proved by c
 
 ## Proof by Contradiction
 
-We make a opposite proof of if p is true, then q is false for p → q. Clearly, therefore, the assumption that if p is true then q is false is wrong. In other words, if p is true then q must be true.
+We make a opposite proof of if p is true, then q is false for p → q. Clearly, therefore, the assumption that if p is true then q is false is wrong. In other words, if p is true then q must be true
 
 Example: 
 
-Prove that if you pick 22 days from the calendar, at least 4 must fall on the same day of the week.
+Prove that if you pick 22 days from the calendar, at least 4 must fall on the same day of the week
 
-Assume that no more than 3 of the 22 days fall on the same day of the week. Because there are 7 days of the week, we could only have picked 21 days. This contradicts the assumption that we have picked 22 days.
+Assume that no more than 3 of the 22 days fall on the same day of the week. Because there are 7 days of the week, we could only have picked 21 days. This contradicts the assumption that we have picked 22 days
 
 ## Background Information
 - Fundamental theorem of arithmetic (also called the unique factorization theorem)
@@ -609,7 +609,7 @@ Assume that no more than 3 of the 22 days fall on the same day of the week. Beca
 
 ## Theorems that are Biconditional Statements
 
-To prove a theorem that is a biconditional statement, that is, a statement of the form p ⇔ q, we show that p → q and q → p are both true.
+To prove a theorem that is a biconditional statement, that is, a statement of the form p ⇔ q, we show that p → q and q → p are both true
 
 Example:
 
@@ -617,13 +617,13 @@ Prove the theorem: “If n is an integer, then n is odd if and only if n2 is odd
 
 Solution: 
 
-We have already shown (previous slides) that both p → q and q → p. Therefore we can conclude p ⇔ q.
+We have already shown (previous slides) that both p → q and q → p. Therefore we can conclude p ⇔ q
 
 ## Proof By Counterexample
 
 Statements of the form ∀xP(x) can be proved to be false by providing a counterexample ∃x(¬P(x))
 
-Example: Show that the statement “Every positive integer is the sum of the squares of two integers” is false.
+Example: Show that the statement “Every positive integer is the sum of the squares of two integers” is false
 
 The number 3 can be represented as the sum of two numbers in one of two ways (order being immaterial)
 
@@ -632,7 +632,7 @@ The number 3 can be represented as the sum of two numbers in one of two ways (or
 3 = 1 + 2 = 1<sup>2</sup> + 2
 
 In neither case can be number 3 be represented as a sum of two squares.
-Therefore we have proved by counterexample that “Every positive integer is the sum of the squares of two integers” is false.
+Therefore we have proved by counterexample that “Every positive integer is the sum of the squares of two integers” is false
 
 ## Mistakes in proofs
 
@@ -660,9 +660,9 @@ Solution: step 5, divide both side by (a - b), (a - b) = 0, it is dividing both 
 
 ## If direct methods of proof do not work
 
-- We may need a clever use of a proof by contraposition.
+- We may need a clever use of a proof by contraposition
 
-- Or a proof by contradiction.
+- Or a proof by contradiction
 
 ## Proof by Exhaustion
 
@@ -672,7 +672,7 @@ Used in situations where theorems can be proved by examining a relatively small 
 
 Example: 
 
-> Prove that (n + 1)3 ≥ 3n if n is a positive integer with n ≤ 4.
+> Prove that (n + 1)3 ≥ 3n if n is a positive integer with n ≤ 4
 >
 >----
 >
@@ -711,13 +711,13 @@ Use the tautology
 
 (p1 ∨ p2 ∨ p3 ... ∨ pn) → q ⇔ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
 
-Each of the implications p<sub>n</sub> → q is a case.
+Each of the implications p<sub>n</sub> → q is a case
 
 ----
 
 Example:
 
->Prove that Prove that if n is an integer, then n<sup>2</sup> ≥ n.
+>Prove that Prove that if n is an integer, then n<sup>2</sup> ≥ n
 >
 >Case 1 : n = 0, then n<sup>2</sup> = 0, which n<sup>2</sup> >= n
 >
@@ -725,7 +725,7 @@ Example:
 >
 >Case 3: n >= 1, then n<sup>2</sup> > n
 >
->Since the inequality n<sup>2</sup> ≥ n holds in all three cases, we can conclude that if n is an integer, then n<sup>2</sup> ≥ n.
+>Since the inequality n<sup>2</sup> ≥ n holds in all three cases, we can conclude that if n is an integer, then n<sup>2</sup> ≥ n
 
 ## Without Loss of Generality
 
@@ -741,7 +741,7 @@ there are two form of proof for existence proof
 
 - Constructive: Finding an element a, which P(a) is True
 
-- Nonconstructive: Proof there is ∃xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False.
+- Nonconstructive: Proof there is ∃xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False
 
 Example 1: 
 
@@ -753,7 +753,7 @@ Example 2:
 
 >Show that there exist irrational numbers x and y such that xy is rational
 >
->We know that √2 is irrational. Let us consider the number √2<sup>√2</sup>. There are two possibilities to consider.
+>We know that √2 is irrational. Let us consider the number √2<sup>√2</sup>. There are two possibilities to consider
 >
 >>Possibility 1: √2<sup>√2</sup> is rational
 >>
@@ -763,7 +763,7 @@ Example 2:
 >>
 >>- In this case let x = √2<sup>√2</sup> and y = √2. Therefore x<sup>y</sup> = (√2<sup>√2</sup>)<sup>√2</sup> = (√2)<sup>2</sup> = 2, a rational number
 >
->This is an example of Nonconstructive proof, we don't know the property of the √2<sup>√2</sup>, but but we have proved that one of them does has the desired property.
+>This is an example of Nonconstructive proof, we don't know the property of the √2<sup>√2</sup>, but but we have proved that one of them does has the desired property
 
 ## Uniqueness Proofs
 
@@ -789,7 +789,7 @@ Example:
 > 
 > Uniqueness: 
 > 
-> Suppose that s is a real number such that as + b = 0.
+> Suppose that s is a real number such that as + b = 0
 > 
 > as + b = ar + b
 > 
@@ -803,14 +803,14 @@ Example:
 
 ## Proof Strategies for proving p → q
 
-> Choose a method.
+> Choose a method
 > 
->>1.First try a direct method of proof.
+>>1.First try a direct method of proof
 >>
->> 2.If this does not work, try an indirect method (e.g., try to prove the contrapositive).
+>> 2.If this does not work, try an indirect method (e.g., try to prove the contrapositive)
 >
-> For whichever method you are trying, choose a strategy.
->> 1.First try forward reasoning. Start with the axioms and known theorems and construct a sequence of steps that end in the conclusion. Start with p and prove q, or start with ¬q and prove ¬p.
+> For whichever method you are trying, choose a strategy
+>> 1.First try forward reasoning. Start with the axioms and known theorems and construct a sequence of steps that end in the conclusion. Start with p and prove q, or start with ¬q and prove ¬p
 >>
 >> 2.If this doesn’t work, try backward reasoning
 
@@ -862,11 +862,12 @@ Example:
 
 ___
 
-Unsolved problems have motivated much work in mathematics. Fermat’s Last Theorem was conjectured more than 300 years ago. It has only recently been finally solved.
+Unsolved problems have motivated much work in mathematics. Fermat’s Last Theorem was conjectured more than 300 years ago. It has only recently been finally solved
 
 Fermat’s Last Theorem: The equation x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup>
-has no solutions in integers x, y, and z, with xyz≠0 whenever n is an integer with n > 2.
-A proof was found by Andrew Wiles in the 1990s.
+has no solutions in integers x, y, and z, with xyz≠0 whenever n is an integer with n > 2
+
+A proof was found by Andrew Wiles in the 1990s
 
 ___
 
@@ -880,13 +881,13 @@ ___
 
 Time permitting, we will see many other proof methods:
 
-- Mathematical induction, which is a useful method for proving statements of the form ∀n P(n), where the domain consists of all positive integers.
+- Mathematical induction, which is a useful method for proving statements of the form ∀n P(n), where the domain consists of all positive integers
 
-- Structural induction, which can be used to prove such results about recursively defined sets.
+- Structural induction, which can be used to prove such results about recursively defined sets
 
-- Cantor diagonalization is used to prove results about the size of infinite sets.
+- Cantor diagonalization is used to prove results about the size of infinite sets
 
-- Combinatorial proofs use counting arguments.
+- Combinatorial proofs use counting arguments
 
 # chapter 2
 
@@ -894,12 +895,12 @@ Time permitting, we will see many other proof methods:
 
 A set is an unordered collection of objects
 
-The objects in a set are called the elements, or members of the set. A set is said to contain its elements.
+The objects in a set are called the elements, or members of the set. A set is said to contain its elements
 
-The notation a ∈ A denotes that a is an element of the set A.
+The notation a ∈ A denotes that a is an element of the set A
 If a is not a member of A, write a ∉ A
 
-By convention, sets are denoted using uppercase letters while lowercase letters are used to denote elements of sets.
+By convention, sets are denoted using uppercase letters while lowercase letters are used to denote elements of sets
 
 elements in a set are unique
 
@@ -915,11 +916,11 @@ S = {a,b,c,d}
 
 (order does not matter)
 
-Each distinct object is either a member or not; listing more than once does not change the set.
+Each distinct object is either a member or not; listing more than once does not change the set
 
 S = {a,b,c,d} = {a,b,c,b,c,d}
 
-Elipses (…) may be used to describe a set without listing all of the members when the pattern is clear.
+Elipses (…) may be used to describe a set without listing all of the members when the pattern is clear
 
 S = {a,b,c,d, ……,z }
 
@@ -942,7 +943,7 @@ S = {a,b,c,d, ……,z }
 ## Set-Builder Notation
 
 Specify the property or properties that all members must satisfy
-The general form of this notation is {x ∣ x has property P} and is read “the set of all x such that x has property P.”
+The general form of this notation is {x ∣ x has property P} and is read “the set of all x such that x has property P”
 
 S = {x | x is a positive integer less than 100}
 
@@ -954,7 +955,7 @@ Positive rational numbers: Q+ = {x ∈ R | x = p/q, for some positive integers p
 
 ## Interval Notation
 
-"[" and "]" means including boundary, "(" and ")" means excluding boundary.
+"[" and "]" means including boundary, "(" and ")" means excluding boundary
 
 closed interval [a,b]
 
@@ -966,11 +967,11 @@ open interval (a,b)
 
 ## Universal Set, Empty Set and Singleton Set
 
-The universal set U is the set containing everything currently under consideration.
+The universal set U is the set containing everything currently under consideration
 
-The empty set (aka null set) is the set with no elements. Symbolized ∅, but {} also used.
+The empty set (aka null set) is the set with no elements. Symbolized ∅, but {} also used
 
-A set with one element is called a singleton set.
+A set with one element is called a singleton set
 
 ## Venn Diagrams
 
@@ -997,3 +998,71 @@ An empty set is a subset of any set
 Two sets are equal if and only if they have the same elements (order don't matter)
 
 Therefore if A and B are sets, then A and B are equal if and only if ∀x(x ∈ A ⇔ x ∈ B)
+
+---
+
+Remember:
+- order is immaterial
+- multiplicity is ignored
+
+---
+
+## Subsets
+
+The set A is a subset of B, if and only if every element of A is also an element of B
+
+The notation A ⊆ B is used to indicate that A is a subset of the set
+B
+
+A ⊆ B holds if and only if ∀x(x ∈ A → x ∈ B) is true
+
+1. Because x ∈ ∅ is always false, ∅ ⊆ S ,for every set S
+2. Because x ∈ S → x ∈ S, S ⊆ S, for every set S
+
+“Every nonempty set S is guaranteed to have at least two
+subsets, the empty set and the set S itself”
+
+(super class)
+
+## Supersets
+
+If set A is a subset of set B, then set B is a superset of set A
+
+The notation B ⊇ A is used to indicate that B is a superset of the set A
+
+A ⊆ B and B ⊇ A are equivalent statements
+
+(sub class)
+
+## Showing a Set is or is not a Subset of Another Set
+
+Showing that A is a Subset of B: To show that A ⊆ B, show that if x belongs to A, then x also belongs to B
+
+Showing that A is not a Subset of B: To show that A is not a subset of B, A ⊈ B, find an element x ∈ A with x ∉ B. (Such an x is a counterexample to the claim that x ∈ A implies x ∈ B)
+
+(To show not a subset, just proof existance for x ∈ A and x ∉ B)
+
+## Another look at Equality of Sets
+
+∀x(x ∈ A ⇔ x ∈ B) is equal to ∀x[(x ∈ A → x ∈ B) ∧ (x ∈ B → x ∈ A )] or (A ⊆ B) and (B ⊆ A)
+
+## Proper Subsets
+
+If A ⊆ B, but A ≠B, then we say A is a proper subset of B, denoted by A ⊂ B
+
+If A ⊂ B, then:
+
+> ∀x(x ∈ A → x ∈ B) ∧ ∃x(x ∈ B ∧ x ∉ A) must be True
+
+## Set Cardinality
+
+If there are exactly <b>n</b> distinct elements in S where <b>n</b> is a nonnegative integer, we say that S is finite. Otherwise it is infinite.
+
+The cardinality of a finite set A, denoted by |A|, is the number of (distinct) elements of A.
+
+1. |ø| = 0
+2. Let S be the letters of the English alphabet. Then |S| = 26
+3. |{1,2,3}| = 3
+4. |{ø}| = 1
+5. The set of integers is infinite
+
