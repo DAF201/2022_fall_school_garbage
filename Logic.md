@@ -1048,7 +1048,7 @@ Showing that A is not a Subset of B: To show that A is not a subset of B, A ⊈ 
 
 ## Proper Subsets
 
-If A ⊆ B, but A ≠B, then we say A is a proper subset of B, denoted by A ⊂ B
+If A ⊆ B, but A ≠ B, then we say A is a proper subset of B, denoted by A ⊂ B
 
 If A ⊂ B, then:
 
@@ -1062,7 +1062,7 @@ The cardinality of a finite set A, denoted by |A|, is the number of (distinct) e
 
 1. |ø| = 0
 2. Let S be the letters of the English alphabet. Then |S| = 26
-3. |{1,2,3}| = 3
+3. |{1, 2, 3}| = 3
 4. |{ø}| = 1
 5. The set of integers is infinite
 
@@ -1070,7 +1070,7 @@ The cardinality of a finite set A, denoted by |A|, is the number of (distinct) e
 
 The set of all subsets of a set A, denoted P(A), is called the power set of A
 
-If A = {a,b} then P(A) = {ø, {a},{b},{a,b}}
+If A = {a,b} then P(A) = {ø, {a}, {b}, {a, b}}
 
 >Q) What is the power set of ø?
 >
@@ -1090,6 +1090,47 @@ Two n-tuples are equal if and only if their corresponding elements are equal
 
 2-tuples are called ordered pairs
 
-The ordered pairs (a,b) and (c,d) are equal if and only if a = c and b = d
+The ordered pairs (a, b) and (c, d) are equal if and only if a = c and b = d
 
 Order does matter
+
+## Cartesian Product
+
+The Cartesian Product of two sets A and B, denoted by A × B is the set of ordered pairs (a,b) where a ∈ A and b ∈ B
+
+A * B = {(a, b) | a ∈ A ∧ b ∈ B}
+
+>Example: 
+>
+>A = {a, b} and B = {1, 2, 3}
+>
+>A × B = {(a, 1), (a, 2), (a, 3), (b, 1), (b, 2), (b, 3)}
+
+---
+
+> ### relation
+>
+> A subset R of the Cartesian product A × B is called a relation from the set A to the set B
+>
+> A relation from a set A to itself is called a relation on A
+>
+> A * ø = ø for any set A
+---
+
+We use the notation A<sup>2</sup> to denote A × A
+
+Similarly A<sup>3</sup> = A × A × A and so on...
+
+## Truth Sets of Quantifiers
+
+Given a predicate P and a domain D, we define the truth set of P to be the set of elements in D for which P(x) is true
+
+The truth set of P(x) is denoted by {x ∈ D | P(x)}
+
+## Boolean Algebra
+
+Propositional calculus and set theory are both instances of an algebraic system called a Boolean Algebra
+
+The operators in set theory are analogous to the corresponding operator in propositional calculus
+
+As always there must be a universal set U. All sets are assumed to be subsets of U
