@@ -767,3 +767,4 @@ Example 2:
 
 ## Uniqueness Proofs
 
+Some theorems asset the existence of a unique element with a particular property, !x P(x). The two parts of a uniqueness proof are
