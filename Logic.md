@@ -1131,6 +1131,47 @@ The truth set of P(x) is denoted by {x ∈ D | P(x)}
 
 Propositional calculus and set theory are both instances of an algebraic system called a Boolean Algebra
 
-The operators in set theory are analogous to the corresponding operator in propositional calculus
-
 As always there must be a universal set U. All sets are assumed to be subsets of U
+
+## Set Operations
+
+methodes you can apply on sets to get new set
+
+Most commonly used set theory operations are:
+- Union
+- Intersection
+- Difference
+- Complementation
+- Symmetric Difference
+
+## Union
+
+Let A and B be sets. The union of the sets A and B, denoted by A ∪ B, is the set
+
+A ∪ B = {x | x ∈ A ∨ x ∈ B}
+
+Set of all unique elements from A and B
+
+## Intersection
+
+The intersection of sets A and B, denoted by A ∩ B, is
+
+A ∩ B = {x | x ∈ A ∧ x ∈ B }
+
+Set of all unique elements in both A and B
+
+## Difference
+
+The difference of A and B, denoted by A – B, is the set containing the elements of A that are not in B
+
+A - B = = {x | x ∈ A ∧ x ∉ B }
+
+Set of all unique element that only in A
+
+## Complement
+
+If A is a set, then the complement of the A (with respect to U), denoted by Ā is the set U - A
+
+which means A + Ā = U, or Those elements in the universal set U but not in A
+
+Ā = {x | x ∈ U | x ∉ A}
