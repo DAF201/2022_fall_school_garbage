@@ -800,3 +800,163 @@ Example:
 > therfore, r is unique
 > 
 > QED
+
+## Proof Strategies for proving p → q
+
+> Choose a method.
+> 
+>>1.First try a direct method of proof.
+>>
+>> 2.If this does not work, try an indirect method (e.g., try to prove the contrapositive).
+>
+> For whichever method you are trying, choose a strategy.
+>> 1.First try forward reasoning. Start with the axioms and known theorems and construct a sequence of steps that end in the conclusion. Start with p and prove q, or start with ¬q and prove ¬p.
+>>
+>> 2.If this doesn’t work, try backward reasoning
+
+## Backward Reasoning
+
+1. we assume the conclusion is correct, then we try to get conditions from it 
+2. use the conditions to get backward, until we reach the start point
+3. Start reversing, follow the opposite direction and make the forward proof
+
+(we need to proof the reliability of those conditions before moves on)
+
+Example: 
+
+>Question:
+>
+> Prove that for any two distinct positive real numbers x and y, their arithmetic mean [i.e. (x + y)∕2] is greater than their geometric mean [i.e. √(xy)]
+>
+>Solution:
+>
+>>We start by using backward reasoning to establish the starting point of our proof
+>
+>Let us assume the conclusion is true
+>>1. (x + y)∕2 > √(xy)
+>>2. ((x + y)<sup>2</sup>) ∕ 4 > xy (squr both sides)
+>>3. (x + y)<sup>2</sup> > 4xy
+>>4. x<sup>2</sup> + 2xy + y<sup>2</sup> > 4xy
+>>5. x<sup>2</sup> - 2xy + y<sup>2</sup> > 0
+>>6. (x - y)<sup>2</sup> > 0
+>
+> Now that we have our secondary conclusion, let us see if we can prove it.
+>
+> (x - y)<sup>2</sup> > 0<sup>2</sup> is true because x != y, so x - y != 0, and for any non-zero number, the square of it is always positive
+> 
+> Now we move to our formal proof
+> 
+> (x − y)<sup>2</sup> > 0
+>
+> x<sup>2</sup> − 2xy + y<sup>2</sup> > 0
+>
+> x<sup>2</sup> + 2xy + y<sup>2</sup> > 4xy
+>
+> (x + y)<sup>2</sup> > 4xy
+>
+> (x + y)<sup>2</sup> ∕ 4 > xy
+>
+> (x + y) ∕ 2 > √(xy)
+
+## The Role of Open Problems
+
+___
+
+Unsolved problems have motivated much work in mathematics. Fermat’s Last Theorem was conjectured more than 300 years ago. It has only recently been finally solved.
+
+Fermat’s Last Theorem: The equation x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup>
+has no solutions in integers x, y, and z, with xyz≠0 whenever n is an integer with n > 2.
+A proof was found by Andrew Wiles in the 1990s.
+
+___
+
+3N + 1 problem: 
+
+...
+
+___
+
+## Additional Proof Methods
+
+Time permitting, we will see many other proof methods:
+
+- Mathematical induction, which is a useful method for proving statements of the form ∀n P(n), where the domain consists of all positive integers.
+
+- Structural induction, which can be used to prove such results about recursively defined sets.
+
+- Cantor diagonalization is used to prove results about the size of infinite sets.
+
+- Combinatorial proofs use counting arguments.
+
+# chapter 2
+
+## set
+
+A set is an unordered collection of objects
+
+The objects in a set are called the elements, or members of the set. A set is said to contain its elements.
+
+The notation a ∈ A denotes that a is an element of the set A.
+If a is not a member of A, write a ∉ A
+
+By convention, sets are denoted using uppercase letters while lowercase letters are used to denote elements of sets.
+
+elements in a set are unique
+
+(just like Python dictionary with only keys)
+
+## Describing a Set
+
+### <b>Roster Method</b>
+
+---
+
+S = {a,b,c,d}
+
+(order does not matter)
+
+Each distinct object is either a member or not; listing more than once does not change the set.
+
+S = {a,b,c,d} = {a,b,c,b,c,d}
+
+Elipses (…) may be used to describe a set without listing all of the members when the pattern is clear.
+
+S = {a,b,c,d, ……,z }
+
+(iterator)
+
+---
+
+## Some Important Sets
+
+| name | meaning                      | Set                    |
+| ---- | ---------------------------- | ---------------------- |
+| N    | natural numbers              | {0,1,2,3…}             |
+| Z    | integers                     | {…,-3,-2,-1,0,1,2,3,…} |
+| Z⁺   | positive integers            | {1,2,3,…}              |
+| R    | set of real numbers          |                        |
+| R+   | set of positive real numbers |                        |
+| C    | set of complex numbers       |                        |
+| Q    | set of rational numbers      |                        |
+
+## Set-Builder Notation
+
+Specify the property or properties that all members must satisfy
+The general form of this notation is {x ∣ x has property P} and is read “the set of all x such that x has property P.”
+
+S = {x | x is a positive integer less than 100}
+
+A predicate may be used: S = {x | P(x)}
+
+Positive rational numbers: Q+ = {x ∈ R | x = p/q, for some positive integers p,q}
+
+(just like python list generator: [x for x in range(0,100000)] if Prime(x))
+
+## Interval Notation
+
+"[" and "]" means including boundary, "(" and ")" means excluding boundary.
+
+closed interval [a,b]
+
+open interval (a,b)
+
