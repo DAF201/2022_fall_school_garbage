@@ -1066,3 +1066,30 @@ The cardinality of a finite set A, denoted by |A|, is the number of (distinct) e
 4. |{ø}| = 1
 5. The set of integers is infinite
 
+## Power Sets
+
+The set of all subsets of a set A, denoted P(A), is called the power set of A
+
+If A = {a,b} then P(A) = {ø, {a},{b},{a,b}}
+
+>Q) What is the power set of ø?
+>
+>A) P(ø) = {ø}
+
+>Q) What is the power set of {ø}?
+>
+>A) P({ø}) = {ø, {ø}}
+
+## Tuples
+
+Because sets are unordered, a different structure is needed to represent ordered collections. This is provided by ordered n-tuples
+
+The ordered n-tuple (a<sub>1</sub>,a<sub>2</sub>,…,a<sub>n</sub>) is the ordered collection that has a1 as its first element and a2 as its second element and so on until an as its last element
+
+Two n-tuples are equal if and only if their corresponding elements are equal
+
+2-tuples are called ordered pairs
+
+The ordered pairs (a,b) and (c,d) are equal if and only if a = c and b = d
+
+Order does matter
