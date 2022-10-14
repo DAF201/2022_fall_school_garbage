@@ -982,3 +982,18 @@ Sometimes points are used to represent the particular elements of the set
 
 ![](https://vt-vtwa-assets.varsitytutors.com/vt-vtwa/uploads/problem_question_image/image/2063/Venn.gif)
 
+## Some things to remember
+
+Sets can be elements of sets: {{1,2,3},a, {b,c}}, {N,Z,Q,R}
+
+Let A = { {a}, {b}, {a, b}}, In this case {a} ∈ A, but a ∉ A
+
+The empty set is different from a set containing the empty set
+
+An empty set is a subset of any set
+
+## Set Equality
+
+Two sets are equal if and only if they have the same elements (order don't matter)
+
+Therefore if A and B are sets, then A and B are equal if and only if ∀x(x ∈ A ⇔ x ∈ B)
