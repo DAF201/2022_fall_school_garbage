@@ -960,3 +960,25 @@ closed interval [a,b]
 
 open interval (a,b)
 
+[a,b] = {x | a <= x <= b}
+
+(a,b) = {x | a < x < b}
+
+## Universal Set, Empty Set and Singleton Set
+
+The universal set U is the set containing everything currently under consideration.
+
+The empty set (aka null set) is the set with no elements. Symbolized ∅, but {} also used.
+
+A set with one element is called a singleton set.
+
+## Venn Diagrams
+
+In Venn diagrams the universal set U is represented by a rectangle
+
+Inside the Venn Diagram for U, circles or other geometrical figures are used to represent sets
+
+Sometimes points are used to represent the particular elements of the set
+
+![](https://vt-vtwa-assets.varsitytutors.com/vt-vtwa/uploads/problem_question_image/image/2063/Venn.gif)
+
