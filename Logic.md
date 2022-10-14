@@ -767,4 +767,36 @@ Example 2:
 
 ## Uniqueness Proofs
 
-Some theorems asset the existence of a unique element with a particular property, !x P(x). The two parts of a uniqueness proof are
+Some theorems asset the existence of a unique element with a particular property, ∃!x P(x). The two parts of a uniqueness proof are
+
+- Existence: x exist such that P(x) satisfies the properties
+- Uniqueness: if y != x, then P(y) != P(x)
+
+Example: 
+
+> Shows that if a, b are real numbers, and a != 0, there exits an real number r such that ar + b = 0
+> 
+> Solution:
+> ___
+>
+> ar + b = 0<br>ar = -b<br> r = $-\frac{b}{a}$
+>
+> ___
+>
+> Existance:
+> 
+> the real number r has a solution because ar + b = -b + b = 0, there for r = $-\frac{b}{a}$
+> 
+> Uniqueness: 
+> 
+> Suppose that s is a real number such that as + b = 0.
+> 
+> as + b = ar + b
+> 
+> as = ar
+> 
+> s = r
+> 
+> therfore, r is unique
+> 
+> QED
