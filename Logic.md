@@ -743,8 +743,27 @@ there are two form of proof for existence proof
 
 - Nonconstructive: Proof there is ∃xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False.
 
-Example: 
+Example 1: 
 
 > Show that there is a positive integer that can be written as the sum of cubes of positive integers in two different ways
 >
 >1729 = 10<sup>3</sup> + 9<sup>3</sup> = 12<sup>3</sup> + 1<sup>3</sup>
+
+Example 2:
+
+>Show that there exist irrational numbers x and y such that xy is rational
+>
+>We know that √2 is irrational. Let us consider the number √2<sup>√2</sup>. There are two possibilities to consider.
+>
+>>Possibility 1: √2<sup>√2</sup> is rational
+>>
+>>- In this case x = y = √2 and x<sup>y</sup> is rational
+>
+>>Possibility 2: √2<sup>√2</sup> is irrational
+>>
+>>- In this case let x = √2<sup>√2</sup> and y = √2. Therefore x<sup>y</sup> = (√2<sup>√2</sup>)<sup>√2</sup> = (√2)<sup>2</sup> = 2, a rational number
+>
+>This is an example of Nonconstructive proof, we don't know the property of the √2<sup>√2</sup>, but but we have proved that one of them does has the desired property.
+
+## Uniqueness Proofs
+
