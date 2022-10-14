@@ -731,5 +731,20 @@ Example:
 
 The phrase “Without Loss of Generality” (WLOG) is used in proofs with cases to assert that by proving one case of a theorem, no additional argument is required to prove other specified cases
 
-( Standary english: this case can represent any other cases, so I dont need to prove other cases )
+( Standary english: This is a common sense so I dont want to prove it)
 
+## Existence Proofs
+
+A proof of a proposition of the form ∃xP(x) is called an existence proof
+
+there are two form of proof for existence proof
+
+- Constructive: Finding an element a, which P(a) is True
+
+- Nonconstructive: Proof there is ∃xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False.
+
+Example: 
+
+> Show that there is a positive integer that can be written as the sum of cubes of positive integers in two different ways
+>
+>1729 = 10<sup>3</sup> + 9<sup>3</sup> = 12<sup>3</sup> + 1<sup>3</sup>
