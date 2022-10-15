@@ -1341,3 +1341,51 @@ A function f: A → B can also be defined as a subset of
 A×B (a relation). This subset is restricted to be a relation
 where no two elements of the relation have the same
 first element
+
+Specifically, a function f from A to B contains one, and
+only one ordered pair (a, b) for every element a∈ A
+
+(function is an one to one mapping relationship)
+
+Given a function f: A → B:
+
+- We say f maps A to B or f is a mapping from A to B
+- A is called the domain of f
+- B is called the codomain of f
+- If f(a) = b,
+  - then b is called the image of a under f
+  - a is called the preimage of b
+- The range of f is the set of all images of points in A under f. We denote it by f(A)
+
+<img src = "https://upload.wikimedia.org/wikipedia/commons/b/b5/Domain%2C_Range%2C_Codomain.svg" style="background-color:#FFFFFF">
+
+Two functions are equal when they have the same domain, the same codomain and map each element of the domain to the same element of the codomain
+
+## Domain, Codomain and Range
+
+domain: what may comes in 
+
+codomain: what may comes out
+
+range: what actually comes out
+
+## Representing Functions
+
+Functions may be specified in different ways
+
+1. An explicit statement of the assignment. Students
+and grades example
+2. A formula f(x) = x + 1
+3. A computer program
+
+## image
+
+image of a is b means f(a) = b, where b is image and a is pre-image
+
+income is image, outcome is pre-image
+
+## Question on Functions and Sets
+
+if S is a subset of A, s belongs to S, B is codomain of A, then F(s) is a subset of B
+
+because s must fail in A, so F(x) must fall in B
