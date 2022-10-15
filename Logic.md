@@ -1264,3 +1264,16 @@ Different ways to formally prove set identities:
 1. prove both sets are subset of the other
 2. Use set builder notation and propositional logic to transform one side of the identity to the other
 3. Membership Tables: Verify that elements in the same combination of sets always either belong or do not belong to the same side of the identity. Use 1 to indicate it is in the set and a 0 to indicate that it is not
+
+## Membership Table
+
+similar with truth table, proof by giving all posible values
+
+1 indicate the element belong to the table, 0 indeciate not
+
+| A   | B   | A ∩ B | A ∪ B |
+| --- | --- | ----- | ----- |
+| 1   | 1   | 1     | 1     |
+| 1   | 0   | 0     | 1     |
+| 0   | 1   | 0     | 1     |
+| 0   | 0   | 0     | 0     |
