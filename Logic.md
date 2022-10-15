@@ -1286,3 +1286,58 @@ Let A<sub>1</sub>, A<sub>2</sub> ,…, A<sub>n</sub> be an indexed collection of
 
 <sup><sup><sup>n</sup></sup></sup>∩<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>1</sub> ∩ A<sub>2</sub> ∩ ... A<sub>n</sub>
 
+These are well defined, since union and intersection are
+associative.
+
+For i = 1,2,…, let A<sub>i</sub> = {i, i + 1, i + 2, …}. Then,
+
+<sup><sup><sup>n</sup></sup></sup>∪<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>1</sub>
+
+<sup><sup><sup>n</sup></sup></sup>∩<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>n</sub>
+
+## Multisets
+
+A multiset (short for multiple-membership set) is an unordered collection of elements where an element can occur as a member more than once
+
+(a set with some duplicated elements)
+
+Multisets use a similar notation as sets but for each element we also list its multiplicity i.e. the number of times it occurs
+
+e.g. {4 . a, 1 . b, 3 . c} (there are 4 a, 1 b and 3 c in this set)
+
+The cardinality of a multiset is defined to be the sum of the multiplicities of its elements
+
+(sum of the all elements, inclluding duplicated)
+
+## Multiset Operations
+
+- The union of the multisets P and Q (P ∪ Q) is the multiset in which the multiplicity of an element is the maximum of its multiplicities in P and Q
+
+- The intersection of P and Q (P ∩ Q) is the multiset in which the multiplicity of an element is the minimum of its multiplicities in P and Q
+
+- The difference of P and Q (P − Q) is the multiset in which the multiplicity of an element is the multiplicity of the element in P less its multiplicity in Q unless this difference is negative, in which case the multiplicity is 0
+
+- The sum of P and Q (P + Q) is the multiset in which the multiplicity of an element is the sum of multiplicities in P and Q
+
+> Example: 
+>
+> Suppose that P and Q are the multisets {4 ⋅ a, 1 ⋅ b, 3 ⋅ c} and {3 ⋅ a, 4 ⋅ b, 2 ⋅ d}, respectively. Find P ∪ Q, P ∩ Q, P − Q, and P + Q.
+>
+> P ∪ Q = {max(4, 3) ⋅ a, max(1, 4) ⋅ b, max(3, 0) ⋅ c, max(0, 2) ⋅ d} = {4 ⋅ a, 4 ⋅ b, 3 ⋅ c, 2 ⋅ d}
+>
+> P ∩ Q = {min(4, 3) ⋅ a, min(1, 4) ⋅ b, min(3, 0) ⋅ c, min(0, 2) ⋅ d} = {3 ⋅ a, 1 ⋅ b, 0 ⋅ c, 0 ⋅ d} = {3 ⋅ a, 1 ⋅ b}
+>
+> P − Q = {max(4 − 3, 0) ⋅ a, max(1 − 4, 0) ⋅ b, max(3 − 0, 0) ⋅ c, max(0 − 2, 0) ⋅ d} = {1 ⋅ a, 0 ⋅ b, 3 ⋅ c, 0 ⋅ d} = {1 ⋅ a, 3 ⋅ c}
+> 
+>P + Q = {(4 + 3) ⋅ a, (1 + 4) ⋅ b, (3 + 0) ⋅ c, (0 + 2) ⋅ d} = {7 ⋅ a, 5 ⋅ b, 3 ⋅ c, 2 ⋅ d}
+
+## Functions
+
+Let A and B be nonempty sets. A function f from A to B, denoted f: A → B is an assignment of each element of A to exactly one element of B. We write f(a) = b if b is the unique element of B assigned by the function f to the element a of A
+
+Functions are sometimes called mappings or transformations
+
+A function f: A → B can also be defined as a subset of
+A×B (a relation). This subset is restricted to be a relation
+where no two elements of the relation have the same
+first element
