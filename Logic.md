@@ -1277,3 +1277,12 @@ similar with truth table, proof by giving all posible values
 | 1   | 0   | 0     | 1     |
 | 0   | 1   | 0     | 1     |
 | 0   | 0   | 0     | 0     |
+
+## Generalized Unions and Intersections
+
+Let A<sub>1</sub>, A<sub>2</sub> ,…, A<sub>n</sub> be an indexed collection of sets.
+
+<sup><sup><sup>n</sup></sup></sup>∪<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>1</sub> ∪ A<sub>2</sub> ∪ ... A<sub>n</sub>
+
+<sup><sup><sup>n</sup></sup></sup>∩<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>1</sub> ∩ A<sub>2</sub> ∩ ... A<sub>n</sub>
+
