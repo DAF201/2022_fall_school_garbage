@@ -1194,6 +1194,8 @@ Symmetric Difference is different from Complement of Intersection
 
 ## Set Identities
 
+---
+
 Identity laws
 
 - A ∪ ø = A
@@ -1213,6 +1215,8 @@ Complementation law
 
 - The completement of $\overline{A}$ is A (markdown cannot display double overline)
 
+---
+
 Commutative laws
 
 A ∪ B = B ∪ A
@@ -1230,3 +1234,23 @@ Distributive laws
 A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
 
 A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+
+De Morgan’s laws
+
+$\overline{A ∪ B}$ = $\overline{A}$ ∪ $\overline{B}$
+
+$\overline{A ∩ B}$ = $\overline{A}$ ∩ $\overline{B}$
+
+Absorption laws
+
+A ∪ (A ∩ B) = A 
+
+A ∩ (A ∪ B) = A 
+
+Complement laws
+
+A ∪ $\overline{A}$ = U
+
+A ∩ $\overline{A}$ = ø
+
+---
