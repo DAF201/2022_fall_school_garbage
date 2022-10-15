@@ -1237,9 +1237,9 @@ A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
 
 De Morgan’s laws
 
-$\overline{A ∪ B}$ = $\overline{A}$ ∪ $\overline{B}$
+$\overline{A ∪ B}$ = $\overline{A}$ ∩ $\overline{B}$
 
-$\overline{A ∩ B}$ = $\overline{A}$ ∩ $\overline{B}$
+$\overline{A ∩ B}$ = $\overline{A}$ ∪ $\overline{B}$
 
 Absorption laws
 
@@ -1254,3 +1254,13 @@ A ∪ $\overline{A}$ = U
 A ∩ $\overline{A}$ = ø
 
 ---
+
+## Proving Set Identities
+
+Venn diagrams “proofs” are considered informal
+
+Different ways to formally prove set identities:
+
+1. prove both sets are subset of the other
+2. Use set builder notation and propositional logic to transform one side of the identity to the other
+3. Membership Tables: Verify that elements in the same combination of sets always either belong or do not belong to the same side of the identity. Use 1 to indicate it is in the set and a 0 to indicate that it is not
