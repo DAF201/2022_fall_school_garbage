@@ -350,7 +350,7 @@ In general, all the variables that occur in a propositional function must be bou
 
 ## Properties of Quantifiers
 
-The truth value of x P(x) and  x P(x) depend on both the propositional function P(x) and on the domain U
+The truth value of ∀x P(x) and ∃x P(x) depend on both the propositional function P(x) and on the domain U
 
 If the domain is empty, for any propositional function:
 
@@ -492,12 +492,12 @@ if ∀x∃yP(x,y) is true, it is not necessay for ∃y∀xP(x,y) to be true
 
 ## Additional Rules of Inference for Quantified Statements
 
-| Rule of Inference                                                  | Name                       |
-| ------------------------------------------------------------------ | -------------------------- |
-| ∀xP(x)<br>------<br>∴P(c)                                          | Universal instantiation    |
-| P(c) for an arbitary of c <br>-------------------------<br>∴∀xP(x) | Universal generalization   |
-| ∃xP<br>-------------------------<br>∴P(c) for some element c       | Existential instantaion    |
-| P(c) for some element c<br>-------------------------<br>∴∃xP       | Existential generalization |
+| Rule of Inference                                                   | Name                       |
+| ------------------------------------------------------------------- | -------------------------- |
+| ∀xP(x)<br>------<br>∴P(c)                                           | Universal instantiation    |
+| P(c) for an arbitrary of c <br>-------------------------<br>∴∀xP(x) | Universal generalization   |
+| ∃xP(x)<br>-------------------------<br>∴P(c) for some element c     | Existential instantaion    |
+| P(c) for some element c<br>-------------------------<br>∴∃xP(x)     | Existential generalization |
 
 x: Unspecified member of the domain
 
