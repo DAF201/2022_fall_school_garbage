@@ -613,7 +613,7 @@ To prove a theorem that is a biconditional statement, that is, a statement of th
 
 Example:
 
-Prove the theorem: “If n is an integer, then n is odd if and only if n2 is odd.”
+Prove the theorem: “If n is an integer, then n is odd if and only if n<sup>2</sup> is odd.”
 
 Solution: 
 
