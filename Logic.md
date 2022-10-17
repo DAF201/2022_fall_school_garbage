@@ -1164,7 +1164,7 @@ Set of all unique elements in both A and B
 
 The difference of A and B, denoted by A – B, is the set containing the elements of A that are not in B
 
-A - B = = {x | x ∈ A ∧ x ∉ B }
+A - B = {x | x ∈ A ∧ x ∉ B }
 
 Set of all unique element that only in A
 
