@@ -1389,3 +1389,24 @@ income is image, outcome is pre-image
 if S is a subset of A, s belongs to S, B is codomain of A, then F(s) is a subset of B
 
 because s must fail in A, so F(x) must fall in B
+
+## Increasing and Decreasing Functions
+
+> ---
+> 
+>increasing function: increasing if 
+>
+> ∀x<sub>1</sub>∀x<sub>2</sub>(x<sub>1</sub> < x<sub>2</sub> → f (x<sub>1</sub>) ≤ f (x<sub>2</sub>))
+> 
+> this may have somewhere horizontal
+> 
+> ---
+>
+> strictly increasing function: increasing if 
+> ∀x<sub>1</sub>∀x<sub>2</sub>(x<sub>1</sub> < x<sub>2</sub> → f (x<sub>1</sub>) < f (x<sub>2</sub>))
+> 
+> no horizontal line, if x<sub>1</sub> > x<sub>2</sub>, then f(x<sub>1</sub>) is always larger than f(x<sub>2</sub>)
+>
+> ---
+> decreasing function and strictly decreasing function are the reverse
+
