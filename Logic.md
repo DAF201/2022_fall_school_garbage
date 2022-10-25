@@ -1487,3 +1487,7 @@ onto:
 > f(x) = y - 1 + 1 = y
 > 
 > therefore, such y exist, so the function is onto
+
+## inverse function
+
+let f(x) be a bijection function, then the 
