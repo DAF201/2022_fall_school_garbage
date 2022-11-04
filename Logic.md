@@ -1388,7 +1388,7 @@ income is image, outcome is pre-image
 
 if S is a subset of A, s belongs to S, B is codomain of A, then F(s) is a subset of B
 
-because s must fail in A, so F(x) must fall in B
+because s must fall in A, so F(x) must fall in B
 
 ## Increasing and Decreasing Functions
 
