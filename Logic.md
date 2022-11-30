@@ -1510,3 +1510,23 @@ Celling function return the smallest integer that larger than or equal to x
 > 7. ⌈ -x ⌉ = -⌊ x ⌋
 > 8. ⌊ x + n ⌋ = ⌊ x ⌋ + n
 > 9. ⌈ x + n ⌉ = ⌈ x ⌉ + n
+
+## Proving properties of functions
+
+prove if x is a real number, then ⌊ 2x ⌋ = ⌊ x ⌋ + ⌊ x + 1/2 ⌋ 
+
+let x = n + ε, where n is an integer and 0 ≤ ε < 1. 
+
+case 1: ε < 1/2
+
+> ⌊ 2x ⌋ = ⌊ 2n + 2 ε ⌋ = 2n since ε < 1/2
+>
+> ⌊ x ⌋ + ⌊ x + 1/2 ⌋ = ⌊ n + ε ⌋ + ⌊ n + ε + 1/2 ⌋ = n + n since ε < 1/2 and correspondingly ε + 1/2 < 1
+>
+
+case 2: ε >= 1/2
+
+> ⌊ 2x ⌋ = ⌊ 2n + 2 ε ⌋ = 2n + 1 since ε >= 1/2
+>
+> ⌊ x ⌋ + ⌊ x + 1/2 ⌋ = ⌊ n + ε ⌋ + ⌊ n + ε + 1/2 ⌋ = n + (n + 1) since ε > 1/2 and correspondingly ε + 1/2 > 1
+
