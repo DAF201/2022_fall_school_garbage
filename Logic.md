@@ -1468,3 +1468,19 @@ surjective: show that for any x in codomin, there is a y in domain such that f(y
 >
 > f(x) = 2((y + 3)/2)-3 = y + 3 -3 = y  An arbitrary element from the codomain has a preimage in the domain  ∴ f(x) = 2x -3, from R to R, is surjective
 >
+
+## Inverse function
+
+All inverse functions are bijective
+
+Let function be f, then the inverse function of it is f <sup>-1 </sup>
+
+f(x) = y iff f <sup>-1 </sup>(y) = x
+
+inverse function is the projection from image to pre-image
+
+All bijective functions are inversible
+
+## Composition
+
+let
