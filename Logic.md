@@ -1410,3 +1410,61 @@ because s must fall in A, so F(x) must fall in B
 > ---
 > decreasing function and strictly decreasing function are the reverse
 
+## Injection
+
+Injection is also called one-to-one, which means for each value in domain will always has it unique image in range. (if f(a)==f(b), then a==b)
+
+## Surjection
+
+Surjections means a function's codomain is equal to it's range, it is also called onto
+
+## Bijection
+
+A function that is both Injection and Surjection
+
+## showing function is injection or surjection
+
+Example:
+
+Suppose that f : A → B
+
+injective: show that if f(x)==f(y), then x==y
+
+surjective: show that for any x in codomin, there is a y in domain such that f(y)==x
+
+> f(x) = 4x - 1 show one-to-one and onto
+
+> one-to-one:
+>
+> 4a - 1 = 4b - 1
+>
+> 4a = 4b
+>
+> a = b
+
+> onto:
+>
+> assume there is a y such that y = 4x - 1
+>
+> y - 1 = 4x
+>
+> x = (y - 1) / 4
+>
+> There exist a function to project y to x, so it is surjective
+
+> book example:
+>
+> Solution: 
+>
+> Part 1 (scratch work) 
+>
+> Let us pick an arbitrary number y ∈ R in the codomain  If such a number exists, 
+>
+> 2x - 3 =   y   2x = y + 3   x = (y + 3)/2 
+>
+> Part 2 (actual solution)  Let y ∈ R be an arbitrary element from the codomain 
+>
+> Let  x = (y + 3)/2 
+>
+> f(x) = 2((y + 3)/2)-3 = y + 3 -3 = y  An arbitrary element from the codomain has a preimage in the domain  ∴ f(x) = 2x -3, from R to R, is surjective
+>
