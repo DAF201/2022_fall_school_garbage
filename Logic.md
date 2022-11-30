@@ -1483,4 +1483,26 @@ All bijective functions are inversible
 
 ## Composition
 
-let
+let f from B to C, g from A to B, then the composition of f with g denote as f ∘ g is the function form A to C defined by f ∘ g = f(g(x))
+
+the inner function will be calculated first
+
+## Floor and Cell function
+
+Floor function return the largest integer that less than or equal to x
+
+Celling function return the smallest integer that larger than or equal to x
+
+> ⌊ 4.5 ⌋ = 4, ⌊-4.5 ⌋ = -5
+>
+> ⌈ 4.5 ⌉ = 5, ⌈-4.5 ⌉ = -4
+
+## properties of flooring and celling functions
+
+> n is a integer, and x is a real number
+>
+> ⌊ x ⌋ = n iff n <= x < n + 1
+>
+> ⌈ x ⌉ = n iff n - 1 < x <= n
+>
+>
