@@ -10,7 +10,7 @@ propositional variables is a symbol that denote a case. For example, p denotes g
 
 Each propositional variable has a truth value T or F
 
-Proposition can be <b>Atomic</b> or <b>Compound</b>
+Proposition can be <b> Atomic </b> or <b> Compound </b>
 
 Atomic: Cannot be splited down
 
@@ -45,13 +45,13 @@ Example:
 | F   | T   | F     |
 | F   | F   | F     |
 
-This table shows all the posiable cases and result of the proposition p∧q
+This table shows all the posiable cases and result of the proposition p ∧ q
 
 ## Negation
 
 Means opposite: 
 
-p = T, then ¬p = F
+p = T, then ¬ p = F
 
 ## AND
 
@@ -87,7 +87,7 @@ p = T, q = F, p ⇔ q = F
 
 ## Implication
 
-Only return false when case 1 is true, case 2 is false. Also known as <b>if ...  then ...</b>
+Only return false when case 1 is true, case 2 is false. Also known as <b> if ...  then ...</b>
 
 p = T, q = T, p → q = T
 
@@ -106,9 +106,9 @@ From p → q we can form new conditional statements
 
 q → p is the converse of p → q
 
-¬p → ¬q is the inverse of p → q
+¬ p → ¬ q is the inverse of p → q
 
-¬q → ¬p is the contrapositive of p → q
+¬ q → ¬ p is the contrapositive of p → q
 
 ## Precedence of Logical Operators
 
@@ -125,13 +125,13 @@ q → p is the converse of p → q
 Unless means if ... not ...
 >–Unless I work hard, I will fail the exam
 >
->If I do not work hard then I will fail the exam
+> If I do not work hard then I will fail the exam
 
 ## Tautologies, Contradictions, and Contingencies
 
-Tautologies: something always true, example p ∨ ¬p
+Tautologies: something always true, example p ∨ ¬ p
 
-Contradictions: something always false, example p ∧ ¬p
+Contradictions: something always false, example p ∧ ¬ p
 
 Contingency: something neither Tautologies or Contradictions, example p ⇔ q
 
@@ -143,14 +143,14 @@ Means the propositions have the exactly same results, denote by ≡
 | Identity Laws       | p ∧ T ≡ p, p ∨ F ≡ p                                              |
 | Domination Laws     | p ∨ T ≡ T, p ∧ F ≡ F                                              |
 | Idempotent laws     | p ∧ p ≡ p, p ∨ p ≡ p                                              |
-| Double Negation Law | ¬(¬p) ≡ p                                                         |
-| Negation Laws       | p ∨ ¬p ≡ T, p ∧ ¬p ≡ F                                            |
+| Double Negation Law | ¬(¬ p) ≡ p                                                         |
+| Negation Laws       | p ∨ ¬ p ≡ T, p ∧ ¬ p ≡ F                                            |
 | Commutative Laws    | p ∨ q ≡ q ∨ p, p ∧ q ≡ q ∧ p                                      |
 | Associative         | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r), (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)              |
 | Distributive Laws   | (p ∧ q) ∨ r ≡ (p ∨ r) ∧ (q ∨ r) , (p ∨ q) ∧ r ≡ (p ∧ r) ∨ (q ∧ r) |
 | Absorption Laws     | p ∨ (p ∧ q) ≡ p, p ∧ (p ∨ q) ≡ p                                  |
-| De Morgan's Laws    | ¬(p ∨ q) ≡ ¬p ∧ ¬q , ¬(p ∧ q) ≡ ¬p ∨ ¬q                           |
-| Nameless            | p → q ≡ ¬p ∨ q                                                    |
+| De Morgan's Laws    | ¬(p ∨ q) ≡ ¬ p ∧ ¬ q , ¬(p ∧ q) ≡ ¬ p ∨ ¬ q                           |
+| Nameless            | p → q ≡ ¬ p ∨ q                                                    |
 | Nameless            | p ⇔ q ≡ (p → q) ∧ (q → p)                                         |
 
 ## Propositional Satisfiability
@@ -177,41 +177,41 @@ An argument which is not valid is called a fallacy
 
 ## Test for Argument Validity
 
->P1: If John eats peanuts, he falls sick
+> P1: If John eats peanuts, he falls sick
 >
->P2: John did not eat peanuts
+> P2: John did not eat peanuts
 >
 >---
 >
->∴ John did not fall sick
+> ∴ John did not fall sick
 
-Does ((p → q) ∧ ¬p) → ¬q?
+Does ((p → q) ∧ ¬ p) → ¬ q?
 
-| p   | q   | ((p → q) ∧ ¬p) | ¬q  |
+| p   | q   | ((p → q) ∧ ¬ p) | ¬ q  |
 | --- | --- | -------------- | --- |
 | F   | T   | T              | F   |
 
-premises is True ((p → q) ∧ ¬p), but conclusion is False (¬q), so this is a fallacy
+premises is True ((p → q) ∧ ¬ p), but conclusion is False (¬ q), so this is a fallacy
 
 ## Argument Forms
 
->P1: If John eats peanuts, he falls sick
+> P1: If John eats peanuts, he falls sick
 >
->P2: John did not fall sick
->
->---
->
->∴ John did not eats peanuts
-
->P1: If you work hard, you will get a good raise
->
->P2: You did not get a good raise
+> P2: John did not fall sick
 >
 >---
 >
->∴ You did not work hard
+> ∴ John did not eats peanuts
 
-Even those two arguements are different, the have the same form which is ((p → q) ∧ ¬q) → ¬p
+> P1: If you work hard, you will get a good raise
+>
+> P2: You did not get a good raise
+>
+>---
+>
+> ∴ You did not work hard
+
+Even those two arguements are different, the have the same form which is ((p → q) ∧ ¬ q) → ¬ p
 
 When two arguements have the same arguement form, they:
 
@@ -222,14 +222,14 @@ When two arguements have the same arguement form, they:
 
 | Rules of Inference                     | Tautology                     | Name                   |
 | -------------------------------------- | ----------------------------- | ---------------------- |
-| p<br>p → q<br>-------<br>∴ q           | (p ∧ (p → q)) → q             | Modus ponens           |
-| ¬q<br>p → q<br>-------<br>∴ ¬p         | (¬q ∧ (p → q)) → ¬p           | Modus tollens          |
-| p → q<br>q → r<br>-------<br>∴ r       | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
-| p ∨ q<br>¬p<br>-------<br>∴ q          | (¬p ∧ (p ∨ q)) → q            | Disjunctive Syllogism  |
-| p<br>-------<br>∴ p ∨ q                | p → (p ∨ q)                   | Addition               |
-| p ∧ q<br>-------<br>∴ p                | (p ∨ q) → p                   | Simplification         |
-| p<br>q<br>-------<br>∴ p ∧ q           | ((p) ∧ (q)) → p ∧ q           | Conjunction            |
-| p ∨ q <br>¬p ∨ r<br>-------<br>∴ q ∨ r | ((¬p ∨ r) ∧ (p ∨ q)) → q ∨ r  | Resolution             |
+| p <br> p → q <br>-------<br> ∴ q           | (p ∧ (p → q)) → q             | Modus ponens           |
+| ¬ q <br> p → q <br>-------<br> ∴ ¬ p         | (¬ q ∧ (p → q)) → ¬ p           | Modus tollens          |
+| p → q <br> q → r <br>-------<br> ∴ r       | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
+| p ∨ q <br> ¬ p <br>-------<br> ∴ q          | (¬ p ∧ (p ∨ q)) → q            | Disjunctive Syllogism  |
+| p <br>-------<br> ∴ p ∨ q                | p → (p ∨ q)                   | Addition               |
+| p ∧ q <br>-------<br> ∴ p                | (p ∨ q) → p                   | Simplification         |
+| p <br> q <br>-------<br> ∴ p ∧ q           | ((p) ∧ (q)) → p ∧ q           | Conjunction            |
+| p ∨ q <br> ¬ p ∨ r <br>-------<br> ∴ q ∨ r | ((¬ p ∨ r) ∧ (p ∨ q)) → q ∨ r  | Resolution             |
 
 ## Comparing the Tautologies for Logical Equivalences and Rules of Inference
 
@@ -244,10 +244,10 @@ When two arguements have the same arguement form, they:
 ## Fallacies
 
 1. Fallacy of affirming the conclusion
-<br>p → q<br>q<br>-------<br>∴p<br>cannot get premises from conclusion
+<br> p → q <br> q <br>-------<br> ∴ p <br> cannot get premises from conclusion
 
 2. Fallacy of denying the hypothesis
-<br>p → q<br>¬p<br>-------<br>∴¬q<br>Vacuous truth
+<br> p → q <br> ¬ p <br>-------<br> ∴¬ q <br> Vacuous truth
 
 ## Predicate Logic
 
@@ -297,7 +297,7 @@ The statement P(x) is said to be the value of the propositional function P at x 
 
 Connectives from propositional logic carry over to predicate logic
 
-Expressions with variables are not propositions and therefore do not have truth values. For example: <br>P(x) → P(y)
+Expressions with variables are not propositions and therefore do not have truth values. For example: <br> P(x) → P(y)
 
 When used with quantifiers (at least one, all), these expressions (propositional functions) become propositions
 
@@ -314,7 +314,7 @@ There are two types of them:
 
 ## Uniqueness Quantifier
 
-∃!x P(x) means that P(x) is true for one and only one x in the universe of discourse
+∃! x P(x) means that P(x) is true for one and only one x in the universe of discourse
 
 "There is a unique x such that..."
 
@@ -322,7 +322,7 @@ There are two types of them:
 
 Additional information at the end of the sentense
 
-Example: ∀x ∈ R , x<sup>2</sup> ≥ 0(x is a real number and x<sup>2</sup> is not 0)
+Example: ∀ x ∈ R , x <sup> 2 </sup> ≥ 0(x is a real number and x <sup> 2 </sup> is not 0)
 
 this will include all real number but 0
 
@@ -330,13 +330,13 @@ this will include all real number but 0
 
 when an variable has something to do with the quantifier, we say it is bound, otherwise, we say it is free
 
-Example: ∃x(x + y = 1), in this case, x in bound and y is free
+Example: ∃ x(x + y = 1), in this case, x in bound and y is free
 
 ## quantifer, propositional function, and proposition
 
 Quantifiers provide an alternate way to convert propositional functions to propositions
 
-Example: Let P(x) be the propositional function “x + 1 > x”. Then ∀x P(x) is a proposition
+Example: Let P(x) be the propositional function “x + 1 > x”. Then ∀ x P(x) is a proposition
 
 ## ways to make propositional function a proposition
 
@@ -350,29 +350,29 @@ In general, all the variables that occur in a propositional function must be bou
 
 ## Properties of Quantifiers
 
-The truth value of ∀x P(x) and ∃x P(x) depend on both the propositional function P(x) and on the domain U
+The truth value of ∀ x P(x) and ∃ x P(x) depend on both the propositional function P(x) and on the domain U
 
 If the domain is empty, for any propositional function:
 
-- ∀xP(x) is true
+- ∀ xP(x) is true
 
-- ∃xP(x) is false
+- ∃ xP(x) is false
 
 ## Truth Set
 
 A truth set is a set contains all values of x that make the proposition true
 
-Example, P(x):"x is a factor of 8", Domain:all positive integers
+Example, P(x): "x is a factor of 8", Domain: all positive integers
 
 Then the truth set of P(x) is {1,2,4,8}
 
 ## Quantifiers Over Finite Domains
 
-∀xP(x) ≡ P(x1) ∧ P(x2) ∧ P(x3) ∧ … ∧ P(xn)
+∀ xP(x) ≡ P(x1) ∧ P(x2) ∧ P(x3) ∧ … ∧ P(xn)
 
 Conjunction of propositions
 
-∃xP(x) ≡ P(x1) ∨ P(x2) ∨ P(x3) ∨ … ∨ P(xn)
+∃ xP(x) ≡ P(x1) ∨ P(x2) ∨ P(x3) ∨ … ∨ P(xn)
 
 Disjunction of propositions
 
@@ -388,7 +388,7 @@ In such instances, an abbreviated notation is often used
 
 Example:
 
-(∀x)<sub>x < 0</sub> (x<sup>2</sup> > 0)
+(∀ x)<sub> x < 0</sub> (x <sup> 2 </sup> > 0)
 
 means for all x such that x smaller than 0, we have x to the power of 2 is greater than 0
 
@@ -396,7 +396,7 @@ means for all x such that x smaller than 0, we have x to the power of 2 is great
 
 The ∀ and ∃ have higher precedence than any logical operator
 
-which means ∀x P(x) ∨ Q(x) means (∀x P(x)) ∨ Q(x) instead of ∀x (P(x) ∨ Q(x))
+which means ∀ x P(x) ∨ Q(x) means (∀ x P(x)) ∨ Q(x) instead of ∀ x (P(x) ∨ Q(x))
 
 ## Equivalences in Predicate Logic
 
@@ -406,31 +406,31 @@ cover every domain
 
 Example: 
 
-∀x ¬¬S(x) ≡ ∀x S(x)
+∀ x ¬¬ S(x) ≡ ∀ x S(x)
 
-∀x(P(x) ∧ Q(x)) ≡ ∀x P(x) ∧ ∀x Q(x)
+∀ x(P(x) ∧ Q(x)) ≡ ∀ x P(x) ∧ ∀ x Q(x)
 
-Assume ∀x(P(x) ∧ Q(x)) is True, then P(x) ∧ Q(x) is true for every value of x in domain, so P(x) and Q(x) are True for every value in domain
+Assume ∀ x(P(x) ∧ Q(x)) is True, then P(x) ∧ Q(x) is true for every value of x in domain, so P(x) and Q(x) are True for every value in domain
 
-Assume ∀x P(x) ∧ ∀x Q(x) is True, then P(x) and Q(x) are True for every value of x in domain
+Assume ∀ x P(x) ∧ ∀ x Q(x) is True, then P(x) and Q(x) are True for every value of x in domain
 
 So they are equivalent
 
 ## Some equivalences and not equivalences
 
-1. ∀x ¬¬S(x) ≡ ∀x S(x)
+1. ∀ x ¬¬ S(x) ≡ ∀ x S(x)
 
-2. ¬∀x P(x) ≡ ∃x ¬P(x)
+2. ¬∀ x P(x) ≡ ∃ x ¬ P(x)
 
-3. ¬∃x P(x) ≡ ∀x ¬P(x)
+3. ¬∃ x P(x) ≡ ∀ x ¬ P(x)
 
-4. ∀x(P(x) ∧ Q(x)) ≡ ∀x P(x) ∧ ∀x Q(x)
+4. ∀ x(P(x) ∧ Q(x)) ≡ ∀ x P(x) ∧ ∀ x Q(x)
 
-5. ∃x(P(x) ∨ Q(x)) ≡ ∃xP(x) ∨ ∃xQ(x)
+5. ∃ x(P(x) ∨ Q(x)) ≡ ∃ xP(x) ∨ ∃ xQ(x)
 
-6. ∀x(P(x) ∨ Q(x)) ¬≡ ∀xP(x) ∨ ∀xQ(x)
+6. ∀ x(P(x) ∨ Q(x)) ¬≡ ∀ xP(x) ∨ ∀ xQ(x)
 
-7. ∃x(P(x) ∧ Q(x)) ¬≡ ∃xP(x) ∧ ∃xQ(x)
+7. ∃ x(P(x) ∧ Q(x)) ¬≡ ∃ xP(x) ∧ ∃ xQ(x)
 
 The Universal quantifier cannot be distributed over disjunction, and the existential quantifier cannot be distributed over conjunction
 
@@ -438,8 +438,8 @@ The Universal quantifier cannot be distributed over disjunction, and the existen
 
 | Negation | Equivalent Statement | When Is Negation True?         | When Is False                 |
 | -------- | -------------------- | ------------------------------ | ----------------------------- |
-| ¬∃x P(x) | ∀x ¬P(x)             | For every x, P(x) is false     | There is x which P(x) is true |
-| ¬∀x P(x) | ∃x ¬P(x)             | There is x which P(x) is false | P(x) is true for every x      |
+| ¬∃ x P(x) | ∀ x ¬ P(x)             | For every x, P(x) is false     | There is x which P(x) is true |
+| ¬∀ x P(x) | ∃ x ¬ P(x)             | There is x which P(x) is false | P(x) is true for every x      |
 
 ## Restricted Quantifiers
 
@@ -451,7 +451,7 @@ A restricted quantifier has the same semantics as an unrestricted quantifier exc
 
 Example: 
 
-(∀x)<sub>x < 0</sub> (x<sup>2</sup> > 0)
+(∀ x)<sub> x < 0</sub> (x <sup> 2 </sup> > 0)
 
 for every x in real numbers, if x is smaller than 0, then we have x to the power of 2 is larger than 0
 
@@ -459,9 +459,9 @@ for every x in real numbers, if x is smaller than 0, then we have x to the power
 
 Sometimes we need to express a restricted quantifier as an unrestricted quantifier
 
-∃x <sub>P(x)</sub> Q(x) ≡ ∃x (P(x) ∧ Q(x))
+∃ x <sub> P(x)</sub> Q(x) ≡ ∃ x (P(x) ∧ Q(x))
 
-∀x <sub>P(x)</sub> Q(x) ≡ ∀x (P(x) → Q(x))
+∀ x <sub> P(x)</sub> Q(x) ≡ ∀ x (P(x) → Q(x))
 
 ## Nested Quantifiers
 
@@ -469,7 +469,7 @@ In nested quantifiers one quantifier is within the scope of another quantifier
 
 Example: Every real number has an inverse
 
-∀x∃y(x + y = 0)
+∀ x ∃ y(x + y = 0)
 
 ## Order of Quantifiers
 
@@ -479,25 +479,25 @@ The order of the nested quantifiers is important, unless all the quantifiers are
 
 | Statement                | When True?                                                    | When False?                                         |
 | ------------------------ | ------------------------------------------------------------- | --------------------------------------------------- |
-| ∀x∀yP(x,y)<br>∀y∀xP(x,y) | P(x,y) is true for every pair of x and y                      | when any pair of x, y make P(x,y) false             |
-| ∀x∃yP(x,y)               | For every x, there is an y such that P(x,y) is true           | when there is a x for every y P(x,y) is false       |
-| ∃x∀yP(x,y)               | There is at least one x such that for every y, P(x,y) is true | for every x, there is a y such that P(x,y) is false |
-| ∃x∃yP(x,y)<br>∃y∃xP(x,y) | There is a pair of x and y such that                          | for every pair of x and y, P(x,y) is false          |
+| ∀ x ∀ yP(x, y)<br> ∀ y ∀ xP(x, y) | P(x, y) is true for every pair of x and y                      | when any pair of x, y make P(x, y) false             |
+| ∀ x ∃ yP(x, y)               | For every x, there is an y such that P(x, y) is true           | when there is a x for every y P(x, y) is false       |
+| ∃ x ∀ yP(x, y)               | There is at least one x such that for every y, P(x, y) is true | for every x, there is a y such that P(x, y) is false |
+| ∃ x ∃ yP(x, y)<br> ∃ y ∃ xP(x, y) | There is a pair of x and y such that                          | for every pair of x and y, P(x, y) is false          |
 
 ## Two Surprising Results
 
-if ∃y∀xP(x,y) is true, then ∀x∃yP(x,y) must be also true
+if ∃ y ∀ xP(x, y) is true, then ∀ x ∃ yP(x, y) must be also true
 
-if ∀x∃yP(x,y) is true, it is not necessay for ∃y∀xP(x,y) to be true
+if ∀ x ∃ yP(x, y) is true, it is not necessay for ∃ y ∀ xP(x, y) to be true
 
 ## Additional Rules of Inference for Quantified Statements
 
 | Rule of Inference                                                   | Name                       |
 | ------------------------------------------------------------------- | -------------------------- |
-| ∀xP(x)<br>------<br>∴P(c)                                           | Universal instantiation    |
-| P(c) for an arbitrary of c <br>-------------------------<br>∴∀xP(x) | Universal generalization   |
-| ∃xP(x)<br>-------------------------<br>∴P(c) for some element c     | Existential instantaion    |
-| P(c) for some element c<br>-------------------------<br>∴∃xP(x)     | Existential generalization |
+| ∀ xP(x)<br>------<br> ∴ P(c)                                           | Universal instantiation    |
+| P(c) for an arbitrary of c <br>-------------------------<br> ∴∀ xP(x) | Universal generalization   |
+| ∃ xP(x)<br>-------------------------<br> ∴ P(c) for some element c     | Existential instantaion    |
+| P(c) for some element c <br>-------------------------<br> ∴∃ xP(x)     | Existential generalization |
 
 x: Unspecified member of the domain
 
@@ -509,21 +509,21 @@ c: Specific member of the domain
 
 let M(x) represents "x is a man", and L(x) represents "x has two legs"
 
-premises: ∀x(M(x) → L(x)), M(John)
+premises: ∀ x(M(x) → L(x)), M(John)
 
-∀x(M(x) → L(x))<br>----------------<br>∴M(John) → L(John)
+∀ x(M(x) → L(x))<br>----------------<br> ∴ M(John) → L(John)
 
-M(John) → L(John)<br>M(John)<br>--------------------<br>∴L(John)
+M(John) → L(John)<br> M(John)<br>--------------------<br> ∴ L(John)
 
 ## Universal Modus Ponens
 
 Combines UI and Modus Ponens
 
-∀x(P(x) → Q(x))<br>P(c)<br>-----------------<br>∴Q(c)
+∀ x(P(x) → Q(x))<br> P(c)<br>-----------------<br> ∴ Q(c)
 
 ## Universal Modus Tollens
 
-∀x(P(x) → Q(x))<br>¬Q(c)<br>-----------------<br>∴¬P(c)
+∀ x(P(x) → Q(x))<br> ¬ Q(c)<br>-----------------<br> ∴¬ P(c)
 
 ## Proofs of Mathematical Statements
 
@@ -558,15 +558,15 @@ Proof the square of a odd number is also an odd number
 
 any odd number : 2n+1
 
-(2n + 1)<sup>2</sup> = 4n<sup>2</sup> + 4n + 1 = 2 * (n<sup>2</sup> + 2n) + 1
+(2n + 1)<sup> 2 </sup> = 4n <sup> 2 </sup> + 4n + 1 = 2 * (n <sup> 2 </sup> + 2n) + 1
 
-let r = (n<sup>2</sup> + 2n), therefore (2n + 1)<sup>2</sup> = 2r + 1, and because of 2r is an even number, so 2r + 1 is an odd number
+let r = (n <sup> 2 </sup> + 2n), therefore (2n + 1)<sup> 2 </sup> = 2r + 1, and because of 2r is an even number, so 2r + 1 is an odd number
 
 ## Proof By Contraposition
 
 Sometimes it is easier to prove theorems using proof by contraposition
 
-- the conditional statement p → q is proved by showing that its contrapositive, ¬q → ¬p is true
+- the conditional statement p → q is proved by showing that its contrapositive, ¬ q → ¬ p is true
 
 Example: Prove that if n is an integer and 3n + 2 is odd, then n is odd
 
@@ -580,11 +580,11 @@ so 3n + 2 = 6k + 2 = 2j
 
 so 3n + 2 is even
 
-Since we have shown ¬q → ¬p , p → q must hold as well. We have proved by contraposition that if 3n + 2 is odd, then n is odd
+Since we have shown ¬ q → ¬ p , p → q must hold as well. We have proved by contraposition that if 3n + 2 is odd, then n is odd
 
 ## Vacuous & Trivial Proofs
 
-- p → q ≡ ¬p ∨ q
+- p → q ≡ ¬ p ∨ q
 
 - A proof that makes use of the fact that p → q must be true when p is false is called a vacuous proof
 
@@ -613,7 +613,7 @@ To prove a theorem that is a biconditional statement, that is, a statement of th
 
 Example:
 
-Prove the theorem: “If n is an integer, then n is odd if and only if n<sup>2</sup> is odd.”
+Prove the theorem: “If n is an integer, then n is odd if and only if n <sup> 2 </sup> is odd.”
 
 Solution: 
 
@@ -621,15 +621,15 @@ We have already shown (previous slides) that both p → q and q → p. Therefore
 
 ## Proof By Counterexample
 
-Statements of the form ∀xP(x) can be proved to be false by providing a counterexample ∃x(¬P(x))
+Statements of the form ∀ xP(x) can be proved to be false by providing a counterexample ∃ x(¬ P(x))
 
 Example: Show that the statement “Every positive integer is the sum of the squares of two integers” is false
 
 The number 3 can be represented as the sum of two numbers in one of two ways (order being immaterial)
 
-3 = 0 + 3 = 0<sup>2</sup> + 3
+3 = 0 + 3 = 0 <sup> 2 </sup> + 3
 
-3 = 1 + 2 = 1<sup>2</sup> + 2
+3 = 1 + 2 = 1 <sup> 2 </sup> + 2
 
 In neither case can be number 3 be represented as a sum of two squares.
 Therefore we have proved by counterexample that “Every positive integer is the sum of the squares of two integers” is false
@@ -649,8 +649,8 @@ Therefore we have proved by counterexample that “Every positive integer is the
 “Proof” that 1 = 2
 
 1. a = b
-2. a<sup>2</sup> = a * b
-3. a<sup>2</sup> - b<sup>2</sup> = a * b - b<sup>2</sup>
+2. a <sup> 2 </sup> = a * b
+3. a <sup> 2 </sup> - b <sup> 2 </sup> = a * b - b <sup> 2 </sup>
 4. (a - b)(a + b) = b(a - b)
 5. a + b = b
 6. 2b = b
@@ -676,15 +676,15 @@ Example:
 >
 >----
 >
->solution:
+> solution:
 >
->Case n = 1: (1 + 1)3 = 23 = 8, which is ≥ 31 i.e. 3
+> Case n = 1: (1 + 1)3 = 23 = 8, which is ≥ 31 i.e. 3
 >
->Case n = 2: (2 + 1)3 = 33 = 27, which is ≥ 32 i.e. 9
+> Case n = 2: (2 + 1)3 = 33 = 27, which is ≥ 32 i.e. 9
 >
->Case n = 3: (3 + 1)3 = 43 = 64, which is ≥ 33 i.e. 27
+> Case n = 3: (3 + 1)3 = 43 = 64, which is ≥ 33 i.e. 27
 >
->Case n = 4: (4 + 1)3 = 53 = 125, which is ≥ 34 i.e. 81
+> Case n = 4: (4 + 1)3 = 53 = 125, which is ≥ 34 i.e. 81
 
 ## Proof by Cases
 
@@ -701,31 +701,31 @@ Example:
 >
 >(p1 ∨ p2 ∨ p3 ... ∨ pn) → q ≡ ¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q
 >
->¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q ≡ (¬p1 ∧ ¬p2 ∧ ¬p2 ∧ ¬p3 ... ∧ ¬pn) ∨ q
+> ¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q ≡ (¬ p1 ∧ ¬ p2 ∧ ¬ p2 ∧ ¬ p3 ... ∧ ¬ pn) ∨ q
 >
->(¬p1 ∧ ¬p2 ∧ ¬p2 ∧ ¬p3 ... ∧ ¬pn) ∨ q ≡ (¬p1 ∨ q) ∧ (¬p2 ∨ q) ∧ (¬p3 ∨ q) ... ∧ (¬pn ∨ q)
+>(¬ p1 ∧ ¬ p2 ∧ ¬ p2 ∧ ¬ p3 ... ∧ ¬ pn) ∨ q ≡ (¬ p1 ∨ q) ∧ (¬ p2 ∨ q) ∧ (¬ p3 ∨ q) ... ∧ (¬ pn ∨ q)
 >
->(¬p1 ∨ q) ∧ (¬p2 ∨ q) ∧ (¬p3 ∨ q) ... ∧ (¬pn ∨ q) ≡ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
+>(¬ p1 ∨ q) ∧ (¬ p2 ∨ q) ∧ (¬ p3 ∨ q) ... ∧ (¬ pn ∨ q) ≡ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
 
 Use the tautology
 
 (p1 ∨ p2 ∨ p3 ... ∨ pn) → q ⇔ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
 
-Each of the implications p<sub>n</sub> → q is a case
+Each of the implications p <sub> n </sub> → q is a case
 
 ----
 
 Example:
 
->Prove that Prove that if n is an integer, then n<sup>2</sup> ≥ n
+> Prove that Prove that if n is an integer, then n <sup> 2 </sup> ≥ n
 >
->Case 1 : n = 0, then n<sup>2</sup> = 0, which n<sup>2</sup> >= n
+> Case 1 : n = 0, then n <sup> 2 </sup> = 0, which n <sup> 2 </sup> >= n
 >
->Case 2 : n <= 1, then n<sup>2</sup> >= n or n <sup>2</sup> = n = 1
+> Case 2 : n <= 1, then n<sup> 2 </sup> >= n or n <sup> 2 </sup> = n = 1
 >
->Case 3: n >= 1, then n<sup>2</sup> > n
+> Case 3: n >= 1, then n <sup> 2 </sup> > n
 >
->Since the inequality n<sup>2</sup> ≥ n holds in all three cases, we can conclude that if n is an integer, then n<sup>2</sup> ≥ n
+> Since the inequality n <sup> 2 </sup> ≥ n holds in all three cases, we can conclude that if n is an integer, then n <sup> 2 </sup> ≥ n
 
 ## Without Loss of Generality
 
@@ -735,39 +735,39 @@ The phrase “Without Loss of Generality” (WLOG) is used in proofs with cases 
 
 ## Existence Proofs
 
-A proof of a proposition of the form ∃xP(x) is called an existence proof
+A proof of a proposition of the form ∃ xP(x) is called an existence proof
 
 there are two form of proof for existence proof
 
 - Constructive: Finding an element a, which P(a) is True
 
-- Nonconstructive: Proof there is ∃xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False
+- Nonconstructive: Proof there is ∃ xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False
 
 Example 1: 
 
 > Show that there is a positive integer that can be written as the sum of cubes of positive integers in two different ways
 >
->1729 = 10<sup>3</sup> + 9<sup>3</sup> = 12<sup>3</sup> + 1<sup>3</sup>
+> 1729 = 10 <sup> 3 </sup> + 9 <sup> 3 </sup> = 12 <sup> 3 </sup> + 1 <sup> 3 </sup>
 
 Example 2:
 
->Show that there exist irrational numbers x and y such that xy is rational
+> Show that there exist irrational numbers x and y such that xy is rational
 >
->We know that √2 is irrational. Let us consider the number √2<sup>√2</sup>. There are two possibilities to consider
+> We know that √ 2 is irrational. Let us consider the number √ 2 <sup> √ 2 </sup>. There are two possibilities to consider
 >
->>Possibility 1: √2<sup>√2</sup> is rational
+>> Possibility 1: √ 2 <sup> √ 2 </sup> is rational
 >>
->>- In this case x = y = √2 and x<sup>y</sup> is rational
+>>- In this case x = y = √ 2 and x <sup> y </sup> is rational
 >
->>Possibility 2: √2<sup>√2</sup> is irrational
+>> Possibility 2: √ 2 <sup> √ 2 </sup> is irrational
 >>
->>- In this case let x = √2<sup>√2</sup> and y = √2. Therefore x<sup>y</sup> = (√2<sup>√2</sup>)<sup>√2</sup> = (√2)<sup>2</sup> = 2, a rational number
+>>- In this case let x = √ 2 <sup> √ 2 </sup> and y = √ 2. Therefore x <sup> y </sup> = (√ 2 <sup> √ 2 </sup>)<sup> √ 2 </sup> = (√ 2)<sup> 2 </sup> = 2, a rational number
 >
->This is an example of Nonconstructive proof, we don't know the property of the √2<sup>√2</sup>, but but we have proved that one of them does has the desired property
+> This is an example of Nonconstructive proof, we don't know the property of the √ 2 <sup> √ 2 </sup>, but but we have proved that one of them does has the desired property
 
 ## Uniqueness Proofs
 
-Some theorems asset the existence of a unique element with a particular property, ∃!x P(x). The two parts of a uniqueness proof are
+Some theorems asset the existence of a unique element with a particular property, ∃! x P(x). The two parts of a uniqueness proof are
 
 - Existence: x exist such that P(x) satisfies the properties
 - Uniqueness: if y != x, then P(y) != P(x)
@@ -779,7 +779,7 @@ Example:
 > Solution:
 > ___
 >
-> ar + b = 0<br>ar = -b<br> r = $-\frac{b}{a}$
+> ar + b = 0 <br> ar = -b <br> r = $-\frac{b}{a}$
 >
 > ___
 >
@@ -805,12 +805,12 @@ Example:
 
 > Choose a method
 > 
->>1.First try a direct method of proof
+>> 1.First try a direct method of proof
 >>
 >> 2.If this does not work, try an indirect method (e.g., try to prove the contrapositive)
 >
 > For whichever method you are trying, choose a strategy
->> 1.First try forward reasoning. Start with the axioms and known theorems and construct a sequence of steps that end in the conclusion. Start with p and prove q, or start with ¬q and prove ¬p
+>> 1.First try forward reasoning. Start with the axioms and known theorems and construct a sequence of steps that end in the conclusion. Start with p and prove q, or start with ¬ q and prove ¬ p
 >>
 >> 2.If this doesn’t work, try backward reasoning
 
@@ -824,37 +824,37 @@ Example:
 
 Example: 
 
->Question:
+> Question:
 >
-> Prove that for any two distinct positive real numbers x and y, their arithmetic mean [i.e. (x + y)∕2] is greater than their geometric mean [i.e. √(xy)]
+> Prove that for any two distinct positive real numbers x and y, their arithmetic mean [i.e. (x + y)∕ 2] is greater than their geometric mean [i.e. √(xy)]
 >
->Solution:
+> Solution:
 >
->>We start by using backward reasoning to establish the starting point of our proof
+>> We start by using backward reasoning to establish the starting point of our proof
 >
->Let us assume the conclusion is true
->>1. (x + y)∕2 > √(xy)
->>2. ((x + y)<sup>2</sup>) ∕ 4 > xy (squr both sides)
->>3. (x + y)<sup>2</sup> > 4xy
->>4. x<sup>2</sup> + 2xy + y<sup>2</sup> > 4xy
->>5. x<sup>2</sup> - 2xy + y<sup>2</sup> > 0
->>6. (x - y)<sup>2</sup> > 0
+> Let us assume the conclusion is true
+>> 1. (x + y)∕ 2 > √(xy)
+>> 2. ((x + y)<sup> 2 </sup>) ∕ 4 > xy (squr both sides)
+>> 3. (x + y)<sup> 2 </sup> > 4xy
+>> 4. x <sup> 2 </sup> + 2xy + y <sup> 2 </sup> > 4xy
+>> 5. x <sup> 2 </sup> - 2xy + y <sup> 2 </sup> > 0
+>> 6. (x - y)<sup> 2 </sup> > 0
 >
 > Now that we have our secondary conclusion, let us see if we can prove it.
 >
-> (x - y)<sup>2</sup> > 0<sup>2</sup> is true because x != y, so x - y != 0, and for any non-zero number, the square of it is always positive
+> (x - y)<sup> 2 </sup> > 0 <sup> 2 </sup> is true because x != y, so x - y != 0, and for any non-zero number, the square of it is always positive
 > 
 > Now we move to our formal proof
 > 
-> (x − y)<sup>2</sup> > 0
+> (x − y)<sup> 2 </sup> > 0
 >
-> x<sup>2</sup> − 2xy + y<sup>2</sup> > 0
+> x <sup> 2 </sup> − 2xy + y <sup> 2 </sup> > 0
 >
-> x<sup>2</sup> + 2xy + y<sup>2</sup> > 4xy
+> x <sup> 2 </sup> + 2xy + y <sup> 2 </sup> > 4xy
 >
-> (x + y)<sup>2</sup> > 4xy
+> (x + y)<sup> 2 </sup> > 4xy
 >
-> (x + y)<sup>2</sup> ∕ 4 > xy
+> (x + y)<sup> 2 </sup> ∕ 4 > xy
 >
 > (x + y) ∕ 2 > √(xy)
 
@@ -864,8 +864,8 @@ ___
 
 Unsolved problems have motivated much work in mathematics. Fermat’s Last Theorem was conjectured more than 300 years ago. It has only recently been finally solved
 
-Fermat’s Last Theorem: The equation x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup>
-has no solutions in integers x, y, and z, with xyz≠0 whenever n is an integer with n > 2
+Fermat’s Last Theorem: The equation x <sup> n </sup> + y <sup> n </sup> = z <sup> n </sup>
+has no solutions in integers x, y, and z, with xyz ≠ 0 whenever n is an integer with n > 2
 
 A proof was found by Andrew Wiles in the 1990s
 
@@ -881,7 +881,7 @@ ___
 
 Time permitting, we will see many other proof methods:
 
-- Mathematical induction, which is a useful method for proving statements of the form ∀n P(n), where the domain consists of all positive integers
+- Mathematical induction, which is a useful method for proving statements of the form ∀ n P(n), where the domain consists of all positive integers
 
 - Structural induction, which can be used to prove such results about recursively defined sets
 
@@ -908,21 +908,21 @@ elements in a set are unique
 
 ## Describing a Set
 
-### <b>Roster Method</b>
+### <b> Roster Method </b>
 
 ---
 
-S = {a,b,c,d}
+S = {a, b, c, d}
 
 (order does not matter)
 
 Each distinct object is either a member or not; listing more than once does not change the set
 
-S = {a,b,c,d} = {a,b,c,b,c,d}
+S = {a, b, c, d} = {a, b, c, b, c, d}
 
 Elipses (…) may be used to describe a set without listing all of the members when the pattern is clear
 
-S = {a,b,c,d, ……,z }
+S = {a, b, c, d, ……, z }
 
 (iterator)
 
@@ -934,7 +934,7 @@ S = {a,b,c,d, ……,z }
 | ---- | ---------------------------- | ---------------------- |
 | N    | natural numbers              | {0,1,2,3…}             |
 | Z    | integers                     | {…,-3,-2,-1,0,1,2,3,…} |
-| Z⁺   | positive integers            | {1,2,3,…}              |
+| Z ⁺   | positive integers            | {1,2,3,…}              |
 | R    | set of real numbers          |                        |
 | R+   | set of positive real numbers |                        |
 | C    | set of complex numbers       |                        |
@@ -949,7 +949,7 @@ S = {x | x is a positive integer less than 100}
 
 A predicate may be used: S = {x | P(x)}
 
-Positive rational numbers: Q+ = {x ∈ R | x = p/q, for some positive integers p,q}
+Positive rational numbers: Q+ = {x ∈ R | x = p/q, for some positive integers p, q}
 
 (just like python list generator: [x for x in range(0,100000)] if Prime(x))
 
@@ -957,13 +957,13 @@ Positive rational numbers: Q+ = {x ∈ R | x = p/q, for some positive integers p
 
 "[" and "]" means including boundary, "(" and ")" means excluding boundary
 
-closed interval [a,b]
+closed interval [a, b]
 
-open interval (a,b)
+open interval (a, b)
 
-[a,b] = {x | a <= x <= b}
+[a, b] = {x | a <= x <= b}
 
-(a,b) = {x | a < x < b}
+(a, b) = {x | a < x < b}
 
 ## Universal Set, Empty Set and Singleton Set
 
@@ -985,7 +985,7 @@ Sometimes points are used to represent the particular elements of the set
 
 ## Some things to remember
 
-Sets can be elements of sets: {{1,2,3},a, {b,c}}, {N,Z,Q,R}
+Sets can be elements of sets: {{1,2,3}, a, {b, c}}, {N, Z, Q, R}
 
 Let A = { {a}, {b}, {a, b}}, In this case {a} ∈ A, but a ∉ A
 
@@ -997,7 +997,7 @@ An empty set is a subset of any set
 
 Two sets are equal if and only if they have the same elements (order don't matter)
 
-Therefore if A and B are sets, then A and B are equal if and only if ∀x(x ∈ A ⇔ x ∈ B)
+Therefore if A and B are sets, then A and B are equal if and only if ∀ x(x ∈ A ⇔ x ∈ B)
 
 ---
 
@@ -1014,9 +1014,9 @@ The set A is a subset of B, if and only if every element of A is also an element
 The notation A ⊆ B is used to indicate that A is a subset of the set
 B
 
-A ⊆ B holds if and only if ∀x(x ∈ A → x ∈ B) is true
+A ⊆ B holds if and only if ∀ x(x ∈ A → x ∈ B) is true
 
-1. Because x ∈ ∅ is always false, ∅ ⊆ S ,for every set S
+1. Because x ∈ ∅ is always false, ∅ ⊆ S , for every set S
 2. Because x ∈ S → x ∈ S, S ⊆ S, for every set S
 
 “Every nonempty set S is guaranteed to have at least two
@@ -1044,7 +1044,7 @@ Showing that A is not a Subset of B: To show that A is not a subset of B, A ⊈ 
 
 ## Another look at Equality of Sets
 
-∀x(x ∈ A ⇔ x ∈ B) is equal to ∀x[(x ∈ A → x ∈ B) ∧ (x ∈ B → x ∈ A )] or (A ⊆ B) and (B ⊆ A)
+∀ x(x ∈ A ⇔ x ∈ B) is equal to ∀ x [(x ∈ A → x ∈ B) ∧ (x ∈ B → x ∈ A )] or (A ⊆ B) and (B ⊆ A)
 
 ## Proper Subsets
 
@@ -1052,7 +1052,7 @@ If A ⊆ B, but A ≠ B, then we say A is a proper subset of B, denoted by A ⊂
 
 If A ⊂ B, then:
 
-> ∀x(x ∈ A → x ∈ B) ∧ ∃x(x ∈ B ∧ x ∉ A) must be True
+> ∀ x(x ∈ A → x ∈ B) ∧ ∃ x(x ∈ B ∧ x ∉ A) must be True
 
 ## Set Cardinality
 
@@ -1070,21 +1070,21 @@ The cardinality of a finite set A, denoted by |A|
 
 The set of all subsets of a set A, denoted P(A), is called the power set of A
 
-If A = {a,b} then P(A) = {ø, {a}, {b}, {a, b}}
+If A = {a, b} then P(A) = {ø, {a}, {b}, {a, b}}
 
->Q) What is the power set of ø?
+> Q) What is the power set of ø?
 >
->A) P(ø) = {ø}
+> A) P(ø) = {ø}
 
->Q) What is the power set of {ø}?
+> Q) What is the power set of {ø}?
 >
->A) P({ø}) = {ø, {ø}}
+> A) P({ø}) = {ø, {ø}}
 
 ## Tuples
 
 Because sets are unordered, a different structure is needed to represent ordered collections. This is provided by ordered n-tuples
 
-The ordered n-tuple (a<sub>1</sub>,a<sub>2</sub>,…,a<sub>n</sub>) is the ordered collection that has a1 as its first element and a2 as its second element and so on until an as its last element
+The ordered n-tuple (a <sub> 1 </sub>, a <sub> 2 </sub>,…, a <sub> n </sub>) is the ordered collection that has a1 as its first element and a2 as its second element and so on until an as its last element
 
 Two n-tuples are equal if and only if their corresponding elements are equal
 
@@ -1096,15 +1096,15 @@ Order does matter
 
 ## Cartesian Product
 
-The Cartesian Product of two sets A and B, denoted by A × B is the set of ordered pairs (a,b) where a ∈ A and b ∈ B
+The Cartesian Product of two sets A and B, denoted by A × B is the set of ordered pairs (a, b) where a ∈ A and b ∈ B
 
 A * B = {(a, b) | a ∈ A ∧ b ∈ B}
 
->Example: 
+> Example: 
 >
->A = {a, b} and B = {1, 2, 3}
+> A = {a, b} and B = {1, 2, 3}
 >
->A × B = {(a, 1), (a, 2), (a, 3), (b, 1), (b, 2), (b, 3)}
+> A × B = {(a, 1), (a, 2), (a, 3), (b, 1), (b, 2), (b, 3)}
 
 ---
 
@@ -1117,9 +1117,9 @@ A * B = {(a, b) | a ∈ A ∧ b ∈ B}
 > A * ø = ø for any set A
 ---
 
-We use the notation A<sup>2</sup> to denote A × A
+We use the notation A <sup> 2 </sup> to denote A × A
 
-Similarly A<sup>3</sup> = A × A × A and so on...
+Similarly A <sup> 3 </sup> = A × A × A and so on...
 
 ## Truth Sets of Quantifiers
 
@@ -1280,20 +1280,20 @@ similar with truth table, proof by giving all posible values
 
 ## Generalized Unions and Intersections
 
-Let A<sub>1</sub>, A<sub>2</sub> ,…, A<sub>n</sub> be an indexed collection of sets.
+Let A <sub> 1 </sub>, A <sub> 2 </sub> ,…, A <sub> n </sub> be an indexed collection of sets.
 
-<sup><sup><sup>n</sup></sup></sup>∪<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>1</sub> ∪ A<sub>2</sub> ∪ ... A<sub>n</sub>
+<sup> <sup> <sup> n </sup> </sup> </sup> ∪ <sub> <sub> <sub> i = 1 </sub> </sub> </sub> A <sub> i </sub> = A <sub> 1 </sub> ∪ A <sub> 2 </sub> ∪ ... A <sub> n </sub>
 
-<sup><sup><sup>n</sup></sup></sup>∩<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>1</sub> ∩ A<sub>2</sub> ∩ ... A<sub>n</sub>
+<sup> <sup> <sup> n </sup> </sup> </sup> ∩ <sub> <sub> <sub> i = 1 </sub> </sub> </sub> A <sub> i </sub> = A <sub> 1 </sub> ∩ A <sub> 2 </sub> ∩ ... A <sub> n </sub>
 
 These are well defined, since union and intersection are
 associative.
 
-For i = 1,2,…, let A<sub>i</sub> = {i, i + 1, i + 2, …}. Then,
+For i = 1,2,…, let A <sub> i </sub> = {i, i + 1, i + 2, …}. Then,
 
-<sup><sup><sup>n</sup></sup></sup>∪<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>1</sub>
+<sup> <sup> <sup> n </sup> </sup> </sup> ∪ <sub> <sub> <sub> i = 1 </sub> </sub> </sub> A <sub> i </sub> = A <sub> 1 </sub>
 
-<sup><sup><sup>n</sup></sup></sup>∩<sub><sub><sub>i=1</sub></sub></sub>A<sub>i</sub> = A<sub>n</sub>
+<sup> <sup> <sup> n </sup> </sup> </sup> ∩ <sub> <sub> <sub> i = 1 </sub> </sub> </sub> A <sub> i </sub> = A <sub> n </sub>
 
 ## Multisets
 
@@ -1329,7 +1329,7 @@ The cardinality of a multiset is defined to be the sum of the multiplicities of 
 >
 > P − Q = {max(4 − 3, 0) ⋅ a, max(1 − 4, 0) ⋅ b, max(3 − 0, 0) ⋅ c, max(0 − 2, 0) ⋅ d} = {1 ⋅ a, 0 ⋅ b, 3 ⋅ c, 0 ⋅ d} = {1 ⋅ a, 3 ⋅ c}
 > 
->P + Q = {(4 + 3) ⋅ a, (1 + 4) ⋅ b, (3 + 0) ⋅ c, (0 + 2) ⋅ d} = {7 ⋅ a, 5 ⋅ b, 3 ⋅ c, 2 ⋅ d}
+> P + Q = {(4 + 3) ⋅ a, (1 + 4) ⋅ b, (3 + 0) ⋅ c, (0 + 2) ⋅ d} = {7 ⋅ a, 5 ⋅ b, 3 ⋅ c, 2 ⋅ d}
 
 ## Functions
 
@@ -1338,12 +1338,12 @@ Let A and B be nonempty sets. A function f from A to B, denoted f: A → B is an
 Functions are sometimes called mappings or transformations
 
 A function f: A → B can also be defined as a subset of
-A×B (a relation). This subset is restricted to be a relation
+A × B (a relation). This subset is restricted to be a relation
 where no two elements of the relation have the same
 first element
 
 Specifically, a function f from A to B contains one, and
-only one ordered pair (a, b) for every element a∈ A
+only one ordered pair (a, b) for every element a ∈ A
 
 (function is an one to one mapping relationship)
 
@@ -1394,25 +1394,25 @@ because s must fall in A, so F(x) must fall in B
 
 > ---
 > 
->increasing function: increasing if 
+> increasing function: increasing if 
 >
-> ∀x<sub>1</sub>∀x<sub>2</sub>(x<sub>1</sub> < x<sub>2</sub> → f (x<sub>1</sub>) ≤ f (x<sub>2</sub>))
+> ∀ x <sub> 1 </sub> ∀ x <sub> 2 </sub>(x <sub> 1 </sub> < x<sub> 2 </sub> → f (x <sub> 1 </sub>) ≤ f (x <sub> 2 </sub>))
 > 
 > this may have somewhere horizontal
 > 
 > ---
 >
 > strictly increasing function: increasing if 
-> ∀x<sub>1</sub>∀x<sub>2</sub>(x<sub>1</sub> < x<sub>2</sub> → f (x<sub>1</sub>) < f (x<sub>2</sub>))
+> ∀ x <sub> 1 </sub> ∀ x <sub> 2 </sub>(x <sub> 1 </sub> < x<sub> 2 </sub> → f (x <sub> 1 </sub>) < f (x<sub> 2 </sub>))
 > 
-> no horizontal line, if x<sub>1</sub> > x<sub>2</sub>, then f(x<sub>1</sub>) is always larger than f(x<sub>2</sub>)
+> no horizontal line, if x <sub> 1 </sub> > x <sub> 2 </sub>, then f(x <sub> 1 </sub>) is always larger than f(x <sub> 2 </sub>)
 >
 > ---
 > decreasing function and strictly decreasing function are the reverse
 
 ## Injection
 
-Injection is also called one-to-one, which means for each value in domain will always has it unique image in range. (if f(a)==f(b), then a==b)
+Injection is also called one-to-one, which means for each value in domain will always has it unique image in range. (if f(a)== f(b), then a == b)
 
 ## Surjection
 
@@ -1428,9 +1428,9 @@ Example:
 
 Suppose that f : A → B
 
-injective: show that if f(x)==f(y), then x==y
+injective: show that if f(x)== f(y), then x == y
 
-surjective: show that for any x in codomin, there is a y in domain such that f(y)==x
+surjective: show that for any x in codomin, there is a y in domain such that f(y)== x
 
 > f(x) = 4x - 1 show one-to-one and onto
 
