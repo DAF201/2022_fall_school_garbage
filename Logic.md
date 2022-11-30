@@ -1501,8 +1501,12 @@ Celling function return the smallest integer that larger than or equal to x
 
 > n is a integer, and x is a real number
 >
-> ⌊ x ⌋ = n iff n <= x < n + 1
->
-> ⌈ x ⌉ = n iff n - 1 < x <= n
->
->
+> 1. ⌊ x ⌋ = n iff n <= x < n + 1
+> 2. ⌈ x ⌉ = n iff n - 1 < x <= n
+> 3. ⌊ x ⌋ = n iff x - 1 < n <= x
+> 4. ⌈ x ⌉ = n iff x <= n < x + 1
+> 5. x - 1 < ⌊ x ⌋ <= x <= ⌈ x ⌉ < x + 1
+> 6. ⌊ -x ⌋ = -⌈ x ⌉
+> 7. ⌈ -x ⌉ = -⌊ x ⌋
+> 8. ⌊ x + n ⌋ = ⌊ x ⌋ + n
+> 9. ⌈ x + n ⌉ = ⌈ x ⌉ + n
