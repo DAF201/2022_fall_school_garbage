@@ -1643,3 +1643,82 @@ Algorithms can be specified in different ways.
 - Human language 
 - Flowchart 
 - Pseudocode
+
+## flowchart
+
+graphic representation of an algorithm
+
+operations, instructions and series of instructions are represented by boxes of different shapes
+
+The flow of control is represented by directed lines connecting the boxes
+
+Unwieldy for algorithms of even moderate complexity
+
+## Properties of Algorithms 
+
+> Input: have input values from a specified set
+>
+> Output: performs an action or produces the output
+>
+> Correctness: produce the correct output values for each set of input values
+>
+> Finiteness: should produce the output after a finite number of steps for any input
+>
+> Effectiveness: it must be possible to perform each step of the algorithm correctly and in a finite amount of time
+>
+> Generality: should work for all problems of the desiderd form
+
+# Search problem
+
+Definition: The general searching problem is to locate an element x in the list of distinct elements a <sub> 1 </sub>, a <sub> 2 </sub>,..., a <sub> n </sub>, or determine that it is not in the list.
+
+The solution to seatching problem is the location of the term in the list that equals x or 0 if x is not in the list
+
+## Linear Search
+
+Search from begining of the list to the end of the list
+
+## Binary Search
+
+Assume the input is a list of items in increasing order
+
+The algorithm begins by comparing the element to be found with the middle element.
+
+- if the middle element is lower, the search proceeds with the upper half of the list
+- otherwise, the search proceeds with the lower half of the list
+
+Repeat this process untill we have a list of size 1.
+
+- if the element remain equal to the element in the list, the position is returned.
+- otherwise, return 0
+
+## Sorting
+
+To sort the elements of a list is to put them in increasing order
+
+## Bubble Sort
+
+Bubble sort makes multiple passes through a list. Every pair of elements that are found to be out of order are interchanged 
+
+1. compare two elements sit together each time, of the first is larger, exchange position with second element.
+2. repeat from beging to the end of the list
+3. repeat (1-2) for number of elements in list times
+4. each time step 3 is done, the largest value will be pushed to the end of the list
+
+Although bubble sort is considered to be an 
+extremely inefficient algorithm, it is possible to slightly tweak the algorithm so as to give bubble sort the ability to handle already sorted lists very efficiently 
+
+## Selection Sort
+
+The selection sort begins by finding the least 
+element in the list. This element is moved to the front. Then the least element among the 
+remaining elements is found and put into the 
+second position. This procedure is repeated until the entire list has been sorted.
+
+1. find max from index 1 to end
+2. exchange max and index 1 element
+3. find max from index 2 to end
+4. exchange max and index 2 element
+5. repeat for number of elements times...
+
+## Insertion Sort
