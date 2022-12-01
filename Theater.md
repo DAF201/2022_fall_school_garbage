@@ -607,3 +607,143 @@ Known for tragedies by Aeschylus, Sophocles, and Euripides​
 > Hairstyles and Wigs: Hair and wig specialist ​
 >
 > Masks: An extension of the performer​
+
+# Stages
+
+- Proscenium 前舞台
+- Areana ?
+- Thrust 伸展式舞台
+- Created ?
+- Black Box
+
+## Proscenium
+
+This is the frame stage
+
+Broadway-style theatres (百老汇风格)
+
+The audience on three sides
+
+First introduced in Italy during the Renaissance (文艺复兴)
+
+Not an arch, a rectangle
+
+Also called the Forth Wall
+
+House
+
+Rake = Away from the audience
+
+Orchestra (管弦乐团)
+
+Box
+
+It was popular in America because it was popular in Europe
+
+## Areana
+
+Oldest stage forms
+
+After the World War II in the US
+
+Circle threatre or threatre-in-the-round
+
+Seats are all around
+
+Up a few feet the main floor
+
+Offers more intimacy
+
+All you need is a large room
+
+Design
+
+Tent Theatres
+
+## Thrust
+
+Three-quarters seating/U shapes
+
+Most widely used
+
+The other two mixed
+
+Classical Greek for comedy and Tragedy
+
+Platform stage: Elevated sometimes call a trestle stage
+
+Wagon stage
+
+Corral Spanish Golden age: located in teh countryard of a series of adjoining buildings
+
+## Created and Found Spaces
+
+Jerzy Growowsky (1933-1999)-> closed look at the physical arrangement of the playing area and its relationship to the audience/developed theatre space
+
+Antonin Artaud (1896-1948) = unstable but prophetic
+
+Site-specific companies = non-theatre Buildings/Adapted Sapaces/Street Threater/Multifocus Theatre
+
+## The Black Box
+
+Moveble and flexible
+
+Empty rectangle
+
+# The Director
+
+## Role of director
+
+The first person to become involved with the creative process
+
+works most closely with the actors
+
+works with the playwright
+
+coordinating other aspects
+
+Stage manager communicates with the director's conceputal vision
+
+## The spine of the play
+
+Main action -> what is the primary objective 
+
+A working hypothesis that gives directors a foundation and a through-line on which to base their analysis
+
+Provides nerve center
+
+## The style of the production
+
+After finding the spine it is time to decide a style
+
+The way to play is presented
+
+## The directorial concept
+
+Drives from a controlling idea, vision or point of view that the director feels is appropriate to the play
+
+should create a unified theatrical experience for the audience
+
+## Other things
+
+A central image or metaphor
+
+A concept and purtpose
+
+## The Auteur Director
+
+The Frence word for Authour
+
+After the World War II
+
+The authors of their own films
+
+Taking responsibility for shaping every element in the productions including the script
+
+## The Postmodern Director
+
+Taking apart a text, often called deconstruction , in which portions of a text may be altered, deleted, taken out of context, or reassembled
+
+The abandonment of a narrative or linear structure in a theatre piece
+
+Unfamilar, cross-gender, muticultural casting
