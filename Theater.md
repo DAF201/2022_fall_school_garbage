@@ -747,3 +747,44 @@ Taking apart a text, often called deconstruction , in which portions of a text m
 The abandonment of a narrative or linear structure in a theatre piece
 
 Unfamilar, cross-gender, muticultural casting
+
+# Casting
+
+Casting a mold
+
+Fitting performers into roles
+
+Personality and physical appearances
+
+## Typeca sting
+
+when a performer closely resembles in real life the character to be enacted
+
+# Dramaturg
+
+german word meaning "Dramatic Advisor"
+
+Europe =  Over a century
+
+US =  Relatively new
+
+Also, literary manager
+
+works on literary and historical issues with members of the artistic team
+
+## Duties
+
+Discovering promising new plays
+
+working with playwrights
+
+identifying significant plays from the past that may have been overlooked
+
+Preparing materials for teachers whose students may be attending the show
+
+Writing articles for the show
+
+Conducting research on previous productions 
+
+Research on the criticism etc.
+
