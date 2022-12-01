@@ -1530,3 +1530,71 @@ case 2: ε >= 1/2
 >
 > ⌊ x ⌋ + ⌊ x + 1/2 ⌋ = ⌊ n + ε ⌋ + ⌊ n + ε + 1/2 ⌋ = n + (n + 1) since ε > 1/2 and correspondingly ε + 1/2 > 1
 
+## Factorial function
+
+f: N → Z+ , denoted by f(n) = n! is the 
+product of the first n positive integers when n is a 
+nonnegative integer. 
+
+f(n) = 1 * 2 * 3 ... * n
+
+f(0) = 0! = 1
+
+f(1) = 1! = 1
+
+## Partial function
+
+A partial function from A → B is a assignment of each element in subset of A to B, which means not every element in domain is used.
+
+for example, f: Z → R, f(x) = $\sqrt{x}$ is a partial function beacause f(x) is undefined when x is negative
+
+## Sequences and Summations
+
+Sequaences are ordered lists of elements
+
+> Example:
+>
+> 1,2,3,5,8...
+>
+> 1,3,9,27,81...
+
+The notion of position is important in sequences.  
+It is the index at which a certain value appears in 
+the sequence
+
+## Formal defination of sequences
+
+A sequence is a function from a subset of the integers (usually {1,2,3...} or {0,1,2,3...})to a set S
+
+The notation a <sub> n </sub> is used to denote the image of the integer n. 
+
+## Types of sequences
+
+> ### Geometric Progression:
+>
+> A geometric progression is a sequence of the form a, ar, ar <sup> 2 </sup>, ..., ar <sup> n </sup>, ...
+>
+> where the initial term a and the common ratio r are real numbers
+
+> ### Arithmetic Progression
+>
+> A arithmetic progression is a sequence ofform a, a + d, a + 2d , ..., a + nd, ...
+>
+> where the initial term a and the common difference d are real numbers
+
+## Summations
+
+Sume of the term a <sub> m </sub>, a <sub> m+1 </sub>, ... , a <sub> n </sub>, 
+
+> Notation: $\sum_{i=m}^{n} a_i$
+>
+>(starting from a <sub> m </sub> stop at a <sub> n </sub>)
+
+## Geometric Series
+
+> Sum of terms of germetric progressions:
+>
+> $\sum_{j = 0} ^ {n} ar^j$ = $\frac{ar ^ {n + 1} - a}{r - 1}$ when r ≠ 1
+>
+> $\sum_{j = 0} ^ {n} ar^j$ = ${(n + 1) a}$ when r = 1
+
