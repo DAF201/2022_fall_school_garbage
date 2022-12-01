@@ -1624,3 +1624,22 @@ performing a computation or for solving a problem.
 
 Human understable words:
 > The steps of a general question to get desired out put from any vaild input
+
+Example:
+
+> describe an algorithm for finding the maximum value in a finite seuence of integers
+> 1. Set the temporary maximum equal to the first integer in the 
+sequence. 
+> 2. Compare the next integer in the sequence to the temporary 
+maximum. </br> - If it is larger than the temporary maximum, set the temporary 
+maximum equal to this integer. 
+> 3. Repeat the previous step if there are more integers. If not, stop. 
+> 4. When the algorithm terminates, the temporary maximum is the 
+largest integer in the sequence.
+
+## Specifying Algorithms
+
+Algorithms can be specified in different ways. 
+- Human language 
+- Flowchart 
+- Pseudocode
