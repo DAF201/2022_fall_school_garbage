@@ -143,14 +143,14 @@ Means the propositions have the exactly same results, denote by ≡
 | Identity Laws       | p ∧ T ≡ p, p ∨ F ≡ p                                              |
 | Domination Laws     | p ∨ T ≡ T, p ∧ F ≡ F                                              |
 | Idempotent laws     | p ∧ p ≡ p, p ∨ p ≡ p                                              |
-| Double Negation Law | ¬(¬ p) ≡ p                                                         |
-| Negation Laws       | p ∨ ¬ p ≡ T, p ∧ ¬ p ≡ F                                            |
+| Double Negation Law | ¬(¬ p) ≡ p                                                        |
+| Negation Laws       | p ∨ ¬ p ≡ T, p ∧ ¬ p ≡ F                                          |
 | Commutative Laws    | p ∨ q ≡ q ∨ p, p ∧ q ≡ q ∧ p                                      |
 | Associative         | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r), (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)              |
 | Distributive Laws   | (p ∧ q) ∨ r ≡ (p ∨ r) ∧ (q ∨ r) , (p ∨ q) ∧ r ≡ (p ∧ r) ∨ (q ∧ r) |
 | Absorption Laws     | p ∨ (p ∧ q) ≡ p, p ∧ (p ∨ q) ≡ p                                  |
-| De Morgan's Laws    | ¬(p ∨ q) ≡ ¬ p ∧ ¬ q , ¬(p ∧ q) ≡ ¬ p ∨ ¬ q                           |
-| Nameless            | p → q ≡ ¬ p ∨ q                                                    |
+| De Morgan's Laws    | ¬(p ∨ q) ≡ ¬ p ∧ ¬ q , ¬(p ∧ q) ≡ ¬ p ∨ ¬ q                       |
+| Nameless            | p → q ≡ ¬ p ∨ q                                                   |
 | Nameless            | p ⇔ q ≡ (p → q) ∧ (q → p)                                         |
 
 ## Propositional Satisfiability
@@ -187,9 +187,9 @@ An argument which is not valid is called a fallacy
 
 Does ((p → q) ∧ ¬ p) → ¬ q?
 
-| p   | q   | ((p → q) ∧ ¬ p) | ¬ q  |
-| --- | --- | -------------- | --- |
-| F   | T   | T              | F   |
+| p   | q   | ((p → q) ∧ ¬ p) | ¬ q |
+| --- | --- | --------------- | --- |
+| F   | T   | T               | F   |
 
 premises is True ((p → q) ∧ ¬ p), but conclusion is False (¬ q), so this is a fallacy
 
@@ -220,16 +220,16 @@ When two arguements have the same arguement form, they:
 
 ## Important Rules of Inference
 
-| Rules of Inference                     | Tautology                     | Name                   |
-| -------------------------------------- | ----------------------------- | ---------------------- |
+| Rules of Inference                         | Tautology                     | Name                   |
+| ------------------------------------------ | ----------------------------- | ---------------------- |
 | p <br> p → q <br>-------<br> ∴ q           | (p ∧ (p → q)) → q             | Modus ponens           |
-| ¬ q <br> p → q <br>-------<br> ∴ ¬ p         | (¬ q ∧ (p → q)) → ¬ p           | Modus tollens          |
+| ¬ q <br> p → q <br>-------<br> ∴ ¬ p       | (¬ q ∧ (p → q)) → ¬ p         | Modus tollens          |
 | p → q <br> q → r <br>-------<br> ∴ r       | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical Syllogism |
-| p ∨ q <br> ¬ p <br>-------<br> ∴ q          | (¬ p ∧ (p ∨ q)) → q            | Disjunctive Syllogism  |
-| p <br>-------<br> ∴ p ∨ q                | p → (p ∨ q)                   | Addition               |
-| p ∧ q <br>-------<br> ∴ p                | (p ∨ q) → p                   | Simplification         |
+| p ∨ q <br> ¬ p <br>-------<br> ∴ q         | (¬ p ∧ (p ∨ q)) → q           | Disjunctive Syllogism  |
+| p <br>-------<br> ∴ p ∨ q                  | p → (p ∨ q)                   | Addition               |
+| p ∧ q <br>-------<br> ∴ p                  | (p ∨ q) → p                   | Simplification         |
 | p <br> q <br>-------<br> ∴ p ∧ q           | ((p) ∧ (q)) → p ∧ q           | Conjunction            |
-| p ∨ q <br> ¬ p ∨ r <br>-------<br> ∴ q ∨ r | ((¬ p ∨ r) ∧ (p ∨ q)) → q ∨ r  | Resolution             |
+| p ∨ q <br> ¬ p ∨ r <br>-------<br> ∴ q ∨ r | ((¬ p ∨ r) ∧ (p ∨ q)) → q ∨ r | Resolution             |
 
 ## Comparing the Tautologies for Logical Equivalences and Rules of Inference
 
@@ -436,10 +436,10 @@ The Universal quantifier cannot be distributed over disjunction, and the existen
 
 ## De Morgan’s Laws for Quantifiers
 
-| Negation | Equivalent Statement | When Is Negation True?         | When Is False                 |
-| -------- | -------------------- | ------------------------------ | ----------------------------- |
-| ¬∃ x P(x) | ∀ x ¬ P(x)             | For every x, P(x) is false     | There is x which P(x) is true |
-| ¬∀ x P(x) | ∃ x ¬ P(x)             | There is x which P(x) is false | P(x) is true for every x      |
+| Negation  | Equivalent Statement | When Is Negation True?         | When Is False                 |
+| --------- | -------------------- | ------------------------------ | ----------------------------- |
+| ¬∃ x P(x) | ∀ x ¬ P(x)           | For every x, P(x) is false     | There is x which P(x) is true |
+| ¬∀ x P(x) | ∃ x ¬ P(x)           | There is x which P(x) is false | P(x) is true for every x      |
 
 ## Restricted Quantifiers
 
@@ -477,12 +477,12 @@ The order of the nested quantifiers is important, unless all the quantifiers are
 
 ## Quantifications of Two Variables
 
-| Statement                | When True?                                                    | When False?                                         |
-| ------------------------ | ------------------------------------------------------------- | --------------------------------------------------- |
+| Statement                         | When True?                                                     | When False?                                          |
+| --------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------- |
 | ∀ x ∀ yP(x, y)<br> ∀ y ∀ xP(x, y) | P(x, y) is true for every pair of x and y                      | when any pair of x, y make P(x, y) false             |
-| ∀ x ∃ yP(x, y)               | For every x, there is an y such that P(x, y) is true           | when there is a x for every y P(x, y) is false       |
-| ∃ x ∀ yP(x, y)               | There is at least one x such that for every y, P(x, y) is true | for every x, there is a y such that P(x, y) is false |
-| ∃ x ∃ yP(x, y)<br> ∃ y ∃ xP(x, y) | There is a pair of x and y such that                          | for every pair of x and y, P(x, y) is false          |
+| ∀ x ∃ yP(x, y)                    | For every x, there is an y such that P(x, y) is true           | when there is a x for every y P(x, y) is false       |
+| ∃ x ∀ yP(x, y)                    | There is at least one x such that for every y, P(x, y) is true | for every x, there is a y such that P(x, y) is false |
+| ∃ x ∃ yP(x, y)<br> ∃ y ∃ xP(x, y) | There is a pair of x and y such that                           | for every pair of x and y, P(x, y) is false          |
 
 ## Two Surprising Results
 
@@ -492,12 +492,12 @@ if ∀ x ∃ yP(x, y) is true, it is not necessay for ∃ y ∀ xP(x, y) to be t
 
 ## Additional Rules of Inference for Quantified Statements
 
-| Rule of Inference                                                   | Name                       |
-| ------------------------------------------------------------------- | -------------------------- |
-| ∀ xP(x)<br>------<br> ∴ P(c)                                           | Universal instantiation    |
+| Rule of Inference                                                     | Name                       |
+| --------------------------------------------------------------------- | -------------------------- |
+| ∀ xP(x)<br>------<br> ∴ P(c)                                          | Universal instantiation    |
 | P(c) for an arbitrary of c <br>-------------------------<br> ∴∀ xP(x) | Universal generalization   |
-| ∃ xP(x)<br>-------------------------<br> ∴ P(c) for some element c     | Existential instantaion    |
-| P(c) for some element c <br>-------------------------<br> ∴∃ xP(x)     | Existential generalization |
+| ∃ xP(x)<br>-------------------------<br> ∴ P(c) for some element c    | Existential instantaion    |
+| P(c) for some element c <br>-------------------------<br> ∴∃ xP(x)    | Existential generalization |
 
 x: Unspecified member of the domain
 
@@ -934,7 +934,7 @@ S = {a, b, c, d, ……, z }
 | ---- | ---------------------------- | ---------------------- |
 | N    | natural numbers              | {0,1,2,3…}             |
 | Z    | integers                     | {…,-3,-2,-1,0,1,2,3,…} |
-| Z ⁺   | positive integers            | {1,2,3,…}              |
+| Z ⁺  | positive integers            | {1,2,3,…}              |
 | R    | set of real numbers          |                        |
 | R+   | set of positive real numbers |                        |
 | C    | set of complex numbers       |                        |
@@ -1598,3 +1598,29 @@ Sume of the term a <sub> m </sub>, a <sub> m+1 </sub>, ... , a <sub> n </sub>,
 >
 > $\sum_{j = 0} ^ {n} ar^j$ = ${(n + 1) a}$ when r = 1
 
+## Some Useful Summation formulae
+
+| Sum                                       | Closed Form                             |
+| ----------------------------------------- | --------------------------------------- |
+| $\sum_{j = 0} ^ {n} ar^j$ (r ≠ 1)         | $\frac{ar ^ {n + 1} - a}{r - 1}$, r ≠ 1 |
+| $\sum_{j=0}^{n} j$                        | $\frac{n(n+1)}{2}$                      |
+| $\sum_{j=0}^{n} j^2$                      | $\frac{n(n+1)(n+2)}{6}$                 |
+| $\sum_{j=0}^{n} j^2$                      | $\frac{n^2(n+1)^2}{4}$                  |
+| $\sum_{j=0}^{\infty} x^j$, $\|x\|<1$      | $\frac{1}{1-x}$                         |
+| $\sum_{j=0}^{\infty} jx^{j-1}$, $\|x\|<1$ | $\frac{1}{(1-x)^2}$                     |
+
+# chapter 3
+
+## Problems and Algorithms
+
+We then solve the general problem by specifying 
+the steps of a procedure that takes a valid input 
+and produces the desired output. This 
+procedure is called an algorithm. 
+
+Definition: 
+> An algorithm is a finite set of precise instructions for 
+performing a computation or for solving a problem. 
+
+Human understable words:
+> The steps of a general question to get desired out put from any vaild input
