@@ -1722,3 +1722,23 @@ second position. This procedure is repeated until the entire list has been sorte
 5. repeat for number of elements times...
 
 ## Insertion Sort
+
+An optimized version of the algorithm uses fewer swaps but instead uses a temporary location to store the element that needs to be assigned the correct location
+
+1. Get index 2, consider index 1 as another list, call in ret list
+2. loop through ret, find the correcct index for index 2
+3. insert index2 to ret in the correct position
+4. repeat for the remain part of the list
+5. ret is the sorted list
+
+## Greedy Algoithms
+
+Optimization problems minimize or maximize some parameter over all
+
+Takes the best one each step instead of over all best one
+
+It not always comes with the best over all result even it comes out with best each step results.
+
+After specifying what the “best choice” at each step is, we try to prove that this approach always produces an optimal solution, or find a counterexample 
+
+This is a very important step because in some cases greedy algorithms yield a very poor solution 
