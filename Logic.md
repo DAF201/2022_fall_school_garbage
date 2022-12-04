@@ -2045,3 +2045,27 @@ Theorem:
 let $f(x)=a_nx^n+a_{n-1}x^{n-1}...+a_1x+a_0$
 
 where $a_0, a_1...a_n$ are real numbers with $a_n ≠0$
+
+Then $f(x)$ is of order $x^n$(or $\Theta(x^n)$)
+
+Example:
+
+The polynomial $f(x)=8x^5+5x^2+10$ is order of $x^5$ (or $\Theta(x^5)$)
+
+## Complexity of Algorithms
+
+Given an algorithm, how efficient is this algorithm for solving a problem given input of a particular size?
+
+We ask:
+
+How much time does this algorithm use to solve a problem
+
+How much computer memory does this algorithm use to solve a problem?
+
+When we analyze the time the algorithm uses to solve the problem given input of a particular size, we are studying the time complexity of the algorithm. 
+
+When we analyze the computer memory the algorithm uses to solve the problem given input of a particular size, we are 
+studying the space complexity of the lgorithm. 
+
+## Space Complexity
+
