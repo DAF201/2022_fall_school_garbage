@@ -123,7 +123,8 @@ q → p is the converse of p → q
 ## translate to english
 
 Unless means if ... not ...
->–Unless I work hard, I will fail the exam
+
+> –Unless I work hard, I will fail the exam
 >
 > If I do not work hard then I will fail the exam
 
@@ -181,7 +182,7 @@ An argument which is not valid is called a fallacy
 >
 > P2: John did not eat peanuts
 >
->---
+> ---
 >
 > ∴ John did not fall sick
 
@@ -199,7 +200,7 @@ premises is True ((p → q) ∧ ¬ p), but conclusion is False (¬ q), so this i
 >
 > P2: John did not fall sick
 >
->---
+> ---
 >
 > ∴ John did not eats peanuts
 
@@ -207,7 +208,7 @@ premises is True ((p → q) ∧ ¬ p), but conclusion is False (¬ q), so this i
 >
 > P2: You did not get a good raise
 >
->---
+> ---
 >
 > ∴ You did not work hard
 
@@ -234,11 +235,11 @@ When two arguements have the same arguement form, they:
 ## Comparing the Tautologies for Logical Equivalences and Rules of Inference
 
 > ### Logical Equivalences
-> 
+>  
 > Logical_Expression1 ⇔ Logical_Expresion2 is a tautology
 
 > ### Rules of Inference
-> 
+>  
 > Conjunction_of_premises → Conclusion is a tautology
 
 ## Fallacies
@@ -254,9 +255,10 @@ When two arguements have the same arguement form, they:
 Propositional calculus is inadequate to deal with arguments that deal with all cases, or with some case out of many cases
 
 In such instances, instead of looking at propositions as a whole, we need to understand their inner structure by
->- breaking propositions up into parts {predicates and variables}
+
+> - breaking propositions up into parts {predicates and variables}
 >
->- analyzing quantifiers like "all" or "some"
+> - analyzing quantifiers like "all" or "some"
 
 ## What is Predicate Logic
 
@@ -277,8 +279,9 @@ EX: In the proposition “17 is a prime number”, “is a prime number” is th
 A proposition contains one or more predicates but does not focus on specific object
 
 EX: 
+
 > Proposition: James is a student at Bedford College
-> 
+>  
 > Predicate: is a student at
 >
 > Predicate variables: x, y
@@ -342,11 +345,11 @@ Example: Let P(x) be the propositional function “x + 1 > x”. Then ∀ x P(x)
 
 In general, all the variables that occur in a propositional function must be bound or set equal to a particular value to turn it into a proposition
 
-- universal quantifiers
+* universal quantifiers
 
-- existential quantifiers
+* existential quantifiers
 
-- value assignments
+* value assignments
 
 ## Properties of Quantifiers
 
@@ -354,9 +357,9 @@ The truth value of ∀ x P(x) and ∃ x P(x) depend on both the propositional fu
 
 If the domain is empty, for any propositional function:
 
-- ∀ xP(x) is true
+* ∀ xP(x) is true
 
-- ∃ xP(x) is false
+* ∃ xP(x) is false
 
 ## Truth Set
 
@@ -364,7 +367,7 @@ A truth set is a set contains all values of x that make the proposition true
 
 Example, P(x): "x is a factor of 8", Domain: all positive integers
 
-Then the truth set of P(x) is {1,2,4,8}
+Then the truth set of P(x) is {1, 2, 4, 8}
 
 ## Quantifiers Over Finite Domains
 
@@ -382,9 +385,9 @@ Sometimes it is not feasible to enumerate the domain of a quantifier. Then we us
 
 In such instances, an abbreviated notation is often used
 
-- a condition a variable must satisfy is included after the quantifier
+* a condition a variable must satisfy is included after the quantifier
 
-- Such quantifiers are called restricted quantifiers
+* Such quantifiers are called restricted quantifiers
 
 Example:
 
@@ -531,13 +534,13 @@ A proof is a valid argument that establishes the truth of a statement
 
 A theorem is a statement that can be shown to be true using:
 
-- definitions
+* definitions
 
-- other theorems
+* other theorems
 
-- axioms (statements which are given as true, also known as postulates)
+* axioms (statements which are given as true, also known as postulates)
 
-- rules of inference
+* rules of inference
 
 A lemma is a ‘helping theorem’ or a result which is needed to prove a theorem
 
@@ -566,7 +569,7 @@ let r = (n <sup> 2 </sup> + 2n), therefore (2n + 1)<sup> 2 </sup> = 2r + 1, and 
 
 Sometimes it is easier to prove theorems using proof by contraposition
 
-- the conditional statement p → q is proved by showing that its contrapositive, ¬ q → ¬ p is true
+* the conditional statement p → q is proved by showing that its contrapositive, ¬ q → ¬ p is true
 
 Example: Prove that if n is an integer and 3n + 2 is odd, then n is odd
 
@@ -584,13 +587,13 @@ Since we have shown ¬ q → ¬ p , p → q must hold as well. We have proved by
 
 ## Vacuous & Trivial Proofs
 
-- p → q ≡ ¬ p ∨ q
+* p → q ≡ ¬ p ∨ q
 
-- A proof that makes use of the fact that p → q must be true when p is false is called a vacuous proof
+* A proof that makes use of the fact that p → q must be true when p is false is called a vacuous proof
 
-- A proof that makes use of the fact that p → q must be true when q is true is called a trivial proof
+* A proof that makes use of the fact that p → q must be true when q is true is called a trivial proof
 
-- These proofs are never treated as complete proofs but they are used in conjunction with other proof techniques (like proof by cases and mathematical induction) to establish that special cases of a theorem are not in violation of the generalized theorem
+* These proofs are never treated as complete proofs but they are used in conjunction with other proof techniques (like proof by cases and mathematical induction) to establish that special cases of a theorem are not in violation of the generalized theorem
 
 ## Proof by Contradiction
 
@@ -603,7 +606,8 @@ Prove that if you pick 22 days from the calendar, at least 4 must fall on the sa
 Assume that no more than 3 of the 22 days fall on the same day of the week. Because there are 7 days of the week, we could only have picked 21 days. This contradicts the assumption that we have picked 22 days
 
 ## Background Information
-- Fundamental theorem of arithmetic (also called the unique factorization theorem)
+
+* Fundamental theorem of arithmetic (also called the unique factorization theorem)
 
 > Every number is a prime or a unique product of primes
 
@@ -636,13 +640,13 @@ Therefore we have proved by counterexample that “Every positive integer is the
 
 ## Mistakes in proofs
 
-- performing a disallowed mathematical operation (divide by 0)
+* performing a disallowed mathematical operation (divide by 0)
 
-- given p → q is true and q is true implying the conclusion that p is true(q can be True when p is False)
+* given p → q is true and q is true implying the conclusion that p is true(q can be True when p is False)
 
-- given p → q is true and p is false implying the conclusion that q is false(q is true)
+* given p → q is true and p is false implying the conclusion that q is false(q is true)
 
-- basing one or more steps of the proof on the truth of the statement being proved, or a statement equivalent to it (begging the question or circular reasoning)
+* basing one or more steps of the proof on the truth of the statement being proved, or a statement equivalent to it (begging the question or circular reasoning)
 
 ## What is wrong with this
 
@@ -660,9 +664,9 @@ Solution: step 5, divide both side by (a - b), (a - b) = 0, it is dividing both 
 
 ## If direct methods of proof do not work
 
-- We may need a clever use of a proof by contraposition
+* We may need a clever use of a proof by contraposition
 
-- Or a proof by contradiction
+* Or a proof by contradiction
 
 ## Proof by Exhaustion
 
@@ -674,7 +678,7 @@ Example:
 
 > Prove that (n + 1)3 ≥ 3n if n is a positive integer with n ≤ 4
 >
->----
+> ----
 >
 > solution:
 >
@@ -697,15 +701,15 @@ To prove a conditional statement of the form
 
 Example: 
 
->(p1 ∨ p2 ∨ p3 ... ∨ pn) → q
+> (p1 ∨ p2 ∨ p3 ... ∨ pn) → q
 >
->(p1 ∨ p2 ∨ p3 ... ∨ pn) → q ≡ ¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q
+> (p1 ∨ p2 ∨ p3 ... ∨ pn) → q ≡ ¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q
 >
 > ¬(p1 ∨ p2 ∨ p3 ... ∨ pn) ∨ q ≡ (¬ p1 ∧ ¬ p2 ∧ ¬ p2 ∧ ¬ p3 ... ∧ ¬ pn) ∨ q
 >
->(¬ p1 ∧ ¬ p2 ∧ ¬ p2 ∧ ¬ p3 ... ∧ ¬ pn) ∨ q ≡ (¬ p1 ∨ q) ∧ (¬ p2 ∨ q) ∧ (¬ p3 ∨ q) ... ∧ (¬ pn ∨ q)
+> (¬ p1 ∧ ¬ p2 ∧ ¬ p2 ∧ ¬ p3 ... ∧ ¬ pn) ∨ q ≡ (¬ p1 ∨ q) ∧ (¬ p2 ∨ q) ∧ (¬ p3 ∨ q) ... ∧ (¬ pn ∨ q)
 >
->(¬ p1 ∨ q) ∧ (¬ p2 ∨ q) ∧ (¬ p3 ∨ q) ... ∧ (¬ pn ∨ q) ≡ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
+> (¬ p1 ∨ q) ∧ (¬ p2 ∨ q) ∧ (¬ p3 ∨ q) ... ∧ (¬ pn ∨ q) ≡ (p1 → q) ∧ (p2 → q) ∧ (p3 → q) ... ∧ (pn → q)
 
 Use the tautology
 
@@ -739,9 +743,9 @@ A proof of a proposition of the form ∃ xP(x) is called an existence proof
 
 there are two form of proof for existence proof
 
-- Constructive: Finding an element a, which P(a) is True
+* Constructive: Finding an element a, which P(a) is True
 
-- Nonconstructive: Proof there is ∃ xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False
+* Nonconstructive: Proof there is ∃ xP(a) is True without finding an element. For example, using proof by contradiction to shows that not all P(a) are False
 
 Example 1: 
 
@@ -756,12 +760,12 @@ Example 2:
 > We know that √ 2 is irrational. Let us consider the number √ 2 <sup> √ 2 </sup>. There are two possibilities to consider
 >
 >> Possibility 1: √ 2 <sup> √ 2 </sup> is rational
->>
->>- In this case x = y = √ 2 and x <sup> y </sup> is rational
+> >
+>> - In this case x = y = √ 2 and x <sup> y </sup> is rational
 >
 >> Possibility 2: √ 2 <sup> √ 2 </sup> is irrational
->>
->>- In this case let x = √ 2 <sup> √ 2 </sup> and y = √ 2. Therefore x <sup> y </sup> = (√ 2 <sup> √ 2 </sup>)<sup> √ 2 </sup> = (√ 2)<sup> 2 </sup> = 2, a rational number
+> >
+>> - In this case let x = √ 2 <sup> √ 2 </sup> and y = √ 2. Therefore x <sup> y </sup> = (√ 2 <sup> √ 2 </sup>)<sup> √ 2 </sup> = (√ 2)<sup> 2 </sup> = 2, a rational number
 >
 > This is an example of Nonconstructive proof, we don't know the property of the √ 2 <sup> √ 2 </sup>, but but we have proved that one of them does has the desired property
 
@@ -769,13 +773,13 @@ Example 2:
 
 Some theorems asset the existence of a unique element with a particular property, ∃! x P(x). The two parts of a uniqueness proof are
 
-- Existence: x exist such that P(x) satisfies the properties
-- Uniqueness: if y != x, then P(y) != P(x)
+* Existence: x exist such that P(x) satisfies the properties
+* Uniqueness: if y != x, then P(y) != P(x)
 
 Example: 
 
 > Shows that if a, b are real numbers, and a != 0, there exits an real number r such that ar + b = 0
-> 
+>  
 > Solution:
 > ___
 >
@@ -784,35 +788,35 @@ Example:
 > ___
 >
 > Existance:
-> 
+>  
 > the real number r has a solution because ar + b = -b + b = 0, there for r = $-\frac{b}{a}$
-> 
+>  
 > Uniqueness: 
-> 
+>  
 > Suppose that s is a real number such that as + b = 0
-> 
+>  
 > as + b = ar + b
-> 
+>  
 > as = ar
-> 
+>  
 > s = r
-> 
+>  
 > therfore, r is unique
-> 
+>  
 > QED
 
 ## Proof Strategies for proving p → q
 
 > Choose a method
-> 
->> 1.First try a direct method of proof
->>
->> 2.If this does not work, try an indirect method (e.g., try to prove the contrapositive)
+>  
+>> 1. First try a direct method of proof
+> >
+>> 2. If this does not work, try an indirect method (e.g., try to prove the contrapositive)
 >
 > For whichever method you are trying, choose a strategy
->> 1.First try forward reasoning. Start with the axioms and known theorems and construct a sequence of steps that end in the conclusion. Start with p and prove q, or start with ¬ q and prove ¬ p
->>
->> 2.If this doesn’t work, try backward reasoning
+>> 1. First try forward reasoning. Start with the axioms and known theorems and construct a sequence of steps that end in the conclusion. Start with p and prove q, or start with ¬ q and prove ¬ p
+> >
+>> 2. If this doesn’t work, try backward reasoning
 
 ## Backward Reasoning
 
@@ -843,9 +847,9 @@ Example:
 > Now that we have our secondary conclusion, let us see if we can prove it.
 >
 > (x - y)<sup> 2 </sup> > 0 <sup> 2 </sup> is true because x != y, so x - y != 0, and for any non-zero number, the square of it is always positive
-> 
+>  
 > Now we move to our formal proof
-> 
+>  
 > (x − y)<sup> 2 </sup> > 0
 >
 > x <sup> 2 </sup> − 2xy + y <sup> 2 </sup> > 0
@@ -881,14 +885,13 @@ ___
 
 Time permitting, we will see many other proof methods:
 
-- Mathematical induction, which is a useful method for proving statements of the form ∀ n P(n), where the domain consists of all positive integers
+* Mathematical induction, which is a useful method for proving statements of the form ∀ n P(n), where the domain consists of all positive integers
 
-- Structural induction, which can be used to prove such results about recursively defined sets
+* Structural induction, which can be used to prove such results about recursively defined sets
 
-- Cantor diagonalization is used to prove results about the size of infinite sets
+* Cantor diagonalization is used to prove results about the size of infinite sets
 
-- Combinatorial proofs use counting arguments
-
+* Combinatorial proofs use counting arguments
 # chapter 2
 
 ## set
@@ -932,9 +935,9 @@ S = {a, b, c, d, ……, z }
 
 | name | meaning                      | Set                    |
 | ---- | ---------------------------- | ---------------------- |
-| N    | natural numbers              | {0,1,2,3…}             |
-| Z    | integers                     | {…,-3,-2,-1,0,1,2,3,…} |
-| Z ⁺  | positive integers            | {1,2,3,…}              |
+| N    | natural numbers              | {0, 1, 2, 3…}             |
+| Z    | integers                     | {…, -3, -2, -1, 0, 1, 2, 3, …} |
+| Z ⁺  | positive integers            | {1, 2, 3, …}              |
 | R    | set of real numbers          |                        |
 | R+   | set of positive real numbers |                        |
 | C    | set of complex numbers       |                        |
@@ -951,7 +954,7 @@ A predicate may be used: S = {x | P(x)}
 
 Positive rational numbers: Q+ = {x ∈ R | x = p/q, for some positive integers p, q}
 
-(just like python list generator: [x for x in range(0,100000)] if Prime(x))
+(just like python list generator: [x for x in range(0, 100000)] if Prime(x))
 
 ## Interval Notation
 
@@ -985,7 +988,7 @@ Sometimes points are used to represent the particular elements of the set
 
 ## Some things to remember
 
-Sets can be elements of sets: {{1,2,3}, a, {b, c}}, {N, Z, Q, R}
+Sets can be elements of sets: {{1, 2, 3}, a, {b, c}}, {N, Z, Q, R}
 
 Let A = { {a}, {b}, {a, b}}, In this case {a} ∈ A, but a ∉ A
 
@@ -1002,8 +1005,8 @@ Therefore if A and B are sets, then A and B are equal if and only if ∀ x(x ∈
 ---
 
 Remember:
-- order is immaterial
-- multiplicity is ignored
+* order is immaterial
+* multiplicity is ignored
 
 ---
 
@@ -1084,7 +1087,7 @@ If A = {a, b} then P(A) = {ø, {a}, {b}, {a, b}}
 
 Because sets are unordered, a different structure is needed to represent ordered collections. This is provided by ordered n-tuples
 
-The ordered n-tuple (a <sub> 1 </sub>, a <sub> 2 </sub>,…, a <sub> n </sub>) is the ordered collection that has a1 as its first element and a2 as its second element and so on until an as its last element
+The ordered n-tuple (a <sub> 1 </sub>, a <sub> 2 </sub>, …, a <sub> n </sub>) is the ordered collection that has a1 as its first element and a2 as its second element and so on until an as its last element
 
 Two n-tuples are equal if and only if their corresponding elements are equal
 
@@ -1115,6 +1118,7 @@ A * B = {(a, b) | a ∈ A ∧ b ∈ B}
 > A relation from a set A to itself is called a relation on A
 >
 > A * ø = ø for any set A
+
 ---
 
 We use the notation A <sup> 2 </sup> to denote A × A
@@ -1138,11 +1142,11 @@ As always there must be a universal set U. All sets are assumed to be subsets of
 methodes you can apply on sets to get new set
 
 Most commonly used set theory operations are:
-- Union
-- Intersection
-- Difference
-- Complementation
-- Symmetric Difference
+* Union
+* Intersection
+* Difference
+* Complementation
+* Symmetric Difference
 
 ## Union
 
@@ -1198,22 +1202,22 @@ Symmetric Difference is different from Complement of Intersection
 
 Identity laws
 
-- A ∪ ø = A
-- A ∩ U = A
+* A ∪ ø = A
+* A ∩ U = A
 
 Domination laws
 
-- A ∪ U = U
-- A ∩ ø = ø
+* A ∪ U = U
+* A ∩ ø = ø
 
 Idempotent laws
 
-- A ∪ A = A
-- A ∩ A = A
+* A ∪ A = A
+* A ∩ A = A
 
 Complementation law
 
-- The completement of $\overline{A}$ is A (markdown cannot display double overline)
+* The completement of $\overline{A}$ is A (markdown cannot display double overline)
 
 ---
 
@@ -1280,7 +1284,7 @@ similar with truth table, proof by giving all posible values
 
 ## Generalized Unions and Intersections
 
-Let A <sub> 1 </sub>, A <sub> 2 </sub> ,…, A <sub> n </sub> be an indexed collection of sets.
+Let A <sub> 1 </sub>, A <sub> 2 </sub> , …, A <sub> n </sub> be an indexed collection of sets.
 
 <sup> <sup> <sup> n </sup> </sup> </sup> ∪ <sub> <sub> <sub> i = 1 </sub> </sub> </sub> A <sub> i </sub> = A <sub> 1 </sub> ∪ A <sub> 2 </sub> ∪ ... A <sub> n </sub>
 
@@ -1289,7 +1293,7 @@ Let A <sub> 1 </sub>, A <sub> 2 </sub> ,…, A <sub> n </sub> be an indexed coll
 These are well defined, since union and intersection are
 associative.
 
-For i = 1,2,…, let A <sub> i </sub> = {i, i + 1, i + 2, …}. Then,
+For i = 1, 2, …, let A <sub> i </sub> = {i, i + 1, i + 2, …}. Then, 
 
 <sup> <sup> <sup> n </sup> </sup> </sup> ∪ <sub> <sub> <sub> i = 1 </sub> </sub> </sub> A <sub> i </sub> = A <sub> 1 </sub>
 
@@ -1311,13 +1315,13 @@ The cardinality of a multiset is defined to be the sum of the multiplicities of 
 
 ## Multiset Operations
 
-- The union of the multisets P and Q (P ∪ Q) is the multiset in which the multiplicity of an element is the maximum of its multiplicities in P and Q
+* The union of the multisets P and Q (P ∪ Q) is the multiset in which the multiplicity of an element is the maximum of its multiplicities in P and Q
 
-- The intersection of P and Q (P ∩ Q) is the multiset in which the multiplicity of an element is the minimum of its multiplicities in P and Q
+* The intersection of P and Q (P ∩ Q) is the multiset in which the multiplicity of an element is the minimum of its multiplicities in P and Q
 
-- The difference of P and Q (P − Q) is the multiset in which the multiplicity of an element is the multiplicity of the element in P less its multiplicity in Q unless this difference is negative, in which case the multiplicity is 0
+* The difference of P and Q (P − Q) is the multiset in which the multiplicity of an element is the multiplicity of the element in P less its multiplicity in Q unless this difference is negative, in which case the multiplicity is 0
 
-- The sum of P and Q (P + Q) is the multiset in which the multiplicity of an element is the sum of multiplicities in P and Q
+* The sum of P and Q (P + Q) is the multiset in which the multiplicity of an element is the sum of multiplicities in P and Q
 
 > Example: 
 >
@@ -1328,7 +1332,7 @@ The cardinality of a multiset is defined to be the sum of the multiplicities of 
 > P ∩ Q = {min(4, 3) ⋅ a, min(1, 4) ⋅ b, min(3, 0) ⋅ c, min(0, 2) ⋅ d} = {3 ⋅ a, 1 ⋅ b, 0 ⋅ c, 0 ⋅ d} = {3 ⋅ a, 1 ⋅ b}
 >
 > P − Q = {max(4 − 3, 0) ⋅ a, max(1 − 4, 0) ⋅ b, max(3 − 0, 0) ⋅ c, max(0 − 2, 0) ⋅ d} = {1 ⋅ a, 0 ⋅ b, 3 ⋅ c, 0 ⋅ d} = {1 ⋅ a, 3 ⋅ c}
-> 
+>  
 > P + Q = {(4 + 3) ⋅ a, (1 + 4) ⋅ b, (3 + 0) ⋅ c, (0 + 2) ⋅ d} = {7 ⋅ a, 5 ⋅ b, 3 ⋅ c, 2 ⋅ d}
 
 ## Functions
@@ -1349,13 +1353,13 @@ only one ordered pair (a, b) for every element a ∈ A
 
 Given a function f: A → B:
 
-- We say f maps A to B or f is a mapping from A to B
-- A is called the domain of f
-- B is called the codomain of f
-- If f(a) = b,
-  - then b is called the image of a under f
-  - a is called the preimage of b
-- The range of f is the set of all images of points in A under f. We denote it by f(A)
+* We say f maps A to B or f is a mapping from A to B
+* A is called the domain of f
+* B is called the codomain of f
+* If f(a) = b, 
+  + then b is called the image of a under f
+  + a is called the preimage of b
+* The range of f is the set of all images of points in A under f. We denote it by f(A)
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b5/Domain%2C_Range%2C_Codomain.svg" style="background-color:#FFFFFF">
 
@@ -1393,18 +1397,18 @@ because s must fall in A, so F(x) must fall in B
 ## Increasing and Decreasing Functions
 
 > ---
-> 
+>  
 > increasing function: increasing if 
 >
 > ∀ x <sub> 1 </sub> ∀ x <sub> 2 </sub>(x <sub> 1 </sub> < x<sub> 2 </sub> → f (x <sub> 1 </sub>) ≤ f (x <sub> 2 </sub>))
-> 
+>  
 > this may have somewhere horizontal
-> 
+>  
 > ---
 >
 > strictly increasing function: increasing if 
 > ∀ x <sub> 1 </sub> ∀ x <sub> 2 </sub>(x <sub> 1 </sub> < x<sub> 2 </sub> → f (x <sub> 1 </sub>) < f (x<sub> 2 </sub>))
-> 
+>  
 > no horizontal line, if x <sub> 1 </sub> > x <sub> 2 </sub>, then f(x <sub> 1 </sub>) is always larger than f(x <sub> 2 </sub>)
 >
 > ---
@@ -1554,9 +1558,9 @@ Sequaences are ordered lists of elements
 
 > Example:
 >
-> 1,2,3,5,8...
+> 1, 2, 3, 5, 8...
 >
-> 1,3,9,27,81...
+> 1, 3, 9, 27, 81...
 
 The notion of position is important in sequences.  
 It is the index at which a certain value appears in 
@@ -1564,7 +1568,7 @@ the sequence
 
 ## Formal defination of sequences
 
-A sequence is a function from a subset of the integers (usually {1,2,3...} or {0,1,2,3...})to a set S
+A sequence is a function from a subset of the integers (usually {1, 2, 3...} or {0, 1, 2, 3...})to a set S
 
 The notation a <sub> n </sub> is used to denote the image of the integer n. 
 
@@ -1588,7 +1592,7 @@ Sume of the term a <sub> m </sub>, a <sub> m+1 </sub>, ... , a <sub> n </sub>,
 
 > Notation: $\sum_{i=m}^{n} a_i$
 >
->(starting from a <sub> m </sub> stop at a <sub> n </sub>)
+> (starting from a <sub> m </sub> stop at a <sub> n </sub>)
 
 ## Geometric Series
 
@@ -1619,30 +1623,38 @@ and produces the desired output. This
 procedure is called an algorithm. 
 
 Definition: 
+
 > An algorithm is a finite set of precise instructions for 
+
 performing a computation or for solving a problem. 
 
 Human understable words:
+
 > The steps of a general question to get desired out put from any vaild input
 
 Example:
 
 > describe an algorithm for finding the maximum value in a finite seuence of integers
 > 1. Set the temporary maximum equal to the first integer in the 
+
 sequence. 
+
 > 2. Compare the next integer in the sequence to the temporary 
+
 maximum. </br> - If it is larger than the temporary maximum, set the temporary 
 maximum equal to this integer. 
+
 > 3. Repeat the previous step if there are more integers. If not, stop. 
 > 4. When the algorithm terminates, the temporary maximum is the 
+
 largest integer in the sequence.
 
 ## Specifying Algorithms
 
 Algorithms can be specified in different ways. 
-- Human language 
-- Flowchart 
-- Pseudocode
+* Human language 
+* Flowchart 
+* Pseudocode
 
 ## flowchart
 
@@ -1670,7 +1682,7 @@ Unwieldy for algorithms of even moderate complexity
 
 # Search problem
 
-Definition: The general searching problem is to locate an element x in the list of distinct elements a <sub> 1 </sub>, a <sub> 2 </sub>,..., a <sub> n </sub>, or determine that it is not in the list.
+Definition: The general searching problem is to locate an element x in the list of distinct elements a <sub> 1 </sub>, a <sub> 2 </sub>, ..., a <sub> n </sub>, or determine that it is not in the list.
 
 The solution to seatching problem is the location of the term in the list that equals x or 0 if x is not in the list
 
@@ -1684,13 +1696,13 @@ Assume the input is a list of items in increasing order
 
 The algorithm begins by comparing the element to be found with the middle element.
 
-- if the middle element is lower, the search proceeds with the upper half of the list
-- otherwise, the search proceeds with the lower half of the list
+* if the middle element is lower, the search proceeds with the upper half of the list
+* otherwise, the search proceeds with the lower half of the list
 
 Repeat this process untill we have a list of size 1.
 
-- if the element remain equal to the element in the list, the position is returned.
-- otherwise, return 0
+* if the element remain equal to the element in the list, the position is returned.
+* otherwise, return 0
 
 ## Sorting
 
@@ -1752,13 +1764,17 @@ Try to prove the US coins produces change using the fewest coins possible
 3. Similarly, by Lemma 1, the two algorithms must have the same number of dimes, nickels, and quarters.
 
 > - The value of the coins other than 
+
 quarters and dimes can not be greater 
 than 9 cents. 
+
 > - The value of the coins other than 
+
 quarters, dimes and nickels can not be 
 greater than 4 cents
 
 ## Unsolvable Problems
+
 There is a class of problems for which it can be shown that no algorithm exists
 
 Typically these problems require a yes/no answer, but where there cannot possibly be any algorithm that always gives the correct answer
@@ -1802,8 +1818,7 @@ If one pair of withnesses is found, then there are infinity many pairs. We can a
 
 > |$f(x)$| <= $C$|$g(x)$|
 
-
-Any pair of C\` and k\` where C < C\` and k < k\`is also a pair of withnesses since whenever x > \`k > k. 
+Any pair of C\ ` and k\` where C < C\ ` and k < k\` is also a pair of withnesses since whenever x > \`k > k. 
 
 > |$f(x)$| <= $C$|$g(x)$| <= $C$\`|$g(x)$|
 
@@ -1817,11 +1832,11 @@ Usually, we will drop the absolute value sign since we will mostly deal with fun
 
 ## Analogy for reasoning often used in Big-O problems
 
-- Consider a weighing scale where on the one side you have an apple, a pear and a banana.  On the other side you replace the apple by a bigger apple, the banana by a bigger banana and the pear by a bigger pear 
+* Consider a weighing scale where on the one side you have an apple, a pear and a banana.  On the other side you replace the apple by a bigger apple, the banana by a bigger banana and the pear by a bigger pear 
 
-- Obviously the first side of the scale will be lighter than the second side of the scale
+* Obviously the first side of the scale will be lighter than the second side of the scale
  
-- In our case we will look at an expression and replace smaller terms by larger terms.  Obviously the original expression will be less than the resultant expression 
+* In our case we will look at an expression and replace smaller terms by larger terms.  Obviously the original expression will be less than the resultant expression 
 
 Exmple:
 
@@ -1836,7 +1851,7 @@ $x^2 + 2x + 1$ <= $x^2 + 2x^2 + x^2 = 4x^2$
 take C = 4 and k = 1 as withnesses to show that
 
 > human understanble version
-> 
+>  
 > $x^2 + 2x + 1$ = $4x^2$ -> x = 1 -> k = 1
 >
 > C = $4k^2$ = 4
@@ -1863,17 +1878,17 @@ Example: show that $n^2$ is not $O(n)$
 
 SOlution: Suppose there are constants C and k for which $n^2 <= Cn$, whenevery n > k
 
-- We can always choose C to be greater than k because if that is not so we can always choose another constant D > k.  Now ∀n > k
+* We can always choose C to be greater than k because if that is not so we can always choose another constant D > k.  Now ∀n > k
 
 $n^2<=Cn$, divide both side by n, we get $n <= C$, and $n<=C$ must hold all $n>k$, a contradition.
 
->For n > k, n ≤ C  <br>∴ k ≤ C <br>But we chose C to be greater than k
+> For n > k, n ≤ C  <br>∴ k ≤ C <br>But we chose C to be greater than k
 
 ## Big-O estimates for Polynomials
 
 A mathematical expression of the following type is known as polynormial of degree n
 
-- $a_nx^n+a_{n-1}x^{n-1}+...+a_1x+a_0$
+* $a_nx^n+a_{n-1}x^{n-1}+...+a_1x+a_0$
 In a polynomial of degree n, the leading term dominates its growth
 
 We will prove the result that a polynomial of degree n is $O(x^n)$
@@ -1924,7 +1939,7 @@ if $f_1(x)$ is $O(g_1(x))$ and $f_2(x)$ is $O(g_2(x))$
 
 then:
 
-$(f_1+f_2)(x)$ is $O(max(|g_1(x),g_2(x)|))$
+$(f_1+f_2)(x)$ is $O(max(|g_1(x), g_2(x)|))$
 
 $(f_1f_2)(x)$ is $O(|g_1(x)g_2(x)|)$
 
@@ -1939,7 +1954,7 @@ We say that "$f(x)$ is big-Omega of $g(x)$"
 Big-O gives an upper bound on the growth of a function, while Big-Omega gives the lower bound. Big-Omega tells us that a function grows at least as fast as another
 
 > Human word:
-> 
+>  
 > Big-O estimate the worst case, Big-Omega estimate the best case
 
 Example:
@@ -1971,7 +1986,6 @@ to show that $f(n)$ is $\Omega(n^2)$, we need a positive constant C such that $f
 $1+2+3+...+n$ >= $⌈n/2⌉+⌈{n/2}+1⌉+...+n$
 
 \>=$⌈n/2⌉+⌈n/2⌉+...+⌈n/2⌉$
-
 
 = $(n-⌈n/2⌉-1)⌈n/2⌉$
 
@@ -2009,12 +2023,17 @@ hencely, $3x^2+8x log x$ is $\Theta(x^2)$
 
 ## Relating O, Ω and Θ
 
-- If f(x) is O(g(x)) then f is of order at most g 
->– g is the upper-bound for f 
-- If f(x) is Ω(g(x)) then f is of order at least g 
->– g is the lower-bound for f 
-- If f(x) is Θ(g(x)) then f is of order g 
->– f is bounded both above and below by some multiple of g 
+* If f(x) is O(g(x)) then f is of order at most g 
+
+> – g is the upper-bound for f 
+
+* If f(x) is Ω(g(x)) then f is of order at least g 
+
+> – g is the lower-bound for f 
+
+* If f(x) is Θ(g(x)) then f is of order g 
+
+> – f is bounded both above and below by some multiple of g 
 
 ## Additional Big-Theata
 
@@ -2025,4 +2044,4 @@ when $f(x)$ is $\Theta(g(x))$, then it must also be the case that $g(x)$ is $\Th
 Theorem:
 let $f(x)=a_nx^n+a_{n-1}x^{n-1}...+a_1x+a_0$
 
-where $a_0,a_1...a_n$ are real numbers with $a_n ≠0$
+where $a_0, a_1...a_n$ are real numbers with $a_n ≠0$
