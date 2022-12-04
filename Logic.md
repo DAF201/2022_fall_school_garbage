@@ -933,15 +933,15 @@ S = {a, b, c, d, ……, z }
 
 ## Some Important Sets
 
-| name | meaning                      | Set                    |
-| ---- | ---------------------------- | ---------------------- |
-| N    | natural numbers              | {0, 1, 2, 3…}             |
+| name | meaning                      | Set                            |
+| ---- | ---------------------------- | ------------------------------ |
+| N    | natural numbers              | {0, 1, 2, 3…}                  |
 | Z    | integers                     | {…, -3, -2, -1, 0, 1, 2, 3, …} |
-| Z ⁺  | positive integers            | {1, 2, 3, …}              |
-| R    | set of real numbers          |                        |
-| R+   | set of positive real numbers |                        |
-| C    | set of complex numbers       |                        |
-| Q    | set of rational numbers      |                        |
+| Z ⁺  | positive integers            | {1, 2, 3, …}                   |
+| R    | set of real numbers          |                                |
+| R+   | set of positive real numbers |                                |
+| C    | set of complex numbers       |                                |
+| Q    | set of rational numbers      |                                |
 
 ## Set-Builder Notation
 
@@ -2082,3 +2082,80 @@ We focus on the worst-case time complexity of an algorithm. This provides an upp
 uses to solve a problem with input of a particular size. 
 
 It is usually much more difficult to determine the average case time complexity of an algorithm. This is the average number of operations an algorithm uses to solve a problem over all inputs of a particular size. 
+
+## Complexity Analysis of Algorithms
+
+Example: find the complexity of the algorithm for finding the max
+
+> procedure: max($a_1, a_2, ..., a_n$)
+>  
+> max:= $a_1$
+>  
+> for i:=2 to n
+>
+> >if max < $a_i$ then max := $a_i$
+>
+> return max
+
+Solution:
+
+* The max < $a_i$ comparisons is made n - 1 times
+
+* Each time i is incremented, a test is made to see if i <= n
+
+* One last comparison determines that i > n
+
+* Exactly 2(n-1) + 1 = 2n - 1comparisons are made
+
+Hence, the time complexity of the algorithm is $\Theta(n)$
+
+## worst case complexity of each algorithms
+
+Linear Search: $\Theta(n)$
+
+Binary Search: $\Theta(log n)$
+
+Bubble Sort: $\Theta(n^2)$
+
+Selection Sort: $\Theta(n^2)$
+
+Insertion Sort: $\Theta(n^2)$
+
+Matrix Multiplication <sub>(n x n)</sub> : $\Theta(n^3)$
+
+## Algorithmic Paradigms
+
+An algorithmic paradigms is a general apporach based on a particular concept for constructing algorithms to solve a variety of problems
+
+Brute-force algorithms
+
+* naive approach for solving problems; does not take advantage of any special structure of the problem or clever ideas
+* sequential search, bubble sort, selection sort, insertion sort
+
+Greedy algorithms
+
+* select the best choice at each step, instead of considering all sequences of steps; focus on local optimization and not overall optimization.
+
+Dive and conquer algorithms
+
+* dive a problem into one or more instances of the same problem of smaller size and conquer the problem by using the solutions of the smaller problems to find a sollution of the original problem
+
+* quick sort, merge sort, fast matrix mutiplication
+
+Dynamic programming
+
+* recursively breaks down a problem into simpler overlapping subproblems, and stores the results of the subproblems in a table; computes the solution of the problem using the solutions of the subproblems 
+
+* cutting stock, matrix-chain multiplication, longest common subsequence
+
+Backtracking
+
+* performs an exhaustive search of all possible solutions; once it is known that no solution can result from any further sequence of decisions, backtrack to a known point and work towards a solution with another series of decisions
+
+* n-Queens, graph coloring, sum of subsets
+
+Probabilistic algorithms
+
+* make random choices at one or more steps
+
+* Monte Carlo algorithms, Las Vegas algorithms, Sherwood algorithms
