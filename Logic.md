@@ -2069,3 +2069,16 @@ studying the space complexity of the lgorithm.
 
 ## Space Complexity
 
+To analyze the space complexity we often consider the “extra” memory needed i.e. not counting the memory needed to store the 
+input itself 
+
+A big focus in space complexity is analyzing the memory requirements for data structures employed for processing the data.  For recursive algorithms we also need to analyze the recursion stack space.
+
+## Time Complexity
+
+To analyze the time complexity of algorithms, we determine the number of operations, such as comparisons and arithmetic operations (addition, multiplication, etc.). We can estimate the time a computer may actually use to solve a problem using the amount of time required to do basic operations.  
+
+We focus on the worst-case time complexity of an algorithm. This provides an upper bound on the number of operations an algorithm 
+uses to solve a problem with input of a particular size. 
+
+It is usually much more difficult to determine the average case time complexity of an algorithm. This is the average number of operations an algorithm uses to solve a problem over all inputs of a particular size. 
