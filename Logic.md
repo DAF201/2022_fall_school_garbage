@@ -1998,3 +1998,31 @@ $3x^2+8x log x <3x^2+ 8x^2$
 $3x^2+8x log x <11x^2$
 
 $3x^2+8x log x$ is $O(x^2)$
+
+part 2:
+
+$3x^2+8x log x$ > $x^2$
+
+$3x^2+8x log x$ is $\Omega(x^2)$
+
+hencely, $3x^2+8x log x$ is $\Theta(x^2)$
+
+## Relating O, Ω and Θ
+
+- If f(x) is O(g(x)) then f is of order at most g 
+>– g is the upper-bound for f 
+- If f(x) is Ω(g(x)) then f is of order at least g 
+>– g is the lower-bound for f 
+- If f(x) is Θ(g(x)) then f is of order g 
+>– f is bounded both above and below by some multiple of g 
+
+## Additional Big-Theata
+
+when $f(x)$ is $\Theta(g(x))$, then it must also be the case that $g(x)$ is $\Theta(f(x))$
+
+## Big-Theta estimates for polynomials
+
+Theorem:
+let $f(x)=a_nx^n+a_{n-1}x^{n-1}...+a_1x+a_0$
+
+where $a_0,a_1...a_n$ are real numbers with $a_n ≠0$
