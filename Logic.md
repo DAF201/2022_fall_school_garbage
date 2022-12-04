@@ -1814,3 +1814,32 @@ Strictly speaking this is an abuse of the equals sign since this notation does n
 It is ok to write f(x) ∊ O(g(x)), because O(g(x)) represents the set of functions that are O(g(x)). 
 
 Usually, we will drop the absolute value sign since we will mostly deal with functions that take on positive values.
+
+## Analogy for reasoning often used in Big-O problems
+
+- Consider a weighing scale where on the one side you have an apple, a pear and a banana.  On the other side you replace the apple by a bigger apple, the banana by a bigger banana and the pear by a bigger pear 
+
+- Obviously the first side of the scale will be lighter than the second side of the scale
+ 
+- In our case we will look at an expression and replace smaller terms by larger terms.  Obviously the original expression will be less than the resultant expression 
+
+Exmple:
+
+Show that $f(x) = x^2 + 2x + 1$ is $O(x^2)$
+
+Solution:
+
+Consider x > 1, x < $x^2$ and 1 < $x^2$
+
+$x^2 + 2x + 1$ <= $x^2 + 2x^2 + x^2 = 4x^2$
+
+take C = 4 and k = 1 as withnesses to show that
+
+> human understanble version
+> 
+> $x^2 + 2x + 1$ = $4x^2$ -> x = 1 -> k = 1
+>
+> C = $4k^2$ = 4
+>
+> So the pair is k = 1 and C = 4(don't write answer like this, this is informal)\
+
