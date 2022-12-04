@@ -1942,7 +1942,7 @@ Big-O gives an upper bound on the growth of a function, while Big-Omega gives th
 > 
 > Big-O estimate the worst case, Big-Omega estimate the best case
 
-Big-Omega example:
+Example:
 
 Show that $f(x)=8x^3+5x^2+7$ is $\Omega(g(x))$ where $g(x)=x^3$
 
@@ -1950,3 +1950,51 @@ Solution: $f(x) = 8x^3+5x^2+7$ >= $8x^3$ for all positive real numbers x
 
 ## Big-Theta notation
 
+Definition: Let f and g be functions from the set of integers or the set of real numbers to the set of real numbers. The function 
+
+$f(x)$ is $\Theta(g(x))$ if $f(x)$ is $O(g(x))$ and $f(x)$ is $\Omega(g(x))$
+
+We say that “f is big-Theta of g(x)” and also that “f(x) is of order g(x)” and also that “f(x) and g(x) are of the same order.
+
+$f(x)$ is $\Theta(g(x))$ if and only if there exists constants $C_1, C_2$ and k such that $C_1g(x)<f(x)<C_2g(x)$ if x > k. This follows from the definations of the big-O and big-Omega
+
+Example:
+
+Show that the sum of the first n positive integers is $\Theta(n^2)$
+
+Solution:
+
+We have already shown that $f(n)$ is $O(n^2)$
+
+to show that $f(n)$ is $\Omega(n^2)$, we need a positive constant C such that $f(n)$ > $Cn^2$ for sufficiently large n. Summing only the terms greater than n/2 we obtain the inequality
+
+$1+2+3+...+n$ >= $⌈n/2⌉+⌈{n/2}+1⌉+...+n$
+
+\>=$⌈n/2⌉+⌈n/2⌉+...+⌈n/2⌉$
+
+
+= $(n-⌈n/2⌉-1)⌈n/2⌉$
+
+\>= $(n/2)(n/2)$ = $n^2/4$
+
+$1+2+3+...+n$ is $\Omega(n^2)$ because constant are abandoned
+
+$1+2+3+...+n$ is $\Theta(n^2)$
+
+## Extra Example
+
+Show that $f(x) = 3x^2 + 8x logx$ is $\Theta(x^2)$
+
+solution:
+
+part 1:
+
+for x > 1, log x is positive and log x < x
+
+$8x log x < 8x^2$
+
+$3x^2+8x log x <3x^2+ 8x^2$
+
+$3x^2+8x log x <11x^2$
+
+$3x^2+8x log x$ is $O(x^2)$
