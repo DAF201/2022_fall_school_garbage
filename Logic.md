@@ -1841,5 +1841,37 @@ take C = 4 and k = 1 as withnesses to show that
 >
 > C = $4k^2$ = 4
 >
-> So the pair is k = 1 and C = 4(don't write answer like this, this is informal)\
+> So the pair is k = 1 and C = 4(don't write answer like this, this is informal)
 
+## Order
+
+if two functions has the same Big-O notation, we say they have the same order
+
+For example, $f(x) = x^2+2x+1$ and $x^2$ are  $O(x^2)$
+
+we say they are in the same order
+
+## using defination of Big-O notation
+
+Example: show that $7x^2$ is $O(x^3)$
+
+solution: when x < 7, $7x^2 < x^3$. Take $C=1$ and $k=7$ as withnesses to establish that $7x^2$ is $O(x^3)$
+
+---
+
+Example: show that $n^2$ is not $O(n)$
+
+SOlution: Suppose there are constants C and k for which $n^2 <= Cn$, whenevery n > k
+
+- We can always choose C to be greater than k because if that is not so we can always choose another constant D > k.  Now ∀n > k
+
+$n^2<=Cn$, divide both side by n, we get $n <= C$, and $n<=C$ must hold all $n>k$, a contradition.
+
+>For n > k, n ≤ C  <br>∴ k ≤ C <br>But we chose C to be greater than k
+
+## Big-O estimates for Polynomials
+
+A mathematical expression of the following type is known as polynormial of degree n
+
+- $a_nx^n+a_{n-1}x^{n-1}+...+a_1x+a_0$
+In a polynomial of degree n, the leading term dominates its growth
