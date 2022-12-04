@@ -1875,3 +1875,78 @@ A mathematical expression of the following type is known as polynormial of degre
 
 - $a_nx^n+a_{n-1}x^{n-1}+...+a_1x+a_0$
 In a polynomial of degree n, the leading term dominates its growth
+
+We will prove the result that a polynomial of degree n is $O(x^n)$
+
+>> We will use the triangle inequality as the lemma for this proof
+>
+>> if x and y are real numbers, then |x|+|y|<=|x+y|
+
+|$f(x)$| = |$a_nx^n+a_{n-1}x^{n-1}...$|
+
+<= |$a_n$|$x^n$ + |$a_{n-1}$|$x^{n-1}$+...
+
+= $x^n(|a_n|+|\frac{a_{n-1}}{x}|...)$
+
+<= $x^n(|a_n|+|a_{n-1}|...)$
+
+take C=|$a_n$|+|$a_{n-1}$|..., and k=1. then $f(x)$ is $O(x^n)$ 
+
+## important functions
+
+$f(x) = \sum_{0}^{x}{x}$ is $O(n^2)$
+
+$f(x) = x!$ is $O(n^n)$
+
+$f(x) = log(n!)$ is $O(nlog(n))$
+
+## Sum and Production functions
+
+$(f_1+f_2)(x)=f_1(x)+f_2(x)$
+
+$(f_1*f_2)(x)=f_1(x)*f_2(x)$
+
+example
+
+$f_1(x)=x^2$, $f_2(x)=-x^2-x$
+
+$(f_1+f_2)(x)=x^2-x^2+x=x$
+
+$(f_1*f_2)(x)x^2(-x^2+x)=-x^4+x^3$
+
+## combination of functions
+
+The number of steps used by a computer to solve a problem with input of a specified size, using an algorithm that is composed of subprocedures is the sum of number of steps used by the subprodures
+
+The big-O estimate of the algorithm is the sum of the big-O estimates of the subprocedures of the algorithm
+
+if $f_1(x)$ is $O(g_1(x))$ and $f_2(x)$ is $O(g_2(x))$
+
+then:
+
+$(f_1+f_2)(x)$ is $O(max(|g_1(x),g_2(x)|))$
+
+$(f_1f_2)(x)$ is $O(|g_1(x)g_2(x)|)$
+
+## Big-Omega notation
+
+Definition: Let f and g be functions from the set of integers or the set of real numbers to the set of real numbers. We say that $f(x)$ is $\Omega(g(x))$ if there are constants C and k such that 
+
+$|f(x)|$ >= $C|g(x)|$ when x > k
+
+We say that "$f(x)$ is big-Omega of $g(x)$"
+
+Big-O gives an upper bound on the growth of a function, while Big-Omega gives the lower bound. Big-Omega tells us that a function grows at least as fast as another
+
+> Human word:
+> 
+> Big-O estimate the worst case, Big-Omega estimate the best case
+
+Big-Omega example:
+
+Show that $f(x)=8x^3+5x^2+7$ is $\Omega(g(x))$ where $g(x)=x^3$
+
+Solution: $f(x) = 8x^3+5x^2+7$ >= $8x^3$ for all positive real numbers x
+
+## Big-Theta notation
+
