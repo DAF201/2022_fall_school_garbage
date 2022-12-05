@@ -2189,3 +2189,150 @@ Unsolvable problem: No algorithm exists to solve this problem
 Class NP: Solution can be checked in polynomial time. But no polynomial time algorithm has been found for finding a solution to problems in this class.
 
 NP Complete Class: If you find a polynomial time algorithm for one member of the class, it can be used to solve all the problems in the class.
+
+# Number Theory
+
+Number theory is the part of mathematics devoted to study of the integers and their properties
+
+## Divisibility and Modular Arithmetic
+
+Divison: if a and b are integers with a ≠ 0, then a divides b if there exist an integer c such that b = ac
+
+* The notation a | b denotes that a divides b.
+* If a does not divide b, we write a ∤ b.
+
+for example:  3 ∤ 7 and 3 | 12
+
+different from divide by, the number being divided at back
+
+3 | 12 is the same as $\frac{12}{3}$ or 12/3 or 12 ÷ 3
+
+## Properties of Divisibility
+
+Theorem 1: let a, b and c be integers, where a ≠ 0
+
+1. if a | b and a | c, then a | (b + c)
+2. if a | b, then a | bc for all integer c
+3. if a | b and b | c, then a | c
+
+## Division Algorithm
+
+when an integer is divided by a positive integer, there is a quotient and a remainder. This is traditionally called the "division algorithm", but is really a theorem.
+
+Division Algorithm:
+
+if a is an integer and d is a positive integer, then there are unique integers q and r, with 0 <= r < d, such that a = dp + r
+
+d is called the divisor
+
+a is called the dividend
+
+q is called the quotiend
+
+r is called the remainder
+
+## +ve and –ve Remainders
+
+18/5=3 remainder 3
+
+* 3 more than the current bucket boundary
+  
+18/5 = 4 remainder -2
+
+* 2 less than the next bucket boundary
+
+From this perspective division will either yield a  remainder of 0 or it will yield a +ve and a –ve remainder 
+
+We will only consider the +ve remainder 
+
+What are the quotient and remainder when −11 is divided by 3?
+
+Quotient = -11 div 3 = -4
+
+Remainder = -11 mod 3 = 1
+
+Onlu consider the positive remainder, so push Quotient from -3 to -4
+
+## Procedure for +ve Remainder
+
+Given dividend a and divisor d 
+–Step 1: First find the quotient 
+• q=⌊$\frac{a}{d}$⌋ 
+
+– Remember that ⌊-x⌋ = -⌈x⌉ 
+
+–Step 2: Find the +ve remainder 
+
+* r = a – d * q
+
+q = ⌊$\frac{-11}{3}$⌋ = -⌈$\frac{11}{3}$⌉ = -4
+
+r = -11 -3(-4) = 1
+
+## Congruence Relation
+
+if a and b are integers and m is a positive integer, then a is congruent to b modulo m if m divides a - b
+
+The notation a  ≡  b (mod m)  says  that a is congruent to b modulo m.   
+
+We say that a  ≡  b (mod m) is a congruence and that m is its modulus.
+
+Two integers are congruent mod m  if and only if they have the same remainder when divided by m. 
+
+If a is not congruent to b modulo m, we write a $\not\equiv$ b (mod m)
+
+> Human words: if two number divide by another number will come up with the same remainder, then they are Congruence
+
+Example:
+
+17 is congruent to 5 modulo 6 and 24 and 14 are not congruent modulo 6
+
+17 - 5 = 12, 6 | 12
+
+24 - 14 = 10, 14$\not|$ 10
+
+## More on Congruences
+
+Let m be a positive integer. The 
+integers a and b are congruent modulo m if and 
+only if there is an integer k such that a = b + km
+
+## Note on proofs
+
+when a = dividend, m = dividsor, q = quotient, r = remainder
+
+* a = q * m + r
+
+* m | (a-r)
+
+* given m | x then
+
+* x = k * m
+
+given $a\equiv b(mod\ m)$ then
+
+* a mod m = b mod m
+
+* m | (a-b)
+
+* a = b + km
+
+## Congruence Class 
+
+The set of all integers congruent to a mod m is called the congruence class of a modulo m
+
+> for example the congurence calss for 3 mod 4 is {..., -5, -1, 3, 7, 11, ...}
+>
+> explain:
+>
+> q = -5 / 4 = ⌊$\frac{-5}{4}$⌋ = -⌈$\frac{5}{4}$⌉ = -2
+>
+> r = -5 - (-2 * 4) = 3
+>
+> also, 3 mod 4 = 3
+>
+> so -5 mod 4 = 3 mod 4
+
+## Congruences of Sums and Products
+
+Let m be a positive integer. If  a  ≡  b (mod m) and  c  ≡  d (mod m), then a + c  ≡  b + d (mod m) and ac  ≡  bd (mod m)  
