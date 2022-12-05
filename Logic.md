@@ -2403,3 +2403,38 @@ Pseudorandom Numbers:
 >
 > Four integers are needed:
 >
+> 1. The modulus m
+> 2. the multiplier a
+> 3. the increment c
+> 4. the seed x$_0$
+>
+> where 2 <= a < m, 0 <= c < m, 0 <= x$_0$ < m
+>
+> We generate a sequence of pseudorandom numbers {x$_n$}, with  0 ≤ x$_n$ < m for all n, by successively using the recursively defined function
+>
+> $x_{n+1}$ = (a$x_n$+c) mod m
+>
+> If psuedo-random numbers between 0 and 1 are needed, then the 
+
+generated numbers are divided by the modulus, xn /m 
+
+>
+> Linear congruential generators provide a very efficient way to 
+
+generate pseudo-random numbers which are suitable for many 
+applications 
+
+>
+> Unfortunately long pseudo-random number sequences do not 
+
+share some important statistical properties that true random 
+numbers have. Because of this, it is not advisable to use them for 
+some tasks, such as large simulations
+
+Check Digits
+
+> A common method of detecting errors in strings of digits is to add an extra at the end, which is evaluated using a function. If the final digit is not correct, then the string is assumed not to be correct
+>  
+> odd even check:
+>  
+> last bit = (number of bits in byte) mod 2
