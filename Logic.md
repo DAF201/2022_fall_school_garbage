@@ -2438,3 +2438,94 @@ Check Digits
 > odd even check:
 >  
 > last bit = (number of bits in byte) mod 2
+
+Also used in Universal Product Codes (UPCs) and International Standard Book Number (ISBN-10)
+
+UPCs: 
+
+$(3x_1  + x_2  + 3x_3  + x_4  + 3x_5  + x_6  + 3x_7  + x_8  + 3x_9 + x_10  + 3x_11  + x_12 ≡ 0\ (mod 10))$
+
+ISBN:
+
+$x_{10}$ = $\sum_{i=1}^9{ix_i}(mod\ 11)$
+
+## Integer Representations
+
+usually, integers are represented in decimal
+
+for example: $965=9*10^2+6*10*1+5*10^0$
+
+We can represent numbers using any base b, where 
+b is a positive integer greater than 1
+
+The bases b = 2 (binary), b = 8 (octal), and b = 16 (hexadecimal) are important for computing and communications
+
+The ancient Mayans used base 20 and the ancient 
+Babylonians used base 60
+
+## Base b representations
+
+Let b be a positive integer greater than 1. Then if n is a positive integer, it can be expressed uniquely in the form:
+
+n = $a_kb^k+a_{k-1}b^{k-1}+...+a_1b+a_0$
+
+(this is called base b expansion of n)
+
+where k is a nonnegative integer, $a_0, a_1, ..., a_k$ are nonnegative integers less than b, and $a_k\not=0$. The $a_j, j = 0, ..., k$ are called the base b digits of the representation.
+
+We usually omit the subscript 10 for base 10 expansions.
+
+## Base Conversion
+
+To construct the base b expansion of an integer n: 
+* Divide n by b to obtain a quotient and remainder. 
+
+> $n = bq_0 + a_0\ \ \ \ \ 0 ≤ a_0 ≤ b$
+
+* The remainder, a0 , is the rightmost digit in the base b 
+expansion of n. Next, divide q0 by b. 
+
+> $q_0 = bq_1 + a_1\ \ \ \ \ 0 ≤ a_1 ≤ b$
+
+* The remainder, a1, is the second digit from the right in the base b expansion of n. 
+* Continue by successively dividing the quotients by b, 
+obtaining the additional base b digits as the remainder. 
+The process terminates when the quotient is 0. 
+
+Example:
+
+Find the octal expansion of $(12345)_{10}$
+
+Solution: Successively dividing by 8 gives
+
+> 12345 = 8 * 1543 + 1
+>
+> 1543 = 8 * 192 + 7
+>
+> 192 = 8 * 24 + 0
+>
+> 24 = 8 * 3 + 0
+>
+> 3 = 8 * 0 + 3
+
+The Octal expansion of $(12345)_{10}$ is $(30071)_8$(read from bottom to top)
+
+## Conversion Between Binary, Octal, and Hexadecimal Expansions
+
+Conversion between binary and octal and between 
+binary and hexadecimal expansions is extremely 
+easy because each octal digit corresponds to a 
+block of three binary digits and each hexadecimal 
+digit corresponds to a block of four binary digits
+
+![](https://www.physics.udel.edu/~bnikolic/teaching/phys660/RUTE/rute/img7.png)
+
+Example:
+
+convert $(11111010111100)_2$ to oct ad hex
+
+011 111 010 111 100 = 3 7 2 7 4 = $(37274)_8$
+
+0011 1110 1011 1100 = 3 E B C
+
+# Induction and recursion
