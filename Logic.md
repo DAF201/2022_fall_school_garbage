@@ -2159,3 +2159,33 @@ Probabilistic algorithms
 * make random choices at one or more steps
 
 * Monte Carlo algorithms, Las Vegas algorithms, Sherwood algorithms
+
+## Understanding the Complexity of Algorithms
+
+| complexity                 | terminoloty             |
+| -------------------------- | ----------------------- |
+| $\Theta(1)$                | Constant complexity     |
+| $\Theta(log n)$            | Logarithmic complexity  |
+| $\Theta(n)$                | Linear complexity       |
+| $\Theta(n log n)$          | Linearithmic complexity |
+| $\Theta(n^b)$              | Polynomial complexity   |
+| $\Theta(b^n)$, where b > 1 | Exponential complexity  |
+| $\Theta(n!)$               | Factorial complexity    |
+
+## Complexity size rank
+
+Ususally, the size of them follow this case
+
+$log n<n<nlogn<n^2<2^n<n!$
+
+## Complexity of problems
+
+Trackable problem: there exists a polynomial time algorithm to solve this problem. These problems are said to belong to the Class P.
+
+Intrackable problem: there does not exist a polynomial time algorithm to solve this problem
+
+Unsolvable problem: No algorithm exists to solve this problem
+
+Class NP: Solution can be checked in polynomial time. But no polynomial time algorithm has been found for finding a solution to problems in this class.
+
+NP Complete Class: If you find a polynomial time algorithm for one member of the class, it can be used to solve all the problems in the class.
