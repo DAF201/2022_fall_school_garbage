@@ -2529,3 +2529,72 @@ convert $(11111010111100)_2$ to oct ad hex
 0011 1110 1011 1100 = 3 E B C
 
 # Induction and recursion
+
+## Mathematical Induction
+
+A powerful proof technique that is used to 
+check conjectures about the outcomes of processes that occur repeatedly and according to definite patterns
+
+Based on the rule of inference that if P(1) and 
+∀k(P(k) → P(k+1)) are true for the domain of 
+positive integers, then ∀nP(n) is true
+
+## Climbing an Infinite Ladder
+
+Suppose we have an infinite ladder: 
+1. We can reach the first rung of the ladder. 
+2. If we can reach a particular rung of the ladder, then we can reach the next rung.
+
+by 1, we can reach the first rung, then by 2, we can reach the second rung, again by 2, we can reach the third rung... We can apply w any number of ties to reach any paticular rung.
+
+This example illustrates the reasoning employed for proof by mathematical induction.
+
+## Principle of Mathematical Induction
+
+Principle of Mathematical Induction: To prove that the propositional function P(n) is true for all positive integers n, we complete these steps:
+
+* basis step: show that P(1) is true
+* inductive step: show that P(k) → p(k+1) is true for all integers k
+
+Climbing an Infinite Ladder Example: 
+
+BASIS STEP: By (1), we can reach rung 1
+
+INDUCTIVE STEP: Assume the inductive hypothesis that we can reach rung k. Then by (2), we can reach rung k + 1
+
+Hence, P(k) → P(k + 1) is true for all positive integers k. We can reach every rung on the ladder
+
+Note:- To prove that P(n) is true for all positive integers n ≥ a, in the Basis Step we show that P(a) is true
+
+## Important Points About Using Mathematical  Induction
+
+Mathematical induction can be expressed as the rule of 
+inference 
+
+$(P(1)∧∀k(P(k) → P(k+1))) → ∀nP(n)$
+
+where the domain is the set of all positive integers
+
+In a proof by mathematical induction, we don’t assume that P(k) is true for all positive integers! We show that if we assume that P(k) is true, then P(k + 1) must also be true. It is therefore not a case of begging the question, or circular reasoning
+
+## Proving a Summation Formula by Mathematical Induction
+
+show that $\sum_{i=1}^{n}={\frac{n(n+1)}{2}}$
+
+Basis step:
+
+P(1) is true since 1(1+1)/2 = 1
+
+Inductive step:
+
+Assume true for P(k), the inductive hypothesis is $\sum_{i=1}^{k}=\frac{k(k+1)}{2}$
+
+$1 + 2 + 3... + k + (k + 1) = \frac{k(k+1)}{2}+(k+1)$
+
+= $\frac{k(k+1)+2(k+1)}{2}$
+
+=$\frac{(k+1)(k+2)}{2}$
+
+=$\frac{(k+1)((k+1)+1)}{2}$
+
+Hence, we have shown that P(k+1) follows from P(k). Therefore the sum of the first n integers is $\frac{n(n+1)}{2}$
