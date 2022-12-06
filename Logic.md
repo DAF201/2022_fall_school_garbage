@@ -2639,4 +2639,49 @@ Inductive step: if P(k) is true, then P(k+1) is also true
 
 (first part below from P(k): $k < 2^k$)
 
-$k + 1 < 2^k + 1 <= 2^k + 2^k = 2 * 2^k = 2^{k+1}$
+$(k) + 1 < (2^k) + 1 <= 2^k + 2^k = 2 * 2^k = 2^{k+1}$
+
+Example:
+
+prove that for every n which n >=4, there is $2^n<n!$
+
+Basis step:
+
+P(4) is true because $2^4 = 14 < 4! = 24$
+
+Inductive step:
+
+Assume P(k) is true, then $2^k < k!$
+
+then P(K+1): 
+
+$2^{k+1}$ = $2*2^k$ < $2*k!$ (from P(k)) < $(k+1)k$ = $(k+1)!$
+
+## Proving divisibility result
+
+Use mathmatical induction to prove that $n^3-n$ is divisible by 3 for every posible integer n
+
+Basis step:
+
+$1^3-1=0$ which is divisible by 3
+
+Inductive step:
+
+Assume P(k) is true, then $k^3-k$ is divisible by 3
+
+$P(k+1) = (k+1)^3 - (k+1)$
+
+$=(k^3+3k^2+3k+1)-(k+1)$
+
+$=(k^3-k)+3(k^2+k)$
+
+$(k^3-k)$ is divisible by 3 provide by P(k)
+
+$3(k^2+k)$ is divisible by 3
+
+so $P(k+1)$ is divisible by 3
+
+## Number of Subsets of a Finite Set
+
+Use the mathematical induction to show that if S is a finite set with n elements, where n is a nonnegative integer, then S has $2^n$ subsets
+
