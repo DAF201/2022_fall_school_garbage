@@ -2822,3 +2822,74 @@ Hence, it has been shown that every integer greater than 1 can be written as the
 product of primes.
 
 ## Proving a result using Strong Induction
+
+Example: prove that every amount of postage of 12 cents or more can be formed using just 4-cent and 5-cent stamps
+
+Basis step:
+
+> P(12),P(13),P(14),P(15) are hold
+> P(12) can be formed by three 4-cent
+> P(13) can be formed by two 4-cent and one 5-cent
+> P(14) can be formed by one 4-cent and two 5-cent
+> P(15) can be formed by three 5-cent
+>
+
+Inducctive step:
+
+> Assume that P(j) is true for 12 <= j <= k, where k >= 15
+> 
+> k - 3 >= 12
+>
+> so we can form postage of k - 3 cents using just 4-cent and 5-cent stamps
+>
+> Now if we add postage of k - 3 cents a 4-cents postage, we can form postage for k + 1 cents
+>
+we have shown that if the inductive hypothesis is true, then P(k+1) is also true. This complete the inductive step
+
+Because we have completed the basis step and the inductive step, we conclude that every postage of n cents, where n is at least 12, can be formed using 4-cent and 5-cent stamps
+
+## Proving the same result using Mathematical Induction
+
+Basis step: 
+
+> P(12) is true because 12 cents can be form by three 4 cents stamps
+
+Inductive step:
+
+> Assume P(k) is ture for any k >= 12
+>
+> we will consider two cases
+>
+> 1. The postage requires at least one 4-cent stamp
+> > In this case, we can replace one 4-cent with a 5-cent stamp, then we get k+1 cents
+> 2. The postage does not require any 4-cent stamp
+> Since k >= 12, the postage will require at least three 5-cent stamps. In this case, we can replace three 5-cent stamps with four 4-cent stamps, we will get k+1 cents
+
+Because we have completed the basis step and the inductive step, we conclude that every postage of n cents, where n is at least 12, can be formed using 4-cent and 5-cent stamps. 
+
+## Recursive Algorithms
+
+An algorithm is called recursive if it solves a problem by reducing it to an instance of the same problem with smaller input.
+
+For the algorithm to terminate, the instance of the problem must eventually be reduced to some initial case for which the solution is known.
+
+A recursive function consists of two parts: 
+
+1. A base case that is processed without recursion; and 
+2. A recursive case that reduces a particular case to one or more of the smaller cases, thereby making progress toward eventually reducing the problem all the way to the base case
+
+Each successive invocation of the recursive function, other than the base case, is a slightly simpler or smaller version of the previous invocation
+
+(function calling itself and only exit at specific cases)
+
+## Recursive Factorial Algorithm
+
+Give a recursive algorithm for computing n!, where n is a nonnegative integer.
+```
+Procedure factorial(n:nonnegative integer)
+if n = 0 then 
+    return 1
+else 
+    return n * factorial(n-1)
+//out put is n!
+```
