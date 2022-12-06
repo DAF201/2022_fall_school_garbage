@@ -2987,3 +2987,43 @@ Complexity of Merge Sort: It can be proved (beyond the scope of this course) tha
 | Higher space complexity – A new stack frame for each invocation of the recursive call                                                     | Lower space complexity                                                                                                                                                    |
 | Generally a recursive function is very simple – e.g. the recursive algorithm for the Towers of Hanoi problem is very simple and intuitive | Sometimes it is hard to follow the change in execution context from iteration to iteration – e.g. the iterative algorithm for the Towers of Hanoi problem is very complex |
 
+- In theory any problem that can be solved by a recursive algorithm can be solved by an iterative algorithm, and vice-versa 
+- Some problems can be better understood and resolved using recursion
+- The easiest recursive algorithms to convert to iterative are those involving tail recursion i.e. recursive algorithms in which no statements are executed after the return from the recursive call 
+
+## The Basics of Counting
+
+Combinatorics, the study of arrangements of objects, is an important part of discrete mathematics
+
+This subject had its origin in the systematic study 
+of gambling games
+
+Combinatorics deals with ordered or unordered arrangements of the objects of a set with or without repetitions. These arrangements, called permutations and combinations
+
+Combinatorics has many practical applications
+
+(combination is order does not matter, XY and YX count as the same element)
+
+(permutations is order does matter, XY and YX count as two different elements)
+
+Generally, permutation will come out larger result
+
+## Basic Counting Principles: The Product Rule
+
+The Product Rule: 
+
+Suppose that a procedure can be broken down into a sequence of two tasks. If there are n1 ways to do the first task and for each of these ways of doing the first task, there are n2 ways to do the second task, then there are n1n2 ways to do the procedure
+
+Assume that a procedure consists of three steps $s_1,s_2,s_3$
+
+There are 5 ways to perform $s_1$: A,B,C,D,E
+
+There are 4 ways to perform $s_2$: 1,2,3,4
+
+There are 3 ways to perform $s_3$: α,β,γ
+
+By the Product Rule there are 5 X 4 X 3 = 60 ways to perform the procedure, which are enumerated below
+
+A-1-α, A-1-β, A-1-γ, A-2-α, A-2-β, A-2-γ, A-3-α, A-3-β, A-3-γ, A-4-α, 
+A-4-β, A-4-γ, B-1-α, B-1-β, B-1-γ, B-2-α, B-2-β, B-2-γ, B-3-α, B-3-β, B-3-γ, B-4-α, B-4-β, B-4-γ, C-1-α, C-1-β, C-1-γ, C-2-α, C-2-β, C-2-γ, C-3-α, C-3-β, C-3-γ, C-4-α, C-4-β, C-4-γ, D-1-α, D-1-β, D-1-γ, D-2-α, D-2-β, D-2-γ, D-3-α, D-3-β, D-3-γ, D-4-α, D-4-β, D-4-γ, E-1-α, E-1-β, E-1-γ, E-2-α, E-2-β, E-2-γ, E-3-α, E-3-β, E-3-γ, E-4-α, E-4-β, E-4-γ
+
