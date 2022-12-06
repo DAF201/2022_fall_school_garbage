@@ -2751,3 +2751,74 @@ To conclude that we can reach every rung by strong
 induction: 
 * BASIS STEP: P(1) holds 
 * INDUCTIVE STEP: Assume P(1) ∧ P(2) ∧∙∙∙ ∧ P(k) holds for an arbitrary integer k, and show that P(k + 1) must also hold. 
+
+We will have then shown by strong induction that for every positive integer n, P(n) holds, i.e., we can reach the nth rung of the ladder.
+
+## Differene between mathemaatical induction and strong induction
+
+Example: Suppose we can reach the first and second rungs of an infinite ladder, and we know that if we can reach a rung, then we can reach two rungs higher. Prove that we can reach every rung
+
+Solution: Prove the result using mathematical induction. 
+
+BASIS STEP: 
+
+We can reach the first step. 
+
+ATTEMPTED INDUCTIVE STEP:  
+
+The inductive hypothesis is that we can reach the $k^{th}$ rung.
+
+However, assuming that we have reached the $k^{th}$ rung, we know how to reach the $(k+2)^{nd}$ rung, but we don’t know how to reach the $(k + 1)^{st}$ rung.
+
+Hence we cannot conclude that if we have reached the kth rung we can reach the reach the $(k + 1)^{st}$ rung as well. 
+
+Solution: Prove the result using strong induction.
+
+Basis step: 
+
+> we can reach the first step
+
+inductive step:  
+
+> The inductive hypothesis is that we can reach the first k rungs, for any k ≥ 2
+>
+> Once we have reached the $(k−1)^{st}$ rung, we can reach two rungs higher i.e. we can reach the $(k+1)^{st}$ rung. 
+
+Hence, we can reach all rungs of the ladder. 
+
+## Which Form of Induction Should Be Used
+
+* We can always use strong induction instead of  mathematical induction. But there is no reason to use it if it is simpler to use mathematical induction
+
+> you should use mathematical induction when it is straightforward to prove that P(k) → P(k + 1) is true for all positive integers k
+
+* Use strong induction, and not mathematical induction, when 
+you see how to prove that P(k + 1) is true from the assumption that P(j) is true for all positive integers j not 
+exceeding k, but you cannot see how to prove that P(k + 1) 
+follows from just P(k)
+
+* However, as already mentioned, in theory any result that can be proved by mathematical induction can be proved by strong induction and vice versa  
+
+## Completion of the proof of the Fundamental Theorem of Arithmetic
+
+Example: Show that if n is an integer greater than 1, then n can be written as the product of primes.
+
+Solution:
+
+let P(n) be the proposition that n can be written as a product of primees
+
+Basis step:
+
+> P(2) is true since 2 itself is a prime
+
+Inductive step:
+
+> The inductive hypothesis P(j) is true for all integers j with 2 <= j <= k. To show that P(k+1) must be true under this assumeption, two cases need to be considered
+>
+> - if k+1 is prime, then P(k+1) is true
+> - Otherwise, k+1 is composite and can be written as product of two positive integers a and b with $2 <= a <= b < k+1$. By the inductive hypothesis a and b can be written as the product of primes and therefore k + 1 can also be written as the product of those primes.
+
+Hence, it has been shown that every integer greater than 1 can be written as the 
+product of primes.
+
+## Proving a result using Strong Induction
