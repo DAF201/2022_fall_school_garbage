@@ -2978,3 +2978,12 @@ Begin with the list of n elements L.
 
 Complexity of Merge Sort: It can be proved (beyond the scope of this course) that the complexity of Merge Sort is O(n log n).  In more advanced classes you will learn that the fastest comparison based sorting algorithms have O(n log n) time complexity.  So Merge Sort achieves the best possible big-O estimate of time complexity for a comparison based sorting algorithm
 
+## Recursion and Iteration
+
+| Recursion                                                                                                                                 | Iteration                                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Function calls itself, until the base case is executed, and the recursion terminates                                                      | Set of instructions is executed repeatedly, while a given  condition is satisfied                                                                                         |
+| More overhead; slower - Context switching for each recursive call                                                                         | Less overhead; faster                                                                                                                                                     |
+| Higher space complexity – A new stack frame for each invocation of the recursive call                                                     | Lower space complexity                                                                                                                                                    |
+| Generally a recursive function is very simple – e.g. the recursive algorithm for the Towers of Hanoi problem is very simple and intuitive | Sometimes it is hard to follow the change in execution context from iteration to iteration – e.g. the iterative algorithm for the Towers of Hanoi problem is very complex |
+
