@@ -2598,3 +2598,45 @@ $1 + 2 + 3... + k + (k + 1) = \frac{k(k+1)}{2}+(k+1)$
 =$\frac{(k+1)((k+1)+1)}{2}$
 
 Hence, we have shown that P(k+1) follows from P(k). Therefore the sum of the first n integers is $\frac{n(n+1)}{2}$
+
+## SUmmation Formula
+
+Conjecture and prove correct a formula for the sum of the first n positive odd integers. Then prove your conjecture. 
+
+$1 = 1 = 1^2, 1 + 3 = 4 = 2^2, 1 + 3 + 5 = 9 = 3^2...$
+
+We can conjecture that the sum of the first n positive odd integers is $n^2$
+
+$1+3+5...+(2n-1) = n^2$
+
+Basis step:
+
+P(1) is true since $1 = 1^2$
+
+So, P(k) → P(k+1) for every positive integer k
+
+Assume P(k), then
+
+$1+3+5+...+(2k-1)+(2k+1)=k^2$
+
+$=[1+3+5...+(2k-1)]+(2k+1)$
+
+$=k^2+(2k+1)$(from P(k) is true)
+
+$=(k+1)^2$
+
+Hence, we have shown that P(k + 1) follows from P(k). Therefore the sum of the first n positive odd integers is $n^2$
+
+## Proving inequalites
+
+Example: Use mathematicall induction to prove that $n < 2^n$ for all positive integers n
+
+Let P(n) be the proposition that $n < 2^n$ 
+
+Basis step: P(1) is true because 1 < $2^1$ = 2
+
+Inductive step: if P(k) is true, then P(k+1) is also true
+
+(first part below from P(k): $k < 2^k$)
+
+$k + 1 < 2^k + 1 <= 2^k + 2^k = 2 * 2^k = 2^{k+1}$
