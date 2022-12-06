@@ -2583,23 +2583,23 @@ show that $\sum_{i=1}^{n}={\frac{n(n+1)}{2}}$
 
 Basis step:
 
-P(1) is true since 1(1+1)/2 = 1
+> P(1) is true since 1(1+1)/2 = 1
 
 Inductive step:
 
-Assume true for P(k), the inductive hypothesis is $\sum_{i=1}^{k}=\frac{k(k+1)}{2}$
-
-$1 + 2 + 3... + k + (k + 1) = \frac{k(k+1)}{2}+(k+1)$
-
-= $\frac{k(k+1)+2(k+1)}{2}$
-
-=$\frac{(k+1)(k+2)}{2}$
-
-=$\frac{(k+1)((k+1)+1)}{2}$
+> Assume true for P(k), the inductive hypothesis is $\sum_{i=1}^{k}=\frac{k(k+1)}{2}$
+>
+> $1 + 2 + 3... + k + (k + 1) = \frac{k(k+1)}{2}+(k+1)$
+>
+> = $\frac{k(k+1)+2(k+1)}{2}$
+>
+> =$\frac{(k+1)(k+2)}{2}$
+>
+> =$\frac{(k+1)((k+1)+1)}{2}$
 
 Hence, we have shown that P(k+1) follows from P(k). Therefore the sum of the first n integers is $\frac{n(n+1)}{2}$
 
-## SUmmation Formula
+## Summation Formula
 
 Conjecture and prove correct a formula for the sum of the first n positive odd integers. Then prove your conjecture. 
 
@@ -2611,19 +2611,19 @@ $1+3+5...+(2n-1) = n^2$
 
 Basis step:
 
-P(1) is true since $1 = 1^2$
-
-So, P(k) → P(k+1) for every positive integer k
-
-Assume P(k), then
-
-$1+3+5+...+(2k-1)+(2k+1)=k^2$
-
-$=[1+3+5...+(2k-1)]+(2k+1)$
-
-$=k^2+(2k+1)$(from P(k) is true)
-
-$=(k+1)^2$
+> P(1) is true since $1 = 1^2$
+>
+> So, P(k) → P(k+1) for every positive integer k
+>
+> Assume P(k), then
+>
+> $1+3+5+...+(2k-1)+(2k+1)=k^2$
+>
+> $=[1+3+5...+(2k-1)]+(2k+1)$
+>
+> $=k^2+(2k+1)$(from P(k) is true)
+>
+> $=(k+1)^2$
 
 Hence, we have shown that P(k + 1) follows from P(k). Therefore the sum of the first n positive odd integers is $n^2$
 
@@ -2633,13 +2633,17 @@ Example: Use mathematicall induction to prove that $n < 2^n$ for all positive in
 
 Let P(n) be the proposition that $n < 2^n$ 
 
-Basis step: P(1) is true because 1 < $2^1$ = 2
+Basis step:
 
-Inductive step: if P(k) is true, then P(k+1) is also true
+> P(1) is true because 1 < $2^1$ = 2
 
-(first part below from P(k): $k < 2^k$)
+Inductive step: 
 
-$(k) + 1 < (2^k) + 1 <= 2^k + 2^k = 2 * 2^k = 2^{k+1}$
+> if P(k) is true, then P(k+1) is also true
+>
+> (first part below from P(k): $k < 2^k$)
+>
+> $(k) + 1 < (2^k) + 1 <= 2^k + 2^k = 2 * 2^k = 2^{k+1}$
 
 Example:
 
@@ -2647,15 +2651,15 @@ prove that for every n which n >=4, there is $2^n<n!$
 
 Basis step:
 
-P(4) is true because $2^4 = 14 < 4! = 24$
+> P(4) is true because $2^4 = 14 < 4! = 24$
 
 Inductive step:
 
-Assume P(k) is true, then $2^k < k!$
-
-then P(K+1): 
-
-$2^{k+1}$ = $2*2^k$ < $2*k!$ (from P(k)) < $(k+1)k$ = $(k+1)!$
+> Assume P(k) is true, then $2^k < k!$
+>
+> then P(K+1): 
+>
+> $2^{k+1}$ = $2*2^k$ < $2*k!$ (from P(k)) < $(k+1)k$ = $(k+1)!$
 
 ## Proving divisibility result
 
@@ -2663,25 +2667,87 @@ Use mathmatical induction to prove that $n^3-n$ is divisible by 3 for every posi
 
 Basis step:
 
-$1^3-1=0$ which is divisible by 3
+> $1^3-1=0$ which is divisible by 3
 
 Inductive step:
 
-Assume P(k) is true, then $k^3-k$ is divisible by 3
-
-$P(k+1) = (k+1)^3 - (k+1)$
-
-$=(k^3+3k^2+3k+1)-(k+1)$
-
-$=(k^3-k)+3(k^2+k)$
-
-$(k^3-k)$ is divisible by 3 provide by P(k)
-
-$3(k^2+k)$ is divisible by 3
+> Assume P(k) is true, then $k^3-k$ is divisible by 3
+>
+> $P(k+1) = (k+1)^3 - (k+1)$
+>
+> $=(k^3+3k^2+3k+1)-(k+1)$
+>
+> $=(k^3-k)+3(k^2+k)$
+>
+> $(k^3-k)$ is divisible by 3 provide by P(k)
+>
+> $3(k^2+k)$ is divisible by 3
 
 so $P(k+1)$ is divisible by 3
 
 ## Number of Subsets of a Finite Set
 
-Use the mathematical induction to show that if S is a finite set with n elements, where n is a nonnegative integer, then S has $2^n$ subsets
+a set with n elements will have $2^n$ subsets
 
+## Guidelines: Mathematical Induction Proofs
+
+Template for Proofs by Mathematical Induction 
+
+> 1. Express the statement that is to be proved in the form “for all n ≥ b, P(n)” for a fixed 
+
+integer b.  
+
+> 2. Write out the words “Basis Step.” Then show that P(b) is true, taking care that the 
+
+correct value of b is used. This completes the first part of the proof. 
+
+> 3. Write out the words “Inductive Step”. 
+> 4. State, and clearly identify, the inductive hypothesis, in the form “assume that P(k) is 
+
+true for an arbitrary fixed integer k ≥ b.” 
+
+> 5. State what needs to be proved under the assumption that the inductive hypothesis is 
+
+true. That is, write out what P(k + 1) says. 
+
+> 6. Prove the statement P(k + 1) making use the assumption P(k). Be sure that your proof 
+
+is valid for all integers k with k ≥ b, taking care that the proof works for small values of 
+k, including k = b. 
+
+> 7. Clearly identify the conclusion of the inductive step, such as by saying “this completes 
+
+the inductive step.” 
+
+> 8. After completing the basis step and the inductive step, state the conclusion, namely, 
+
+by mathematical induction, P(n) is true for all integers n with n ≥ b. 
+
+## Strong Induction
+
+Strong mathematical induction is similar to ordinary mathematical induction in that there is a basis step and an inductive step
+
+However, the inductive step shows that if P(j) is true for all positive integers j not exceeding k, then P(k + 1) is true.
+
+Taking the dominoes analogy one step further, imagine that the dominoes are arranged in increasing order of weight and a given domino requires the combined weight of all the previous dominoes toppling over before it topples over as well.  
+
+Basis Step: Verify that the proposition P(1) is true.
+
+Inductive Step: Show the conditional statement 
+
+$[P(1)∧P(2)∧P(3)...∧P(k)]→P(k+1)$
+
+holds for all positive integers k
+
+(rather than just P(k), you need P(0), P(1), P(2)... P(k))
+
+## Strong Induction and the Infinite Ladder
+
+Strong induction tells us that we can reach all rungs if: 
+1. We can reach the first rung of the ladder. 
+2. For every integer k, if we can reach the first k rungs, then we can reach the (k + 1)st rung. 
+
+To conclude that we can reach every rung by strong 
+induction: 
+* BASIS STEP: P(1) holds 
+* INDUCTIVE STEP: Assume P(1) ∧ P(2) ∧∙∙∙ ∧ P(k) holds for an arbitrary integer k, and show that P(k + 1) must also hold. 
