@@ -2827,7 +2827,7 @@ Example: prove that every amount of postage of 12 cents or more can be formed us
 
 Basis step:
 
-> P(12),P(13),P(14),P(15) are hold
+> P(12), P(13), P(14), P(15) are hold
 > P(12) can be formed by three 4-cent
 > P(13) can be formed by two 4-cent and one 5-cent
 > P(14) can be formed by one 4-cent and two 5-cent
@@ -2837,13 +2837,14 @@ Basis step:
 Inducctive step:
 
 > Assume that P(j) is true for 12 <= j <= k, where k >= 15
-> 
+>  
 > k - 3 >= 12
 >
 > so we can form postage of k - 3 cents using just 4-cent and 5-cent stamps
 >
 > Now if we add postage of k - 3 cents a 4-cents postage, we can form postage for k + 1 cents
 >
+
 we have shown that if the inductive hypothesis is true, then P(k+1) is also true. This complete the inductive step
 
 Because we have completed the basis step and the inductive step, we conclude that every postage of n cents, where n is at least 12, can be formed using 4-cent and 5-cent stamps
@@ -2885,6 +2886,7 @@ Each successive invocation of the recursive function, other than the base case, 
 ## Recursive Factorial Algorithm
 
 Give a recursive algorithm for computing n!, where n is a nonnegative integer.
+
 ```
 Procedure factorial(n:nonnegative integer)
 if n = 0 then 
@@ -2893,3 +2895,86 @@ else
     return n * factorial(n-1)
 //out put is n!
 ```
+
+## Background: Fibonacci Series
+
+Fibonacci series are the numbers in the following 
+sequence
+
+* 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ... 
+* the fisrt two numbers are 0 and 1 and each subsequent number in the series is equal to the sum of the previous two numbers
+
+```
+procedure fibonacci(n: nonnegative integer) 
+if  n ≤ 1 then 
+    return n 
+else  
+    return fibonacci(n-1) + fibonacci(n-2) 
+//output is nth Fibonacci number
+```
+
+## Recursive Binary Search Algorithm
+
+```
+procedure binary search(i, j, x : integers,  1≤ i ≤ j ≤n) 
+m := ⌊(i + j)/2⌋ 
+if x = am then  
+    return m 
+else if (x < am and i < m) then  
+    return binary search(i,m−1,x) 
+else if (x > am and j >m) then  
+    return binary search(m+1,j,x) 
+else 
+    return 0 
+//output is location of x in a1, a2,...,an  if it appears, otherwise 0
+```
+
+## Merge Sort
+
+Merge Sort works by iteratively splitting a list into two sublists until each sublist has one element
+
+Each sublist is represented by a binary tree
+
+At each step a pair of sublists is successively merged into a list with the elements in increasing order. The process ends when all the sublists have been merged
+
+The succession of merged lists is represented by a binary 
+tree
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/1920px-Merge_sort_algorithm_diagram.svg.png)
+
+## Recursive Merge Sort
+
+Begin with the list of n elements L.
+
+> procedure  mergesort($L = a_1, a_2, ..., a_n$) 
+>
+> if $n > 1$ then  
+>  
+> $m := ⌊n/2⌋$
+>  
+> $L_1:= a_1, a_2, ..., a_m$
+>  
+> $L_2:= a_{m+1}, a_{m+2}, ..., a_n$
+>  
+> $L := merge(mergesort(L_1), mergesort(L_2))$
+>  
+> //L is now sorted into elements in increasing order
+
+> procedure  merge(L1, L2 :sorted lists) 
+>  
+> L := empty list 
+>  
+> while L1  and L2  are both nonempty 
+>  
+>>remove smaller of first elements of L1 and L2 from its list; 
+>  
+>>> put at the right end of L 
+>
+>> if this removal makes one list empty  
+>
+>>> then remove all elements from the other list and append them to L 
+>
+> return L {L is the merged list with the elements in increasing order}
+
+Complexity of Merge Sort: It can be proved (beyond the scope of this course) that the complexity of Merge Sort is O(n log n).  In more advanced classes you will learn that the fastest comparison based sorting algorithms have O(n log n) time complexity.  So Merge Sort achieves the best possible big-O estimate of time complexity for a comparison based sorting algorithm
+
