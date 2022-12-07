@@ -1925,7 +1925,7 @@ $f_1(x)=x^2$, $f_2(x)=-x^2-x$
 
 $(f_1+f_2)(x)=x^2-x^2+x=x$
 
-$(f_1*f_2)(x)x^2(-x^2+x)=-x^4+x^3$
+$(f_1*f_2)(x)=x^2(-x^2+x)=-x^4+x^3$
 
 ## combination of functions
 
