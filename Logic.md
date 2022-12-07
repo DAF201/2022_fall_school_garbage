@@ -1609,7 +1609,7 @@ Sume of the term a <sub> m </sub>, a <sub> m+1 </sub>, ... , a <sub> n </sub>,
 | $\sum_{j = 0} ^ {n} ar^j$ (r ≠ 1)         | $\frac{ar ^ {n + 1} - a}{r - 1}$, r ≠ 1 |
 | $\sum_{j=0}^{n} j$                        | $\frac{n(n+1)}{2}$                      |
 | $\sum_{j=0}^{n} j^2$                      | $\frac{n(n+1)(n+2)}{6}$                 |
-| $\sum_{j=0}^{n} j^2$                      | $\frac{n^2(n+1)^2}{4}$                  |
+| $\sum_{j=0}^{n} j^3$                      | $\frac{n^2(n+1)^2}{4}$                  |
 | $\sum_{j=0}^{\infty} x^j$, $\|x\|<1$      | $\frac{1}{1-x}$                         |
 | $\sum_{j=0}^{\infty} jx^{j-1}$, $\|x\|<1$ | $\frac{1}{(1-x)^2}$                     |
 
