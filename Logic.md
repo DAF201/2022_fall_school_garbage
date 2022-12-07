@@ -3643,6 +3643,10 @@ A relation R on a set A is called symmetric if (b, a) ∈ R whenever (a, b) ∈ 
 
 > Human word: for every (x,y) in this relation set, you will always being able to find a (y,x), or you will find if x == y
 
+Example:
+
+{(1, 1), (1, 2), (2, 1)}
+
 Divides relation is not Symmetric Relations because a | b does not implies b | a
 
 ## Antisymmetric Relations
@@ -3654,6 +3658,10 @@ A relation R on a set A such that for all a, b ∈ A, if (a, b) ∈ R and (b, a)
 
 > Human word: this is just like combination, if (a,b) appeared then there should no (b,a) exist in relation set
 
+Example:
+
+{(2, 1), (3, 1), (3, 2), (4, 1), (4, 2), (4, 3)}
+
 Divides relation is antisymmetric relations
 
 ## Transitive Relations
@@ -3662,4 +3670,33 @@ A relation R on a set A is called transitive if whenever (a,b) ∊ R and (b,c) �
 
 - If the first element is related to the second element, and the second element is related to the third element, then the first element must be related to the third element
 
+> Human word: if you have (a,b) and (b,c), then you must also have (a,c) in relation set
 
+Example: 
+
+{(2, 1), (3, 1), (3, 2), (4, 1), (4, 2), (4, 3)}
+
+Explaination: 
+
+(3,2), (2,1) -> (3,1)
+
+(4,2), (2,1) -> (4,1)
+
+(4,3), (3,2) -> (4,2)
+
+Divides relation is transitive relations
+
+## Example question
+
+Let R be the following relation defined on the set {a, b, c, d}
+
+R = {(a, a), (a, c), (a, d), (b, a), (b, b), (b, c), (b, d), (c, b), (c, c), (d, b), (d, d)}
+
+Determine whether R is: (a) reflexive. (b) symmetric (c) antisymmetric (d) transitive
+
+Solution:
+
+- R is reflexive because R contains (a, a), (b, b), (c, c) and (d, d) 
+- R is not symmetric because (a, c) ∈ R but (c, a) ∉ R 
+- R is not antisymmetric because both (b, c) ∈ R and (c, b) ∈ R but b ≠ c 
+- R is not transitive because, for example, (a, c) ∈ R and (c, b) ∈ R but (a, b) ∉ R
