@@ -2789,7 +2789,7 @@ Example: Show that if n is an integer greater than 1, then n can be written as t
 
 Solution:
 
-let P(n) be the proposition that n can be written as a product of primees
+let P(n) be the proposition that n can be written as a product of primes
 
 Basis step:
 
