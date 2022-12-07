@@ -1743,7 +1743,7 @@ An optimized version of the algorithm uses fewer swaps but instead uses a tempor
 4. repeat for the remain part of the list
 5. ret is the sorted list
 
-## Greedy Algoithms
+## Greedy Algorithms
 
 Optimization problems minimize or maximize some parameter over all
 
@@ -1755,7 +1755,7 @@ After specifying what the “best choice” at each step is, we try to prove tha
 
 This is a very important step because in some cases greedy algorithms yield a very poor solution 
 
-## Usage of greedy Algoithms
+## Usage of greedy Algorithms
 
 Try to prove the US coins produces change using the fewest coins possible
 
@@ -1763,14 +1763,10 @@ Try to prove the US coins produces change using the fewest coins possible
 2. Then, q̍  ≤ q  where  q̍  is the number of quarters used in this optimal way and q is the number of quarters in the greedy algorithm’s solution. But this is not possible by Lemma 1, since the value of the coins other than quarters can not be greater than 24 cents. 
 3. Similarly, by Lemma 1, the two algorithms must have the same number of dimes, nickels, and quarters.
 
-> - The value of the coins other than 
-
-quarters and dimes can not be greater 
+> - The value of the coins other than quarters and dimes can not be greater 
 than 9 cents. 
 
-> - The value of the coins other than 
-
-quarters, dimes and nickels can not be 
+> - The value of the coins other than quarters, dimes and nickels can not be 
 greater than 4 cents
 
 ## Unsolvable Problems
@@ -1818,7 +1814,7 @@ If one pair of withnesses is found, then there are infinity many pairs. We can a
 
 > |$f(x)$| <= $C$|$g(x)$|
 
-Any pair of C\ ` and k\` where C < C\ ` and k < k\` is also a pair of withnesses since whenever x > \`k > k. 
+Any pair of C\` and k\` where C < C\` and k < k\` is also a pair of withnesses since whenever x > \`k > k. 
 
 > |$f(x)$| <= $C$|$g(x)$| <= $C$\`|$g(x)$|
 
