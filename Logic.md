@@ -1764,9 +1764,11 @@ Try to prove the US coins produces change using the fewest coins possible
 3. Similarly, by Lemma 1, the two algorithms must have the same number of dimes, nickels, and quarters.
 
 > - The value of the coins other than quarters and dimes can not be greater 
+
 than 9 cents. 
 
 > - The value of the coins other than quarters, dimes and nickels can not be 
+
 greater than 4 cents
 
 ## Unsolvable Problems
@@ -1814,7 +1816,7 @@ If one pair of withnesses is found, then there are infinity many pairs. We can a
 
 > |$f(x)$| <= $C$|$g(x)$|
 
-Any pair of C\` and k\` where C < C\` and k < k\` is also a pair of withnesses since whenever x > \`k > k. 
+Any pair of C\ ` and k\` where C < C\ ` and k < k\` is also a pair of withnesses since whenever x > \`k > k. 
 
 > |$f(x)$| <= $C$|$g(x)$| <= $C$\`|$g(x)$|
 
@@ -2701,6 +2703,7 @@ Template for Proofs by Mathematical Induction
 > 5. State what needs to be proved under the assumption that the inductive hypothesis is true. That is, write out what P(k + 1) says. 
 
 > 6. Prove the statement P(k + 1) making use the assumption P(k). Be sure that your proof is valid for all integers k with k ≥ b, taking care that the proof works for small values of 
+
 k, including k = b. 
 
 > 7. Clearly identify the conclusion of the inductive step, such as by saying “this completes the inductive step.” 
@@ -3064,13 +3067,9 @@ Use the product rule to show that the number of different subsets of a finite se
 
 Solutions:
 
-> Let us assume that the elements of set S are $a_1, a_2, a_3, ...., a_n$.  Let us represent the subsets of S by bit strings  of 
-length n where the ith bit of a bit string is 1 if ai belongs to the 
-corresponding subset and 0 if ai does not belong to the 
-corresponding subset
+> Let us assume that the elements of set S are $a_1, a_2, a_3, ...., a_n$.  Let us represent the subsets of S by bit strings of length n where the ith bit of a bit string is 1 if ai belongs to the corresponding subset and 0 if ai does not belong to the corresponding subset
 
-By the product rule, there are 2n such bit strings, and 
-therefore $2^n$ subsets
+By the product rule, there are $2^n$ such bit strings, and therefore $2^n$ subsets
 
 Since n = |S|, there are $2^{|S|}$ subsets
 
@@ -3100,9 +3099,7 @@ By the Sum Rule the number of ways to perform the task is 5 + 4 + 3 = 12
 
 Example: 
 
-> The mathematics department must choose either a student or a faculty member as a representative for a university committee. How many choices are there for this representative if there are 37 members of the mathematics faculty and 83 mathematics majors and no 
-
-one is both a faculty member and a student. 
+> The mathematics department must choose either a student or a faculty member as a representative for a university committee. How many choices are there for this representative if there are 37 members of the mathematics faculty and 83 mathematics majors and no one is both a faculty member and a student. 
 
 Solution: 
 
