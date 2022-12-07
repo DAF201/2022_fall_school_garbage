@@ -1872,7 +1872,9 @@ solution: when x < 7, $7x^2 < x^3$. Take $C=1$ and $k=7$ as withnesses to establ
 
 Example: show that $n^2$ is not $O(n)$
 
-SOlution: Suppose there are constants C and k for which $n^2 <= Cn$, whenevery n > k
+Solution: 
+
+Suppose there are constants C and k for which $n^2 <= Cn$, whenevery n > k
 
 * We can always choose C to be greater than k because if that is not so we can always choose another constant D > k.  Now ∀n > k
 
