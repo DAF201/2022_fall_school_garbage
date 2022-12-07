@@ -3700,3 +3700,9 @@ Solution:
 - R is not symmetric because (a, c) ∈ R but (c, a) ∉ R 
 - R is not antisymmetric because both (b, c) ∈ R and (c, b) ∈ R but b ≠ c 
 - R is not transitive because, for example, (a, c) ∈ R and (c, b) ∈ R but (a, b) ∉ R
+
+## Equivalence Relations
+
+A relation on a set A is called an equivalence relation if it is reflexive, symmetric, and transitive
+
+Two elements a, and b that are related by an equivalence relation are called equivalent. The notation a ∼ b is often used to denote that a and b are equivalent elements with respect to a particular equivalence relation
