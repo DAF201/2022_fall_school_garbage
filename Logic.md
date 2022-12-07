@@ -3519,3 +3519,89 @@ Solution:
 > c) $C(10, 4) + C(10, 5) + C(10, 6) + C(10, 7) + C(10, 8) + C(10, 9) + C(10, 10) = 210 + 252 + 210 + 120 + 45 + 10 + 1 = 848$
 >
 > d) $C(10, 5) = 252$
+
+Problem: 
+
+> Suppose that there are 9 faculty members in the mathematics department and 11 in the computer science department. How many ways are there to select a committee to develop a discrete mathematics course at a school if the committee is to consist of three faculty members from the mathematics department and four from the computer science department?
+
+Solution: 
+
+> Number of ways to select 3 faculty members from the mathematics department = $C(9, 3)$ 
+> 
+> Number of ways to select 4 faculty members from the computer science department = $C(11, 4)$ 
+> 
+> By product rule the total ways to select the committee is $C(9, 3) * C(11, 4) = 84 * 330 = 27720$
+
+# Relations and Their Properties
+
+## Binary Relations
+
+Definition: A binary relation R from a set A to a set B is a subset of the Cartesian product of A and B
+
+$R ⊆ A X B$
+
+We use the notation a R b to denote that (a, b) ∈ R and a $\not R$ b to denote that (a, b) ∉ R
+
+Example:
+
+Let $A = \{0,1,2\}$ and $B = \{a,b\}$
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(129).png)
+
+$\{(0,a),(0,b),(1,a),(2,b)\}$ is the relation from A to B
+
+Instead of drawing arrors, we lsited each arrangment and combind them, call the total set as the relation
+
+---
+
+Assume we have an relationship from A to B
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(130).png)
+
+In this case, there are 3 * 2 elements in $A X B$, and $2^6=64$ subsets of $A X B$
+
+In this instance there are 64 relations between A and B
+
+## Binary Relations Example
+
+Example: 
+
+> Let A be the set of cities in the U.S.A., and 
+let B be the set of 50 states in the U.S.A. Define relation R as follows 
+
+$R  = \{(a,b) |a ∈ A, b ∈ B \underline{\ ∧\ a\ is\ in\ state\ b}\}$
+
+Then (Boulder, Colorado), (Bangor, Maine), (Ann Arbor, Michigan), (Middletown, New Jersey), (Middletown, New York), (Cupertino, California), and (Red Bank, New Jersey) are in R 
+
+## Functions as Relations
+
+A function f from a set A to a set B assigns exactly one element of B to each element of A
+
+Relations are generalizations of functions and they can be used to express a much wider class of relationships between sets 
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(131).png)
+
+## Binary Relations on a Set
+
+A binary relation R on a set A is a subset of A × A or a relation from A to A
+
+Suppose that A = {a,b,c}. Then R = {(a,a),(a,b), (a,c)} is a relation on A.  
+
+Let  A = {1, 2, 3, 4}. The ordered pairs in the relation R = {(a,b) | a divides b} are (1,1), (1, 2), (1,3), (1, 4), (2, 2), (2, 4), (3, 3), and (4, 4)
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(132).png)
+
+## Number of Binary Relations on a Set
+
+Question:
+
+> How many relations are there on a set A
+
+Solution:
+
+> Because a relation on A is a subset of A × A, 
+we count the subsets of A × A. Since A × A has $n^2$ 
+elements when A has n elements, and a set with m 
+elements has $2^m$ subsets, therefore  there are 
+$2^{𝑛^2}$ relations on a set A.
+
