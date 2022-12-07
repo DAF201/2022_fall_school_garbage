@@ -2351,7 +2351,7 @@ if a $\equiv$ b(mod m) then a * c $\equiv$ b * c(mod m) where c is any integer
 
 if a $\equiv$ b(mod m) then a + c $\equiv$ b + c(mod m) where c is any integer
 
-DIvision not always produce a vavild congruence
+DIvision not always produce a vaild congruence
 
 ## Arithmetic Modulo m 
 
