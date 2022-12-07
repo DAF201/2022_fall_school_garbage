@@ -3062,4 +3062,183 @@ How many functions are there from a set with m elements to a set with n elements
 
 Solutions:
 
-SUppose the elements in the domain are $a_1,a_2$
+> Suppose the elements in the domain are $a_1, a_2, ..., a_m$. There are n ways to choose the value of $a_1$, n ways to choose the value of $a_2$, ect. The production rule tells us that there are $n*n*n...*n = n^m$ such funtions.
+
+## Counting One-to-One functions
+
+How many one-to-one functions are there from a set with m elements to a set with n elements
+
+Solutions:
+
+> Suppose the elements in the domain are $a_1, a_2, ...a_m$, there are n ways to choose for value $a_a$, there are n-1 ways to choose from $a_2$, etc.
+
+The product rule tells us that there are n(n-1)(n-2)...(n-m+1) such functions
+
+## Counting Subsets of a Finite Set
+
+Use the product rule to show that the number of different subsets of a finite set S is $2^{|s|}$
+
+Solutions:
+
+> Let us assume that the elements of set S are $a_1, a_2, 
+
+a_3, ...., a_n$.  Let us represent the subsets of S by bit strings  of 
+length n where the ith bit of a bit string is 1 if ai belongs to the 
+corresponding subset and 0 if ai does not belong to the 
+corresponding subset
+
+By the product rule, there are 2n such bit strings, and 
+therefore $2^n$ subsets
+
+Since n = |S|, there are $2^{|S|}$ subsets
+
+## Basic Counting Principles: The Sum Rule
+
+The Sum Rule: 
+
+> If a task can be done either in one of $n_1$ ways or in one of $n_2$ ways, where none of the set of $n_1$ ways is the same as any of the $n_2$ ways, then there are $n_1 + n_2$ ways to do the task.
+
+If a task can be done in one of $n_1$ ways or one of $n_2$ ways, of on e of $n_m$ ways, and those ways has no overlapping, there are total of $n_1+n_2+n_3...+n_m$ ways to do this task
+
+## Sum Rule: An Illustrative Example
+
+Alternative 1 
+
+– There are 5 ways to perform a task: designated as A, B, C, D, E 
+
+Alternative 2 
+
+– There are 4 ways to perform the task: designated as 1, 2, 3, 4 
+
+Alternative 3 
+
+– There are 3 ways to perform the task: designated as α, β, γ 
+
+By the Sum Rule the number of ways to perform the task is 5 + 4 + 3 = 12
+
+Example: 
+
+> The mathematics department must choose either a student or a faculty member as a representative for a university committee. How many choices are there for this representative if there are 37 members of the mathematics faculty and 83 mathematics majors and no 
+
+one is both a faculty member and a student. 
+
+Solution: 
+
+> By the sum rule it follows that there are 
+
+37 + 83 = 120 possible ways to pick a representative
+
+## Rule of Thumb for Applying the Product Rule or the Sum Rule
+
+if we must make one choice and then another choice, the product rule applies
+
+if we must make one choiece or another choice, the sum rule applies
+
+## Combining the sum and product rule
+
+Example:
+
+> Suppose statemet labels in a programming language can be either a single letter or a letter followed by a digit. Find the number of possible labels.
+
+Solutions:
+
+> Number of choice when label is single letter: 26
+>  
+> Number of choice when label is single leltter followed by a digit: 10 * 26 = 260 (product rule applied here)
+
+totoal number of possible labels: 26 + 260 = 286 (sum rule applied here)
+
+Example:
+
+> How many strings are there of lowercase letters of length four or less, nnot countin the empty string
+
+Solution:
+
+> Number of string of length 1 = $26$
+>
+> Number of string of length 2 = $26 * 26 = 26^2 = 676$
+>
+> Number of string of length 3 = $26 * 26 * 26 = 26^3= 17576$
+>
+> Number of string of length 4 = $26 * 26 * 26 * 26 = 26^4 = 456976$
+>
+> Total number of strings: $26 + 676 + 17576 + 456976 = 475254$
+
+There are 475254 strings of lowercase letters of length four or less, not counting the empty string
+
+## Extra Example 
+
+Counting password:
+
+Each user on a computer system has a password, which is six to eight characters long, and each character is an uppercase letter of a digit. Each password must has at least one digit. How many possible passwords are there?
+
+Solution:
+
+> Let P be the total number of passwords, and let $P_6, P_7$ , and $P_8$ be the passwords of length of 6, 7, and 8.
+>
+> for each P, we find it by the total number of passwords with letter or number minus the total number of passwords with only letters
+>
+> $P_6 = (10+26)^6-26^6=2176782336 − 308915776 =1867866560$
+>
+> $P_7 = (10+26)^7-26^7=78364164096 − 8031810176 =  70332353920$
+>
+> $P_8 = (10+26)^8-26^8=2821109907456 − 208827064576 =  2612282842880$
+>
+> Consequently, $P = P_6 + P_7 +P_8 = 2684483063360$
+
+## Basic Counting Principles: Subtraction Rule
+
+If a task can be done either in one of n1 ways or in one of  n2 ways, then the total number of ways to do the task is  n1 + n2 minus the 
+number of ways  to do the task that are common to the two different ways.
+
+$|A ∪ B| = |A|+|B|-|A ∩ B|$
+
+Example: 
+
+> How many bit strings of length eight either start with a 1 bit or end with the two bits 00?
+
+Solution:
+
+> A byte is 8 bit
+>
+> If first bit is 1, then there are 7 free bits, and each bit can either be 0 or 1 which is 2 options:
+>
+> $2^7=128$
+>
+> If last two bits are 00, there are 6 free bits, and each bits can be either be 0 or 1 which is 2 options:
+>
+> $2^6=64$
+>
+> if first bit is 1 and last two bits are 00, there are 5 free bits, and each bits can either be 0 or 1 which is 2 options:
+>
+> $2^5=32$
+>
+> first bit 1 and last two bits 00 was counted twice in union of first bit a and last two bits 00
+>
+> $(2^7)+(2^6)-(2^5)=128+64-32=160$
+>
+There are total of 160 strings either start with a 1 or end with 00
+
+## Counting Patterns
+
+How many seven digit numbers do not contain the substring 1234?
+
+Solution:
+
+> number of seven digit numbers: 10^7
+>
+> Number of substring that contains 1234
+>
+> 1234 _ _ _: $1 *10^3$ choices
+>
+> _ 1234 _ _: $1 *10^3$ choices
+>
+> _ _ 1234 _: $1 *10^3$ choices
+>
+> _ _ _ 1234: $1 *10^3$ choices
+>
+> Total of substrings that contains 1234: $4 * 10^4$
+>
+> Total of substrings that does not contains 1234:
+>
+> $10^7-(4*10^3)=9996000$
