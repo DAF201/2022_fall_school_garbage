@@ -3217,6 +3217,7 @@ Solution:
 >
 > $(2^7)+(2^6)-(2^5)=128+64-32=160$
 >
+
 There are total of 160 strings either start with a 1 or end with 00
 
 ## Counting Patterns
@@ -3242,3 +3243,80 @@ Solution:
 > Total of substrings that does not contains 1234:
 >
 > $10^7-(4*10^3)=9996000$
+
+## Basic Counting Principles: Division Rule
+
+There are n/d ways to do a task if it can be done using a procedure that can be carried out in n ways, and for every way w, there are d equivalent ways of doing w
+
+Restated in terms of sets: If the finite set A is the union of n pairwise disjoint subsets each with d elements, then n = |A|/d. In terms of functions: If f is a function from A to B, where both are finite sets, and for every value y ∈ B there are exactly d values x ∈ A such that f(x) = y, then   |B| = |A|/d. 
+
+The Division Rule is commonly used for counting 
+arrangements when some of the objects are indistinguishable or when order doesn’t matter. 
+
+## Division Rule: An Illustrative Example 
+
+How many way there are to assign 4 people to 4 seats if the pattern are considered the same if a person neighbors are the same
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(127).png)
+
+$4*3*2*1=24$ ways
+
+However, assigning person 1 at seat 1, 2, 3, 4 may has same pattern
+
+24 ways/4 seats = 6 ways (total of 6 different pattern)
+
+result = number of possibilities / number of elements in each subset
+
+## Six poeple's seats 
+
+Example: 
+
+> How many ways are there to seat six people around a circular table where two seatings are considered the same when everyone has the same two neighbors without regard to whether they are right or left neighbors?
+
+Solutions:
+
+> There are 6! = 720 ways to order 6 people. this overcounts the seating arrangements by a multiple of 6, corresponding to rotating the table. Furthermore, we are overcounting by a multiple of 2 because seating arrangements that reverse the right and the left neighbor are equivalent.
+>
+> 720/6/2 = 60 ways
+
+## Tree diagrams
+
+We can solve many counting problems through the use of tree diagrams, where a branch represents a possible choice and the leaves represent possible outcomes
+
+Example: 
+
+> Suppose that a T-shirt come in five different size : S, M, L, XL, and XXL. Each size comes with four colors(white, red, green, and black) except XL comes with three (red, green, and black) and XXL which comes with two (green and black).
+
+What is the minimum number of shirts that the campus books store needs to stock to have one of each size and color avaliable?
+
+![](https://images.slideplayer.com/47/11649177/slides/slide_18.jpg)
+
+> Alternative solution:
+
+> $4S+4M+4L+3XL+2XXL=17$ types of shirts
+
+Example: 
+
+> How many bit strings of length four do not have two consecutive 1s?
+
+Solution: 
+
+> The tree diagram shows that there are 8 bit strings of length four that do not have two consecutive 1s 
+
+* 0000 
+* 0001 
+* 0010 
+* 0100 
+* 0101 
+* 1000 
+* 1001 
+* 1010 
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(128).png)
+
+## The Pigeonhole Principle
+
+If a flock of 20 pigeons roosts in a set of 19 pigeonholes, one of the pigeonholes must have more than 1 pigeon. 
+
+Also known as the Dirichlet Drawer Principle
+
