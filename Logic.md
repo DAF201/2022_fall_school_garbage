@@ -3064,9 +3064,7 @@ Use the product rule to show that the number of different subsets of a finite se
 
 Solutions:
 
-> Let us assume that the elements of set S are $a_1, a_2, 
-
-a_3, ...., a_n$.  Let us represent the subsets of S by bit strings  of 
+> Let us assume that the elements of set S are $a_1, a_2, a_3, ...., a_n$.  Let us represent the subsets of S by bit strings  of 
 length n where the ith bit of a bit string is 1 if ai belongs to the 
 corresponding subset and 0 if ai does not belong to the 
 corresponding subset
