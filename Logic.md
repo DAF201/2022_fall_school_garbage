@@ -1907,11 +1907,11 @@ take C=|$a_n$|+|$a_{n-1}$|..., and k=1. then $f(x)$ is $O(x^n)$
 
 ## important functions
 
-$f(x) = \sum_{0}^{x}{x}$ is $O(n^2)$
+$f(x) = \sum_{0}^{x}{x}$ is $O(x^2)$
 
-$f(x) = x!$ is $O(n^n)$
+$f(x) = x!$ is $O(x^x)$
 
-$f(x) = log(n!)$ is $O(nlog(n))$
+$f(x) = log(x!)$ is $O(xlog(x))$
 
 ## Sum and Production functions
 
