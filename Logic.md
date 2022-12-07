@@ -3618,3 +3618,48 @@ When classifying a relation based on a property keep in mind that:
 * there may be additional elements in the relation that do not satisfy the pertinent property 
 
 • e.g. there may be additional elements in a reflexive relation that do not satisfy the reflexive property
+
+## Reflexive Relations
+
+A relation R on a set A is reflexive if $(a, a) ∈ R$ for every element $a ∈ A$. In terms of quantifers, $∀a((a, a) ∈ R)$, where the universe of discourse is the set of all elements in A
+
+- Each element in set A is related to itself
+
+> Human word: you will find all elements x in A in form of (x,x) in this relation set
+
+Example:
+
+{(1, 1), (1, 2), (1, 4), (2, 1), (2, 2), (3, 3), (4, 1), (4, 4)}
+
+(this contains all pairs of (a,a) in set {1,2,3,4})
+
+Divides relation is reflexive because a | a for every a except 0
+
+## Symmetric Relations
+
+A relation R on a set A is called symmetric if (b, a) ∈ R whenever (a, b) ∈ R, for all a, b ∈ A. In terms of quantifiers: ∀a∀b((a, b) ∈ R → (b, a) ∈ R
+
+- An element related to a second element implies the second element is also related to the first element.
+
+> Human word: for every (x,y) in this relation set, you will always being able to find a (y,x), or you will find if x == y
+
+Divides relation is not Symmetric Relations because a | b does not implies b | a
+
+## Antisymmetric Relations
+
+A relation R on a set A such that for all a, b ∈ A, if (a, b) ∈ R and (b, a) ∈ R, then a = b is called antisymmetric. In terms of quantifiers, ∀a∀b(((a, b) ∈ R ∧ (b, a) ∈ R) → (a = b))
+
+- there are no pairs of distinct elements a and b with a related to b and b related to a
+- for example, a ≤ b and b ≤ a implies that a = b
+
+> Human word: this is just like combination, if (a,b) appeared then there should no (b,a) exist in relation set
+
+Divides relation is antisymmetric relations
+
+## Transitive Relations
+
+A relation R on a set A is called transitive if whenever (a,b) ∊ R and (b,c) ∊ R, then (a,c) ∊ R, for all a,b,c ∊ A. In terms of quantifiers: ∀a∀b∀c(((a, b) ∈ R ∧ (b, c) ∈ R) → (a, c) ∈ R).
+
+- If the first element is related to the second element, and the second element is related to the third element, then the first element must be related to the third element
+
+
