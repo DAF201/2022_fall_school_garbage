@@ -3757,11 +3757,11 @@ $R_2 - R_1$ = {(1, 2), (1, 3), (1, 4)}
 ## Composition
 
 Suppose 
-- $R_1$ is a relation from a set A to a set B. 
-- $R_2$ is a relation from B to a set C.
+* $R_1$ is a relation from a set A to a set B. 
+* $R_2$ is a relation from B to a set C.
 
 Then the composition (or composite) of $R_2$ with $R_1$, is a relation from A to C where
 
-if (x,y) is a member of $R_1$ and (y,z)  is a member of $R_2$, then (x,z) is a member of $R_2 ∘ R_1$
+if (x, y) is a member of $R_1$ and (y, z)  is a member of $R_2$, then (x, z) is a member of $R_2 ∘ R_1$
 
 ![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(136).png)
