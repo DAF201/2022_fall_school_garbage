@@ -3320,3 +3320,39 @@ If a flock of 20 pigeons roosts in a set of 19 pigeonholes, one of the pigeonhol
 
 Also known as the Dirichlet Drawer Principle
 
+Defination:
+
+> Pigeonhole Principle: If k is a positive integer and k + 1 or more objects are placed into k boxes, then at least one box contains two or more objects.
+
+Corollary 1: 
+
+> A function f from a set with k + 1 or more elements to a set with k elements is not one-to-one
+
+Example: 
+
+> Among any group of 367 people, there must be at least two with the same birthday, because there are only 366 possible birthdays.
+
+## The Generalized Pigeonhole Principle
+
+If N objects are placed into k boxes, then there is at least one box containing at least ⌈N/k⌉ objects
+
+Example: 
+
+> Among 100 people there are at least ⌈100/12⌉ = 9 who were born in the same month.
+
+Typically with the Generalized Pigeonhole Principle we look for the 
+smallest number that will guarantee an outcome
+
+Problem: 
+
+> What is the minimum number of students required in a 
+
+discrete mathematics class to be sure that at least six will receive 
+the same grade, if there are five possible grades, A, B, C, D, and F?
+
+Solution: 
+
+> The minimum number of students needed to ensure that 
+
+at least six students receive the same grade is the smallest integer N 
+such that ⌈N∕5⌉ = 6. The smallest such integer is N = [(6 - 1) * 5] + 1 = 26.
