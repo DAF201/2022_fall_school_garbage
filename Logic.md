@@ -3623,15 +3623,15 @@ When classifying a relation based on a property keep in mind that:
 
 A relation R on a set A is reflexive if $(a, a) ∈ R$ for every element $a ∈ A$. In terms of quantifers, $∀a((a, a) ∈ R)$, where the universe of discourse is the set of all elements in A
 
-- Each element in set A is related to itself
+* Each element in set A is related to itself
 
-> Human word: you will find all elements x in A in form of (x,x) in this relation set
+> Human word: you will find all elements x in A in form of (x, x) in this relation set
 
 Example:
 
 {(1, 1), (1, 2), (1, 4), (2, 1), (2, 2), (3, 3), (4, 1), (4, 4)}
 
-(this contains all pairs of (a,a) in set {1,2,3,4})
+(this contains all pairs of (a, a) in set {1, 2, 3, 4})
 
 Divides relation is reflexive because a | a for every a except 0
 
@@ -3639,9 +3639,9 @@ Divides relation is reflexive because a | a for every a except 0
 
 A relation R on a set A is called symmetric if (b, a) ∈ R whenever (a, b) ∈ R, for all a, b ∈ A. In terms of quantifiers: ∀a∀b((a, b) ∈ R → (b, a) ∈ R
 
-- An element related to a second element implies the second element is also related to the first element.
+* An element related to a second element implies the second element is also related to the first element.
 
-> Human word: for every (x,y) in this relation set, you will always being able to find a (y,x), or you will find if x == y
+> Human word: for every (x, y) in this relation set, you will always being able to find a (y, x), or you will find if x == y
 
 Example:
 
@@ -3653,10 +3653,10 @@ Divides relation is not Symmetric Relations because a | b does not implies b | a
 
 A relation R on a set A such that for all a, b ∈ A, if (a, b) ∈ R and (b, a) ∈ R, then a = b is called antisymmetric. In terms of quantifiers, ∀a∀b(((a, b) ∈ R ∧ (b, a) ∈ R) → (a = b))
 
-- there are no pairs of distinct elements a and b with a related to b and b related to a
-- for example, a ≤ b and b ≤ a implies that a = b
+* there are no pairs of distinct elements a and b with a related to b and b related to a
+* for example, a ≤ b and b ≤ a implies that a = b
 
-> Human word: this is just like combination, if (a,b) appeared then there should no (b,a) exist in relation set
+> Human word: this is just like combination, if (a, b) appeared then there should no (b, a) exist in relation set
 
 Example:
 
@@ -3666,11 +3666,11 @@ Divides relation is antisymmetric relations
 
 ## Transitive Relations
 
-A relation R on a set A is called transitive if whenever (a,b) ∊ R and (b,c) ∊ R, then (a,c) ∊ R, for all a,b,c ∊ A. In terms of quantifiers: ∀a∀b∀c(((a, b) ∈ R ∧ (b, c) ∈ R) → (a, c) ∈ R).
+A relation R on a set A is called transitive if whenever (a, b) ∊ R and (b, c) ∊ R, then (a, c) ∊ R, for all a, b, c ∊ A. In terms of quantifiers: ∀a∀b∀c(((a, b) ∈ R ∧ (b, c) ∈ R) → (a, c) ∈ R).
 
-- If the first element is related to the second element, and the second element is related to the third element, then the first element must be related to the third element
+* If the first element is related to the second element, and the second element is related to the third element, then the first element must be related to the third element
 
-> Human word: if you have (a,b) and (b,c), then you must also have (a,c) in relation set
+> Human word: if you have (a, b) and (b, c), then you must also have (a, c) in relation set
 
 Example: 
 
@@ -3678,11 +3678,11 @@ Example:
 
 Explaination: 
 
-(3,2), (2,1) -> (3,1)
+(3, 2), (2, 1) -> (3, 1)
 
-(4,2), (2,1) -> (4,1)
+(4, 2), (2, 1) -> (4, 1)
 
-(4,3), (3,2) -> (4,2)
+(4, 3), (3, 2) -> (4, 2)
 
 Divides relation is transitive relations
 
@@ -3696,13 +3696,72 @@ Determine whether R is: (a) reflexive. (b) symmetric (c) antisymmetric (d) trans
 
 Solution:
 
-- R is reflexive because R contains (a, a), (b, b), (c, c) and (d, d) 
-- R is not symmetric because (a, c) ∈ R but (c, a) ∉ R 
-- R is not antisymmetric because both (b, c) ∈ R and (c, b) ∈ R but b ≠ c 
-- R is not transitive because, for example, (a, c) ∈ R and (c, b) ∈ R but (a, b) ∉ R
+* R is reflexive because R contains (a, a), (b, b), (c, c) and (d, d) 
+* R is not symmetric because (a, c) ∈ R but (c, a) ∉ R 
+* R is not antisymmetric because both (b, c) ∈ R and (c, b) ∈ R but b ≠ c 
+* R is not transitive because, for example, (a, c) ∈ R and (c, b) ∈ R but (a, b) ∉ R
 
 ## Equivalence Relations
 
 A relation on a set A is called an equivalence relation if it is reflexive, symmetric, and transitive
 
 Two elements a, and b that are related by an equivalence relation are called equivalent. The notation a ∼ b is often used to denote that a and b are equivalent elements with respect to a particular equivalence relation
+
+## Congruence Modulo m
+
+R = {(a, b) | a ≡ b (mod m)} for m > 1
+
+* Reflexivity:  a ≡ a (mod m) since a − a = 0 is divisible by m since 
+0 = 0 ∙ m. 
+
+* Symmetry:  Suppose that a ≡ b (mod m). Then a − b is divisible
+by m, and so a − b = km, where k is an integer. It follows that b − 
+a = (− k) m, or b = a + (-k) m so b ≡ a (mod m).  
+
+* Transitivity: Suppose that a ≡ b (mod m) and b ≡ c (mod m). Then m divides both a − b and b − c. Hence, there are integers k and l with a − b = km  and b − c = lm. We obtain by adding the  equations: a − c = (a − b)  + (b − c)  = km + lm = (k + l) m.
+
+## Divides
+
+Divides is not equivalent because it is not symmetry
+
+## Representing Relations Using Digraphs
+
+* Relations with a manageable number of elements can be represented pictorially, using digraphs
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(133).png)
+
+## Determining which Properties a Relation has from its Digraph
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(134).png)
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(135\]).png)
+
+## Combining Relations
+
+Given two relations R1 and R2, we can combine them using basic set operations to form new relations such as $R_1 ∪ R_2, R_1 ∩ R_2, R_1 − R_2$, and $R_2 − R_1$
+
+Example: 
+
+Let A = {1, 2, 3} and B = {1, 2, 3, 4}. The relations 
+$R_1 = {(1, 1), (2, 2), (3, 3)}$ and $R_2 = {(1, 1), (1, 2), (1, 3), (1, 4)}$
+can be combined using basic set operations to form new relations
+
+$R_1 ∪ R_2$ = {(1, 1), (1, 2), (1, 3), (1, 4), (2, 3), (3, 3)}
+
+$R_1 ∩ R_2$ = {(1, 1)}
+
+$R_1 - R_2$ = {(2, 2), (3, 3)}
+
+$R_2 - R_1$ = {(1, 2), (1, 3), (1, 4)}
+
+## Composition
+
+Suppose 
+- $R_1$ is a relation from a set A to a set B. 
+- $R_2$ is a relation from B to a set C.
+
+Then the composition (or composite) of $R_2$ with $R_1$, is a relation from A to C where
+
+if (x,y) is a member of $R_1$ and (y,z)  is a member of $R_2$, then (x,z) is a member of $R_2 ∘ R_1$
+
+![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(136).png)
