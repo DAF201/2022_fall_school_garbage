@@ -3527,9 +3527,9 @@ Problem:
 Solution: 
 
 > Number of ways to select 3 faculty members from the mathematics department = $C(9, 3)$ 
-> 
+>  
 > Number of ways to select 4 faculty members from the computer science department = $C(11, 4)$ 
-> 
+>  
 > By product rule the total ways to select the committee is $C(9, 3) * C(11, 4) = 84 * 330 = 27720$
 
 # Relations and Their Properties
@@ -3544,11 +3544,11 @@ We use the notation a R b to denote that (a, b) ∈ R and a $\not R$ b to denote
 
 Example:
 
-Let $A = \{0,1,2\}$ and $B = \{a,b\}$
+Let $A = \{0, 1, 2\}$ and $B = \{a, b\}$
 
 ![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(129).png)
 
-$\{(0,a),(0,b),(1,a),(2,b)\}$ is the relation from A to B
+$\{(0, a), (0, b), (1, a), (2, b)\}$ is the relation from A to B
 
 Instead of drawing arrors, we lsited each arrangment and combind them, call the total set as the relation
 
@@ -3566,10 +3566,11 @@ In this instance there are 64 relations between A and B
 
 Example: 
 
-> Let A be the set of cities in the U.S.A., and 
-let B be the set of 50 states in the U.S.A. Define relation R as follows 
+> Let A be the set of cities in the U. S. A., and 
 
-$R  = \{(a,b) |a ∈ A, b ∈ B \underline{\ ∧\ a\ is\ in\ state\ b}\}$
+let B be the set of 50 states in the U. S. A. Define relation R as follows 
+
+$R  = \{(a, b) |a ∈ A, b ∈ B \underline{\ ∧\ a\ is\ in\ state\ b}\}$
 
 Then (Boulder, Colorado), (Bangor, Maine), (Ann Arbor, Michigan), (Middletown, New Jersey), (Middletown, New York), (Cupertino, California), and (Red Bank, New Jersey) are in R 
 
@@ -3585,9 +3586,9 @@ Relations are generalizations of functions and they can be used to express a muc
 
 A binary relation R on a set A is a subset of A × A or a relation from A to A
 
-Suppose that A = {a,b,c}. Then R = {(a,a),(a,b), (a,c)} is a relation on A.  
+Suppose that A = {a, b, c}. Then R = {(a, a), (a, b), (a, c)} is a relation on A.  
 
-Let  A = {1, 2, 3, 4}. The ordered pairs in the relation R = {(a,b) | a divides b} are (1,1), (1, 2), (1,3), (1, 4), (2, 2), (2, 4), (3, 3), and (4, 4)
+Let  A = {1, 2, 3, 4}. The ordered pairs in the relation R = {(a, b) | a divides b} are (1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (2, 4), (3, 3), and (4, 4)
 
 ![](https://raw.githubusercontent.com/DAF201/2022_fall_school_garbage/master/Screenshot%20(132).png)
 
@@ -3599,9 +3600,21 @@ Question:
 
 Solution:
 
-> Because a relation on A is a subset of A × A, 
-we count the subsets of A × A. Since A × A has $n^2$ 
-elements when A has n elements, and a set with m 
-elements has $2^m$ subsets, therefore  there are 
-$2^{𝑛^2}$ relations on a set A.
+> Because a relation on A is a subset of A × A, we count the subsets of A × A. Since A × A has $n^2$ elements when A has n elements, and a set with m elements has $2^m$ subsets, therefore  there are $2^{𝑛^2}$ relations on a set A.
 
+## Types of relations
+
+Let R be a relation on a set A. There are several properties that can be used to classify R
+
+R can be classified as: 
+* reflexive 
+* symmetric 
+* antisymmetric 
+* transitive
+
+When classifying a relation based on a property keep in mind that:
+
+* there should be no violation of the pertinent property 
+* there may be additional elements in the relation that do not satisfy the pertinent property 
+
+• e.g. there may be additional elements in a reflexive relation that do not satisfy the reflexive property
