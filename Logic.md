@@ -3356,3 +3356,166 @@ Solution:
 
 at least six students receive the same grade is the smallest integer N 
 such that ⌈N∕5⌉ = 6. The smallest such integer is N = [(6 - 1) * 5] + 1 = 26.
+
+## Draw cards
+
+How many cards must be selected from a standard deck of 52 cards to guarantee that at least three cards of the same suit are chosen?
+
+> We assume four boxes; one for each suit. Using the Generalized Pigeonhole Principle, at least one box contains at least ⌈N/4⌉ cards. At least three cards of one suit are selected if ⌈N/4⌉ ≥3. The smallest integer N such that ⌈N/4⌉ ≥3 is N = [(3 - 1) * 4] + 1 = 9 
+>
+> 9 cards at least need to be drawed to have three cards in same suit
+
+How many must be selected to guarantee that at least three hearts are selected?
+
+> A deck has 13 hearts and 39 non-hearts cards. So, if we select 39 + 3 cards, we must have at least three hearts cards in it.
+
+## Phone number
+
+What is the least number of area codes needed to guarantee that the 25 million phones in a state can be assigned distinct 10-digit telephone numbers? Assume that telephone numbers are of the form NXX-NXX-XXXX, where the first three digits form the area code, N represents a digit from 2 to 9 inclusive, and X represents any digit.
+
+Solution:
+
+Total numbers of phone numbers without area code = $8 * 10^6$
+
+Since we have to provice 25 million phone numbers, the state will need a minimum of $⌈25*10^6/8*10*6⌉=4$ area codes
+
+## Permutations and Combinations
+
+Many counting problems deal with finding the number of ways to arrange a specified number of elements of a set, without actually listing them
+
+There are two distinct methods that can be used to select r objects from a set of n elements: ordered and unordered
+
+in an ordered selection, it is not only what elements are chosen but also the order in which they are chosen that matters
+
+* an ordered selection of r elements from a set of n elements is called an r-permutation of the set
+
+in an unordered selection it is only the identify of the chosen elements that matters while order is immaterial
+
+* an unordered selection of r elements from a set of n elements in called the r-combination of the set
+
+The product rule is a generic rule that allows us to count the number of ways to complete any procedure that is composed of multiple 
+tasks
+
+Permutations and combinations make heavy use of the product rule to count the number of ordered and unordered selections, of a 
+desired size, that can be made from a given set 
+
+## Permutations
+
+defination:
+
+A permutation of a set of distinct objects is an ordered arrangement of these objects. An ordered arrangement of r elements of a set is called an r-permutation.
+
+> Human word:
+>
+> the number of ways to select m elements from n elements while the order does matter
+
+Example: 
+
+Let S = {1, 2, 3}
+
+The number of r-permutations of a set with n elements is denoted by P(n, r)
+
+P(3, 2) = number of ways to pick 2 elements from 3 elements while the order does matter
+
+In this case, P(3, 2) for S is {1, 2}, {1, 3}, {2, 1}, {2, 3}, {3, 1}, {3; 2}, which is 6 ways. So P(3, 2) = 6
+
+## Formula for the number of permutations
+
+Theorem 1: If n is a positive integer and r is an integer with 1 ≤ r ≤ 
+n, then there are
+
+$P(n, r)=n(n-1)(n-2)...(n-r+1)$
+
+r-permutations of a set with n distinct elements
+
+If n and r are integers with 1 <= r <= n, then
+
+$P(n, r)=\frac{{n!}}{(n-r)!}$
+
+$P(n, n)=n!$
+
+$P(n, 0)=1$
+
+$P(n, 1)=n$
+
+## Solving Counting Problems by Counting Permutations
+
+Example:
+
+> How many ways are there to select a first-prize winnder, a second prize winnder, a third prize winner fromm 100 different people who have entered a contest?
+
+Solution:
+
+> $P(100, 3)=100*99*98=970200$ ways
+
+Example: 
+
+> How many permutations of the letters ABCDEFGH contain the string ABC? 
+
+Solution: 
+
+> Because the letters ABC must occur as a block, we can consider them to be a single object. The problem now reduces to finding the number of permutations of six objects viz. ABC, D, E, F, G, and H. So the answer is P(6, 6) = 6! = 6 ∙ 5 ∙ 4 ∙ 3 ∙ 2 ∙ 1 = 720
+
+## Combinations
+
+Definition: An r-combination of elements of a set is an unordered selection of r elements from the set. Thus, an r-combination is simply a subset of the set with r elements. 
+
+The number of r-combinations of a set with n distinct elements is denoted by C(n, r). The notation ${n \choose x}$ is also called a binomial coefficient
+
+Example: 
+
+> Let S be the set {a, b, c, d}. Then {a, c, d} is a 3-combination from S. It is the same as {d, c, a} since the order listed does not matter. 
+>  
+> C(4, 2) = 6 because the 2-combinations of {a, b, c, d} are the six subsets {a, b}, {a, c}, {a, d}, {b, c}, {b, d}, and {c, d}.
+
+Theorem 2: The number of r-combinations of a set with n elements, where n ≥ r ≥ 0, equals
+
+$C(n, r)=\frac{n!}{(n-r)!r!}$
+
+Corollary 2: 
+
+> Let n and r be nonnegative integers with r ≤ n. Then C(n, r) = C(n, n − r).
+
+$C(n, r)=\frac{n!}{(n-r)!r!}$
+
+$C(n, n)=1$
+
+$C(n, 0)=1$
+
+$C(n, 1)=n$
+
+Example: 
+
+> How many poker hands of five cards can be dealt from a standard deck of 52 cards? 
+
+Also, how many ways are there to select 47 cards from a deck of 52 cards? 
+
+Solution:
+
+> Since the order in which the cards are dealt does not matter, the number of five card hands is:
+
+$C(52, 5) = C(52, 47) =2598960$
+
+## Combination problems
+
+Problem:
+
+> How many bit strings of length 10 contain 
+>
+> a) exactly four 1s? 
+>
+> b) at most four 1s? 
+>
+> c) at least four 1s? 
+>
+> d) an equal number of 0s and 1s?
+
+Solution:
+
+> a) $C(10, 4) = 210$
+>  
+> b) $C(10, 0) + C(10, 1) + C(10, 2) + C(10, 3) + C(10, 4) = 1 + 10 + 45 + 123 + 210 = 386$
+>
+> c) $C(10, 4) + C(10, 5) + C(10, 6) + C(10, 7) + C(10, 8) + C(10, 9) + C(10, 10) = 210 + 252 + 210 + 120 + 45 + 10 + 1 = 848$
+>
+> d) $C(10, 5) = 252$
